@@ -1,0 +1,8 @@
+negatives/20200109T085416+0900_infrared_image.png
+negatives/20200109T083858+0900_infrared_image.png
+negatives/20200109T082847+0900_infrared_image.png
+negatives/20200109T090427+0900_infrared_image.png
+negatives/20200114T080448+0900_infrared_image.png
+negatives/20200109T085922+0900_infrared_image.png
+negatives/20200203T052419+0900_infrared_image.png
+negatives/20200109T084404+0900_infrared_image.png
