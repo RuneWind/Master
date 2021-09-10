@@ -1,0 +1,984 @@
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_popcnt.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3285d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3285d.dir/build.make CMakeFiles/cmTC_3285d.dir/build
+Building CXX object CMakeFiles/cmTC_3285d.dir/cpu_popcnt.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_3285d.dir/cpu_popcnt.cpp.o -MF CMakeFiles/cmTC_3285d.dir/cpu_popcnt.cpp.o.d -o CMakeFiles/cmTC_3285d.dir/cpu_popcnt.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_popcnt.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_popcnt.cpp:14:4: error: "__POPCNT__ is not defined by compiler"
+#  error "__POPCNT__ is not defined by compiler"
+   ^
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_popcnt.cpp:22:13: error: use of undeclared identifier 'CV_POPCNT_U32'
+    int j = CV_POPCNT_U32(1);
+            ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_3285d.dir/cpu_popcnt.cpp.o] Error 1
+make: *** [cmTC_3285d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_sse42.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d51bd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d51bd.dir/build.make CMakeFiles/cmTC_d51bd.dir/build
+Building CXX object CMakeFiles/cmTC_d51bd.dir/cpu_sse42.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_d51bd.dir/cpu_sse42.cpp.o -MF CMakeFiles/cmTC_d51bd.dir/cpu_sse42.cpp.o.d -o CMakeFiles/cmTC_d51bd.dir/cpu_sse42.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_sse42.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_sse42.cpp:5:24: error: always_inline function '_mm_crc32_u8' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+    unsigned int res = _mm_crc32_u8(1, 2);
+                       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d51bd.dir/cpu_sse42.cpp.o] Error 1
+make: *** [cmTC_d51bd/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ec13/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ec13.dir/build.make CMakeFiles/cmTC_4ec13.dir/build
+Building CXX object CMakeFiles/cmTC_4ec13.dir/cpu_fp16.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_4ec13.dir/cpu_fp16.cpp.o -MF CMakeFiles/cmTC_4ec13.dir/cpu_fp16.cpp.o.d -o CMakeFiles/cmTC_4ec13.dir/cpu_fp16.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_fp16.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_fp16.cpp:26:2: error: "FP16 is not supported"
+#error "FP16 is not supported"
+ ^
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_fp16.cpp:31:18: error: use of undeclared identifier 'test'
+  printf("%d\n", test());
+                 ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_4ec13.dir/cpu_fp16.cpp.o] Error 1
+make: *** [cmTC_4ec13/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eed54/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eed54.dir/build.make CMakeFiles/cmTC_eed54.dir/build
+Building CXX object CMakeFiles/cmTC_eed54.dir/cpu_avx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_eed54.dir/cpu_avx.cpp.o -MF CMakeFiles/cmTC_eed54.dir/cpu_avx.cpp.o.d -o CMakeFiles/cmTC_eed54.dir/cpu_avx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx.cpp:2:2: error: "__AVX__ define is missing"
+#error "__AVX__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_eed54.dir/cpu_avx.cpp.o] Error 1
+make: *** [cmTC_eed54/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx2.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12604/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_12604.dir/build.make CMakeFiles/cmTC_12604.dir/build
+Building CXX object CMakeFiles/cmTC_12604.dir/cpu_avx2.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_12604.dir/cpu_avx2.cpp.o -MF CMakeFiles/cmTC_12604.dir/cpu_avx2.cpp.o.d -o CMakeFiles/cmTC_12604.dir/cpu_avx2.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx2.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx2.cpp:2:2: error: "__AVX2__ define is missing"
+#error "__AVX2__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_12604.dir/cpu_avx2.cpp.o] Error 1
+make: *** [cmTC_12604/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1e64f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e64f.dir/build.make CMakeFiles/cmTC_1e64f.dir/build
+Building CXX object CMakeFiles/cmTC_1e64f.dir/cpu_avx512.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_1e64f.dir/cpu_avx512.cpp.o -MF CMakeFiles/cmTC_1e64f.dir/cpu_avx512.cpp.o.d -o CMakeFiles/cmTC_1e64f.dir/cpu_avx512.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512.cpp:11:2: error: "AVX512 is not supported"
+#error "AVX512 is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1e64f.dir/cpu_avx512.cpp.o] Error 1
+make: *** [cmTC_1e64f/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512common.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ddbd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ddbd.dir/build.make CMakeFiles/cmTC_4ddbd.dir/build
+Building CXX object CMakeFiles/cmTC_4ddbd.dir/cpu_avx512common.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_4ddbd.dir/cpu_avx512common.cpp.o -MF CMakeFiles/cmTC_4ddbd.dir/cpu_avx512common.cpp.o.d -o CMakeFiles/cmTC_4ddbd.dir/cpu_avx512common.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512common.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512common.cpp:12:2: error: "AVX512-COMMON is not supported"
+#error "AVX512-COMMON is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4ddbd.dir/cpu_avx512common.cpp.o] Error 1
+make: *** [cmTC_4ddbd/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8e70d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e70d.dir/build.make CMakeFiles/cmTC_8e70d.dir/build
+Building CXX object CMakeFiles/cmTC_8e70d.dir/cpu_avx512knl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_8e70d.dir/cpu_avx512knl.cpp.o -MF CMakeFiles/cmTC_8e70d.dir/cpu_avx512knl.cpp.o.d -o CMakeFiles/cmTC_8e70d.dir/cpu_avx512knl.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knl.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knl.cpp:14:2: error: "AVX512-KNL is not supported"
+#error "AVX512-KNL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8e70d.dir/cpu_avx512knl.cpp.o] Error 1
+make: *** [cmTC_8e70d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knm.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b217a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b217a.dir/build.make CMakeFiles/cmTC_b217a.dir/build
+Building CXX object CMakeFiles/cmTC_b217a.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_b217a.dir/cpu_avx512knm.cpp.o -MF CMakeFiles/cmTC_b217a.dir/cpu_avx512knm.cpp.o.d -o CMakeFiles/cmTC_b217a.dir/cpu_avx512knm.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knm.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knm.cpp:15:2: error: "AVX512-KNM is not supported"
+#error "AVX512-KNM is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b217a.dir/cpu_avx512knm.cpp.o] Error 1
+make: *** [cmTC_b217a/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knm.cpp'
+    check option: ' -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8e582/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e582.dir/build.make CMakeFiles/cmTC_8e582.dir/build
+Building CXX object CMakeFiles/cmTC_8e582.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq -std=c++11 -MD -MT CMakeFiles/cmTC_8e582.dir/cpu_avx512knm.cpp.o -MF CMakeFiles/cmTC_8e582.dir/cpu_avx512knm.cpp.o.d -o CMakeFiles/cmTC_8e582.dir/cpu_avx512knm.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512knm.cpp"
+clang: error: unknown argument: '-mavx5124fmaps'
+clang: error: unknown argument: '-mavx5124vnniw'
+make[1]: *** [CMakeFiles/cmTC_8e582.dir/cpu_avx512knm.cpp.o] Error 1
+make: *** [cmTC_8e582/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512skx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cd0c3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cd0c3.dir/build.make CMakeFiles/cmTC_cd0c3.dir/build
+Building CXX object CMakeFiles/cmTC_cd0c3.dir/cpu_avx512skx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_cd0c3.dir/cpu_avx512skx.cpp.o -MF CMakeFiles/cmTC_cd0c3.dir/cpu_avx512skx.cpp.o.d -o CMakeFiles/cmTC_cd0c3.dir/cpu_avx512skx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512skx.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512skx.cpp:30:2: error: "AVX512-SKX is not supported"
+#error "AVX512-SKX is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cd0c3.dir/cpu_avx512skx.cpp.o] Error 1
+make: *** [cmTC_cd0c3/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512cnl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d11cb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d11cb.dir/build.make CMakeFiles/cmTC_d11cb.dir/build
+Building CXX object CMakeFiles/cmTC_d11cb.dir/cpu_avx512cnl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_d11cb.dir/cpu_avx512cnl.cpp.o -MF CMakeFiles/cmTC_d11cb.dir/cpu_avx512cnl.cpp.o.d -o CMakeFiles/cmTC_d11cb.dir/cpu_avx512cnl.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512cnl.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512cnl.cpp:10:2: error: "AVX512-CNL is not supported"
+#error "AVX512-CNL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d11cb.dir/cpu_avx512cnl.cpp.o] Error 1
+make: *** [cmTC_d11cb/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512clx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70388/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70388.dir/build.make CMakeFiles/cmTC_70388.dir/build
+Building CXX object CMakeFiles/cmTC_70388.dir/cpu_avx512clx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_70388.dir/cpu_avx512clx.cpp.o -MF CMakeFiles/cmTC_70388.dir/cpu_avx512clx.cpp.o.d -o CMakeFiles/cmTC_70388.dir/cpu_avx512clx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512clx.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512clx.cpp:9:2: error: "AVX512-CLX is not supported"
+#error "AVX512-CLX is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_70388.dir/cpu_avx512clx.cpp.o] Error 1
+make: *** [cmTC_70388/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512icl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_053e2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_053e2.dir/build.make CMakeFiles/cmTC_053e2.dir/build
+Building CXX object CMakeFiles/cmTC_053e2.dir/cpu_avx512icl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_053e2.dir/cpu_avx512icl.cpp.o -MF CMakeFiles/cmTC_053e2.dir/cpu_avx512icl.cpp.o.d -o CMakeFiles/cmTC_053e2.dir/cpu_avx512icl.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512icl.cpp"
+/Users/runewind/Documents/GitHub/Master/object detection/opencv/cmake/checks/cpu_avx512icl.cpp:12:2: error: "AVX512-ICL is not supported"
+#error "AVX512-ICL is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_053e2.dir/cpu_avx512icl.cpp.o] Error 1
+make: *** [cmTC_053e2/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51cf9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_51cf9.dir/build.make CMakeFiles/cmTC_51cf9.dir/build
+Building CXX object CMakeFiles/cmTC_51cf9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_51cf9.dir/src.cxx.o -MF CMakeFiles/cmTC_51cf9.dir/src.cxx.o.d -o CMakeFiles/cmTC_51cf9.dir/src.cxx.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTC_51cf9
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51cf9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -Wl,--as-needed  CMakeFiles/cmTC_51cf9.dir/src.cxx.o -o cmTC_51cf9 
+ld: unknown option: --as-needed
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_51cf9] Error 1
+make: *** [cmTC_51cf9/fast] Error 2
+
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35233/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35233.dir/build.make CMakeFiles/cmTC_35233.dir/build
+Building C object CMakeFiles/cmTC_35233.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_35233.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_35233.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_35233.dir/CheckIncludeFile.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_35233.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_35233/fast] Error 2
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a312a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a312a.dir/build.make CMakeFiles/cmTC_a312a.dir/build
+Building C object CMakeFiles/cmTC_a312a.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_a312a.dir/OFF64_T.c.o -MF CMakeFiles/cmTC_a312a.dir/OFF64_T.c.o.d -o CMakeFiles/cmTC_a312a.dir/OFF64_T.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_a312a.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_a312a/fast] Error 2
+
+
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f6c34/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6c34.dir/build.make CMakeFiles/cmTC_f6c34.dir/build
+Building C object CMakeFiles/cmTC_f6c34.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_f6c34.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f6c34.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f6c34.dir/CheckIncludeFile.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f6c34.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_f6c34/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c2087/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c2087.dir/build.make CMakeFiles/cmTC_c2087.dir/build
+Building C object CMakeFiles/cmTC_c2087.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_c2087.dir/int8.c.o -MF CMakeFiles/cmTC_c2087.dir/int8.c.o.d -o CMakeFiles/cmTC_c2087.dir/int8.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:30:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:31:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:32:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:33:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c2087.dir/int8.c.o] Error 1
+make: *** [cmTC_c2087/fast] Error 2
+
+
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cce00/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cce00.dir/build.make CMakeFiles/cmTC_cce00.dir/build
+Building C object CMakeFiles/cmTC_cce00.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_cce00.dir/int16.c.o -MF CMakeFiles/cmTC_cce00.dir/int16.c.o.d -o CMakeFiles/cmTC_cce00.dir/int16.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:30:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:31:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:32:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:33:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_cce00.dir/int16.c.o] Error 1
+make: *** [cmTC_cce00/fast] Error 2
+
+
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_43836/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_43836.dir/build.make CMakeFiles/cmTC_43836.dir/build
+Building C object CMakeFiles/cmTC_43836.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_43836.dir/int32.c.o -MF CMakeFiles/cmTC_43836.dir/int32.c.o.d -o CMakeFiles/cmTC_43836.dir/int32.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:30:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:31:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:32:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:33:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_43836.dir/int32.c.o] Error 1
+make: *** [cmTC_43836/fast] Error 2
+
+
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2e5a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f2e5a.dir/build.make CMakeFiles/cmTC_f2e5a.dir/build
+Building C object CMakeFiles/cmTC_f2e5a.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-unused-but-set-variable -MD -MT CMakeFiles/cmTC_f2e5a.dir/src.c.o -MF CMakeFiles/cmTC_f2e5a.dir/src.c.o.d -o CMakeFiles/cmTC_f2e5a.dir/src.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_f2e5a
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e5a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_f2e5a.dir/src.c.o -o cmTC_f2e5a 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_451fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_451fd.dir/build.make CMakeFiles/cmTC_451fd.dir/build
+Building C object CMakeFiles/cmTC_451fd.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-maybe-uninitialized -MD -MT CMakeFiles/cmTC_451fd.dir/src.c.o -MF CMakeFiles/cmTC_451fd.dir/src.c.o.d -o CMakeFiles/cmTC_451fd.dir/src.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_451fd
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_451fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_451fd.dir/src.c.o -o cmTC_451fd 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_210ff/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_210ff.dir/build.make CMakeFiles/cmTC_210ff.dir/build
+Building C object CMakeFiles/cmTC_210ff.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -MD -MT CMakeFiles/cmTC_210ff.dir/src.c.o -MF CMakeFiles/cmTC_210ff.dir/src.c.o.d -o CMakeFiles/cmTC_210ff.dir/src.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_210ff
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_210ff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_210ff.dir/src.c.o -o cmTC_210ff 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-implicit-const-int-float-conversion', did you mean '-Wno-bitfield-constant-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0af0e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0af0e.dir/build.make CMakeFiles/cmTC_0af0e.dir/build
+Building C object CMakeFiles/cmTC_0af0e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-implicit-const-int-float-conversion -MD -MT CMakeFiles/cmTC_0af0e.dir/src.c.o -MF CMakeFiles/cmTC_0af0e.dir/src.c.o.d -o CMakeFiles/cmTC_0af0e.dir/src.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-implicit-const-int-float-conversion'; did you mean '-Wno-bitfield-constant-conversion'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_0af0e
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af0e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_0af0e.dir/src.c.o -o cmTC_0af0e 
+
+
+===== END =====
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64ecf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_64ecf.dir/build.make CMakeFiles/cmTC_64ecf.dir/build
+Building C object CMakeFiles/cmTC_64ecf.dir/OPJ_HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_64ecf.dir/OPJ_HAVE_MALLOC_H.c.o -MF CMakeFiles/cmTC_64ecf.dir/OPJ_HAVE_MALLOC_H.c.o.d -o CMakeFiles/cmTC_64ecf.dir/OPJ_HAVE_MALLOC_H.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_64ecf.dir/OPJ_HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_64ecf/fast] Error 2
+
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb947/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb947.dir/build.make CMakeFiles/cmTC_bb947.dir/build
+Building C object CMakeFiles/cmTC_bb947.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_bb947.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_bb947.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_bb947.dir/CheckSymbolExists.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bb947.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_bb947/fast] Error 2
+
+
+File /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_276d3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_276d3.dir/build.make CMakeFiles/cmTC_276d3.dir/build
+Building C object CMakeFiles/cmTC_276d3.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_276d3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_276d3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_276d3.dir/CheckSymbolExists.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_276d3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_276d3/fast] Error 2
+
+
+File /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-cast-function-type', did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef453/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ef453.dir/build.make CMakeFiles/cmTC_ef453.dir/build
+Building C object CMakeFiles/cmTC_ef453.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-cast-function-type -MD -MT CMakeFiles/cmTC_ef453.dir/src.c.o -MF CMakeFiles/cmTC_ef453.dir/src.c.o.d -o CMakeFiles/cmTC_ef453.dir/src.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_ef453
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef453.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_ef453.dir/src.c.o -o cmTC_ef453 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a29e1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a29e1.dir/build.make CMakeFiles/cmTC_a29e1.dir/build
+Building CXX object CMakeFiles/cmTC_a29e1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -std=c++11 -MD -MT CMakeFiles/cmTC_a29e1.dir/src.cxx.o -MF CMakeFiles/cmTC_a29e1.dir/src.cxx.o.d -o CMakeFiles/cmTC_a29e1.dir/src.cxx.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_a29e1
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29e1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_a29e1.dir/src.cxx.o -o cmTC_a29e1 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-suggest-override', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a90d9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a90d9.dir/build.make CMakeFiles/cmTC_a90d9.dir/build
+Building CXX object CMakeFiles/cmTC_a90d9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-suggest-override -std=c++11 -MD -MT CMakeFiles/cmTC_a90d9.dir/src.cxx.o -MF CMakeFiles/cmTC_a90d9.dir/src.cxx.o.d -o CMakeFiles/cmTC_a90d9.dir/src.cxx.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wno-suggest-override'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_a90d9
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a90d9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_a90d9.dir/src.cxx.o -o cmTC_a90d9 
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-implicit-const-int-float-conversion', did you mean '-Wno-bitfield-constant-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_99e43/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_99e43.dir/build.make CMakeFiles/cmTC_99e43.dir/build
+Building CXX object CMakeFiles/cmTC_99e43.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-missing-prototypes -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -MD -MT CMakeFiles/cmTC_99e43.dir/src.cxx.o -MF CMakeFiles/cmTC_99e43.dir/src.cxx.o.d -o CMakeFiles/cmTC_99e43.dir/src.cxx.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wno-implicit-const-int-float-conversion'; did you mean '-Wno-bitfield-constant-conversion'? [-Wunknown-warning-option]
+/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_99e43
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99e43.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-missing-prototypes -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_99e43.dir/src.cxx.o -o cmTC_99e43 
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70238/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70238.dir/build.make CMakeFiles/cmTC_70238.dir/build
+Building C object CMakeFiles/cmTC_70238.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE -MD -MT CMakeFiles/cmTC_70238.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_70238.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_70238.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.21.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70238
+/usr/local/Cellar/cmake/3.21.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70238.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_70238.dir/CheckFunctionExists.c.o -o cmTC_70238 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_70238] Error 1
+make: *** [cmTC_70238/fast] Error 2
+
+
+
