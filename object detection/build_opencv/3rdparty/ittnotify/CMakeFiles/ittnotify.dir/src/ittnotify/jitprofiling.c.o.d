@@ -1,6 +1,6 @@
 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/ittnotify/src/ittnotify/jitprofiling.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/jitprofiling.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdint.h \
@@ -59,7 +59,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_pid_t.h \
@@ -89,4 +89,4 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/ittnotify/include/jitprofiling.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/ittnotify/include/jitprofiling.h

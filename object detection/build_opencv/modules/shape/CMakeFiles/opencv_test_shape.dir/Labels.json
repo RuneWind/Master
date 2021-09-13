@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/shape/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_shape",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/shape/test/test_shape.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_shape",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/shape/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_shape",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_shape",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_shape"
+	}
+}

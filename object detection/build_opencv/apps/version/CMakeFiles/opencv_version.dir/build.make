@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,18 +70,18 @@ include apps/version/CMakeFiles/opencv_version.dir/progress.make
 include apps/version/CMakeFiles/opencv_version.dir/flags.make
 
 apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o: apps/version/CMakeFiles/opencv_version.dir/flags.make
-apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/apps/version/opencv_version.cpp
+apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/apps/version/opencv_version.cpp
 apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o: apps/version/CMakeFiles/opencv_version.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o -MF CMakeFiles/opencv_version.dir/opencv_version.cpp.o.d -o CMakeFiles/opencv_version.dir/opencv_version.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/version/opencv_version.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o -MF CMakeFiles/opencv_version.dir/opencv_version.cpp.o.d -o CMakeFiles/opencv_version.dir/opencv_version.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/version/opencv_version.cpp"
 
 apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_version.dir/opencv_version.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/version/opencv_version.cpp" > CMakeFiles/opencv_version.dir/opencv_version.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/version/opencv_version.cpp" > CMakeFiles/opencv_version.dir/opencv_version.cpp.i
 
 apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_version.dir/opencv_version.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/version/opencv_version.cpp" -o CMakeFiles/opencv_version.dir/opencv_version.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/version/opencv_version.cpp" -o CMakeFiles/opencv_version.dir/opencv_version.cpp.s
 
 # Object files for target opencv_version
 opencv_version_OBJECTS = \
@@ -94,7 +94,7 @@ bin/opencv_version: apps/version/CMakeFiles/opencv_version.dir/opencv_version.cp
 bin/opencv_version: apps/version/CMakeFiles/opencv_version.dir/build.make
 bin/opencv_version: 3rdparty/lib/libippiw.a
 bin/opencv_version: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-bin/opencv_version: lib/libopencv_core.4.5.3.dylib
+bin/opencv_version: lib/libopencv_core.3.4.15.dylib
 bin/opencv_version: apps/version/CMakeFiles/opencv_version.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/opencv_version"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_version.dir/link.txt --verbose=$(VERBOSE)
@@ -108,6 +108,6 @@ apps/version/CMakeFiles/opencv_version.dir/clean:
 .PHONY : apps/version/CMakeFiles/opencv_version.dir/clean
 
 apps/version/CMakeFiles/opencv_version.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/version" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version/CMakeFiles/opencv_version.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/version" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version/CMakeFiles/opencv_version.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : apps/version/CMakeFiles/opencv_version.dir/depend
 

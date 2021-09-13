@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,46 +70,46 @@ include 3rdparty/quirc/CMakeFiles/quirc.dir/progress.make
 include 3rdparty/quirc/CMakeFiles/quirc.dir/flags.make
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/flags.make
-3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/src/decode.c
+3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/src/decode.c
 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o -MF CMakeFiles/quirc.dir/src/decode.c.o.d -o CMakeFiles/quirc.dir/src/decode.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/decode.c"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o -MF CMakeFiles/quirc.dir/src/decode.c.o.d -o CMakeFiles/quirc.dir/src/decode.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/decode.c"
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quirc.dir/src/decode.c.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/decode.c" > CMakeFiles/quirc.dir/src/decode.c.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/decode.c" > CMakeFiles/quirc.dir/src/decode.c.i
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quirc.dir/src/decode.c.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/decode.c" -o CMakeFiles/quirc.dir/src/decode.c.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/decode.c" -o CMakeFiles/quirc.dir/src/decode.c.s
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/flags.make
-3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/src/quirc.c
+3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c
 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o -MF CMakeFiles/quirc.dir/src/quirc.c.o.d -o CMakeFiles/quirc.dir/src/quirc.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/quirc.c"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o -MF CMakeFiles/quirc.dir/src/quirc.c.o.d -o CMakeFiles/quirc.dir/src/quirc.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c"
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quirc.dir/src/quirc.c.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/quirc.c" > CMakeFiles/quirc.dir/src/quirc.c.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c" > CMakeFiles/quirc.dir/src/quirc.c.i
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quirc.dir/src/quirc.c.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/quirc.c" -o CMakeFiles/quirc.dir/src/quirc.c.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c" -o CMakeFiles/quirc.dir/src/quirc.c.s
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/flags.make
-3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/src/version_db.c
+3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c
 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o: 3rdparty/quirc/CMakeFiles/quirc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o -MF CMakeFiles/quirc.dir/src/version_db.c.o.d -o CMakeFiles/quirc.dir/src/version_db.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/version_db.c"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o -MF CMakeFiles/quirc.dir/src/version_db.c.o.d -o CMakeFiles/quirc.dir/src/version_db.c.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c"
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quirc.dir/src/version_db.c.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/version_db.c" > CMakeFiles/quirc.dir/src/version_db.c.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c" > CMakeFiles/quirc.dir/src/version_db.c.i
 
 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quirc.dir/src/version_db.c.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/version_db.c" -o CMakeFiles/quirc.dir/src/version_db.c.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c" -o CMakeFiles/quirc.dir/src/version_db.c.s
 
 # Object files for target quirc
 quirc_OBJECTS = \
@@ -138,6 +138,6 @@ quirc_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/quirc/CMakeFiles/quirc.dir/clean
 
 3rdparty/quirc/CMakeFiles/quirc.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc/CMakeFiles/quirc.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/quirc/CMakeFiles/quirc.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : 3rdparty/quirc/CMakeFiles/quirc.dir/depend
 

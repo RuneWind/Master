@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libpng
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libpng
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/libpng
 # 
 # This file includes the relevant testing commands required for 

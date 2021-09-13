@@ -57,16 +57,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o.d"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o.d"
-  "CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.o"
-  "CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.o.d"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o.d"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o.d"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o"
   "CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o.d"
-  "CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.o"
-  "CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

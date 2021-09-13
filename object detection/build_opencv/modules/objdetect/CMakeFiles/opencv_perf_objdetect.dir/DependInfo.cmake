@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/perf/opencl/perf_cascades.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_cascades.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_cascades.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/perf/opencl/perf_hogdetect.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_hogdetect.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_hogdetect.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/perf/perf_main.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_main.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_main.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_qrcode_pipeline.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_qrcode_pipeline.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/perf/opencl/perf_cascades.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_cascades.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_cascades.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/perf/opencl/perf_hogdetect.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_hogdetect.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_hogdetect.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/perf/perf_main.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_main.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_main.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/perf/perf_qrcode_pipeline.cpp" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_qrcode_pipeline.cpp.o" "gcc" "modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_qrcode_pipeline.cpp.o.d"
   )
 
 # Targets to which this target links.

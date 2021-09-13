@@ -1,5 +1,5 @@
 3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/src/quirc.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/AvailabilityInternal.h \
@@ -71,5 +71,5 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_string.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/include/quirc_internal.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/include/quirc.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/include/quirc_internal.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/include/quirc.h

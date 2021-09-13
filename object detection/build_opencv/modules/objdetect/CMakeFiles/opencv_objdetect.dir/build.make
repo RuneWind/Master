@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -69,100 +69,114 @@ include modules/objdetect/CMakeFiles/opencv_objdetect.dir/progress.make
 # Include the compile flags for this target's objects.
 include modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
 
-modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/opencl/cascadedetect.cl
-modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/opencl/objdetect_hog.cl
-modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/opencl/cascadedetect.cl
+modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/opencl/objdetect_hog.cl
+modules/objdetect/opencl_kernels_objdetect.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (objdetect)"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=objdetect -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/objdetect/opencl_kernels_objdetect.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=objdetect -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/objdetect/opencl_kernels_objdetect.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/cascadedetect.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.cpp" > CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp" > CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.cpp" -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp" -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp" > CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp" > CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp" -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp" -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/detection_based_tracker.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/detection_based_tracker.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/detection_based_tracker.cpp" > CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp" > CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/detection_based_tracker.cpp" -o CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp" -o CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.s
+
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/haar.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.cpp"
+
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/haar.cpp.i"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.cpp" > CMakeFiles/opencv_objdetect.dir/src/haar.cpp.i
+
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/haar.cpp.s"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.cpp" -o CMakeFiles/opencv_objdetect.dir/src/haar.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/hog.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/hog.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/hog.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/hog.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/hog.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/hog.cpp" > CMakeFiles/opencv_objdetect.dir/src/hog.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/hog.cpp" > CMakeFiles/opencv_objdetect.dir/src/hog.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/hog.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/hog.cpp" -o CMakeFiles/opencv_objdetect.dir/src/hog.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/hog.cpp" -o CMakeFiles/opencv_objdetect.dir/src/hog.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/main.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/main.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/main.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/main.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/main.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/main.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/main.cpp" > CMakeFiles/opencv_objdetect.dir/src/main.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/main.cpp" > CMakeFiles/opencv_objdetect.dir/src/main.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/main.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/main.cpp" -o CMakeFiles/opencv_objdetect.dir/src/main.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/main.cpp" -o CMakeFiles/opencv_objdetect.dir/src/main.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/src/qrcode.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/qrcode.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/qrcode.cpp" > CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp" > CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.i
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/qrcode.cpp" -o CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp" -o CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.s
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o: modules/objdetect/opencl_kernels_objdetect.cpp
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o -MF CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect/opencl_kernels_objdetect.cpp"
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.i: cmake_force
@@ -173,44 +187,62 @@ modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.s"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect/opencl_kernels_objdetect.cpp" -o CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.s
 
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o: modules/objdetect/CMakeFiles/opencv_objdetect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mpopcnt -msse4.2 -mavx -MD -MT modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o -MF CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o.d -o CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp"
+
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.i"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mpopcnt -msse4.2 -mavx -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp" > CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.i
+
+modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.s"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mpopcnt -msse4.2 -mavx -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp" -o CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.s
+
 # Object files for target opencv_objdetect
 opencv_objdetect_OBJECTS = \
 "CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o" \
 "CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o" \
 "CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o" \
+"CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o" \
 "CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o" \
 "CMakeFiles/opencv_objdetect.dir/src/main.cpp.o" \
 "CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o" \
-"CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o"
+"CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o" \
+"CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o"
 
 # External object files for target opencv_objdetect
 opencv_objdetect_EXTERNAL_OBJECTS =
 
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make
-lib/libopencv_objdetect.4.5.3.dylib: lib/libopencv_calib3d.4.5.3.dylib
-lib/libopencv_objdetect.4.5.3.dylib: 3rdparty/lib/libippiw.a
-lib/libopencv_objdetect.4.5.3.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-lib/libopencv_objdetect.4.5.3.dylib: 3rdparty/lib/libquirc.a
-lib/libopencv_objdetect.4.5.3.dylib: lib/libopencv_features2d.4.5.3.dylib
-lib/libopencv_objdetect.4.5.3.dylib: lib/libopencv_flann.4.5.3.dylib
-lib/libopencv_objdetect.4.5.3.dylib: lib/libopencv_imgproc.4.5.3.dylib
-lib/libopencv_objdetect.4.5.3.dylib: lib/libopencv_core.4.5.3.dylib
-lib/libopencv_objdetect.4.5.3.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library ../../lib/libopencv_objdetect.dylib"
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make
+lib/libopencv_objdetect.3.4.15.dylib: lib/libopencv_calib3d.3.4.15.dylib
+lib/libopencv_objdetect.3.4.15.dylib: 3rdparty/lib/libippiw.a
+lib/libopencv_objdetect.3.4.15.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
+lib/libopencv_objdetect.3.4.15.dylib: 3rdparty/lib/libquirc.a
+lib/libopencv_objdetect.3.4.15.dylib: lib/libopencv_features2d.3.4.15.dylib
+lib/libopencv_objdetect.3.4.15.dylib: lib/libopencv_flann.3.4.15.dylib
+lib/libopencv_objdetect.3.4.15.dylib: lib/libopencv_imgproc.3.4.15.dylib
+lib/libopencv_objdetect.3.4.15.dylib: lib/libopencv_core.3.4.15.dylib
+lib/libopencv_objdetect.3.4.15.dylib: modules/objdetect/CMakeFiles/opencv_objdetect.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../lib/libopencv_objdetect.dylib"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_objdetect.dir/link.txt --verbose=$(VERBOSE)
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_objdetect.4.5.3.dylib ../../lib/libopencv_objdetect.4.5.dylib ../../lib/libopencv_objdetect.dylib
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_objdetect.3.4.15.dylib ../../lib/libopencv_objdetect.3.4.dylib ../../lib/libopencv_objdetect.dylib
 
-lib/libopencv_objdetect.4.5.dylib: lib/libopencv_objdetect.4.5.3.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_objdetect.4.5.dylib
+lib/libopencv_objdetect.3.4.dylib: lib/libopencv_objdetect.3.4.15.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_objdetect.3.4.dylib
 
-lib/libopencv_objdetect.dylib: lib/libopencv_objdetect.4.5.3.dylib
+lib/libopencv_objdetect.dylib: lib/libopencv_objdetect.3.4.15.dylib
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_objdetect.dylib
 
 # Rule to build all files generated by this target.
@@ -222,6 +254,6 @@ modules/objdetect/CMakeFiles/opencv_objdetect.dir/clean:
 .PHONY : modules/objdetect/CMakeFiles/opencv_objdetect.dir/clean
 
 modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend: modules/objdetect/opencl_kernels_objdetect.cpp
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend
 

@@ -1,7 +1,7 @@
 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/zlib/uncompr.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/zlib/zlib.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/zlib/zconf.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/zlib/uncompr.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/zlib/zlib.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/zlib/zconf.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/limits.h \

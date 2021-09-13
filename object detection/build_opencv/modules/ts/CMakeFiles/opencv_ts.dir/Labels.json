@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/cuda_perf.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/cuda_perf.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/cuda_test.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/cuda_test.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/ocl_perf.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/ocl_perf.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/ocl_test.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/ocl_test.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/ts_ext.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/ts_ext.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/ts_gtest.h",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/ts_gtest.h",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include/opencv2/ts/ts_perf.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include/opencv2/ts/ts_perf.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/cuda_perf.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/cuda_perf.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/cuda_test.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/cuda_test.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ocl_perf.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ocl_perf.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ocl_test.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ocl_test.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_arrtest.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_arrtest.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_func.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_func.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_gtest.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_gtest.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_perf.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_perf.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_tags.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_tags.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_tags.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_tags.hpp",
 			"labels" : 
 			[
 				"Main",

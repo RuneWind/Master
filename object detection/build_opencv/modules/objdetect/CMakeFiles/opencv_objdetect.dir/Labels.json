@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/objdetect_c.h",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/detection_based_tracker.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/hog.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/qrcode.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/hog.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/opencl/cascadedetect.cl",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,25 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/opencl/objdetect_hog.cl",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/opencl/cascadedetect.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/opencl/objdetect_hog.cl",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +146,25 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp",
 			"labels" : 
 			[
 				"Main",

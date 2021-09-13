@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget opencv_core opencv_flann opencv_imgproc opencv_ml opencv_photo opencv_dnn opencv_features2d opencv_imgcodecs opencv_videoio opencv_calib3d opencv_highgui opencv_objdetect opencv_stitching opencv_video opencv_gapi)
+foreach(_expectedTarget opencv_core opencv_flann opencv_imgproc opencv_ml opencv_photo opencv_video opencv_dnn opencv_features2d opencv_imgcodecs opencv_shape opencv_videoio opencv_calib3d opencv_highgui opencv_objdetect opencv_stitching opencv_superres opencv_videostab)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -48,203 +48,231 @@ add_library(opencv_core SHARED IMPORTED)
 add_library(opencv_flann SHARED IMPORTED)
 
 set_target_properties(opencv_flann PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_core"
+  INTERFACE_LINK_LIBRARIES "opencv_core"
 )
 
 # Create imported target opencv_imgproc
 add_library(opencv_imgproc SHARED IMPORTED)
 
 set_target_properties(opencv_imgproc PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_core"
+  INTERFACE_LINK_LIBRARIES "opencv_core"
 )
 
 # Create imported target opencv_ml
 add_library(opencv_ml SHARED IMPORTED)
 
 set_target_properties(opencv_ml PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_core"
+  INTERFACE_LINK_LIBRARIES "opencv_core"
 )
 
 # Create imported target opencv_photo
 add_library(opencv_photo SHARED IMPORTED)
 
 set_target_properties(opencv_photo PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_core;opencv_imgproc"
-)
-
-# Create imported target opencv_dnn
-add_library(opencv_dnn SHARED IMPORTED)
-
-set_target_properties(opencv_dnn PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_core;opencv_imgproc"
-)
-
-# Create imported target opencv_features2d
-add_library(opencv_features2d SHARED IMPORTED)
-
-set_target_properties(opencv_features2d PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_core;opencv_flann;opencv_imgproc"
-)
-
-# Create imported target opencv_imgcodecs
-add_library(opencv_imgcodecs SHARED IMPORTED)
-
-set_target_properties(opencv_imgcodecs PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_core;opencv_imgproc"
-)
-
-# Create imported target opencv_videoio
-add_library(opencv_videoio SHARED IMPORTED)
-
-set_target_properties(opencv_videoio PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_core;opencv_imgproc;opencv_imgcodecs"
-)
-
-# Create imported target opencv_calib3d
-add_library(opencv_calib3d SHARED IMPORTED)
-
-set_target_properties(opencv_calib3d PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_core;opencv_flann;opencv_imgproc;opencv_features2d"
-)
-
-# Create imported target opencv_highgui
-add_library(opencv_highgui SHARED IMPORTED)
-
-set_target_properties(opencv_highgui PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio"
-)
-
-# Create imported target opencv_objdetect
-add_library(opencv_objdetect SHARED IMPORTED)
-
-set_target_properties(opencv_objdetect PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d;opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d"
-)
-
-# Create imported target opencv_stitching
-add_library(opencv_stitching SHARED IMPORTED)
-
-set_target_properties(opencv_stitching PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d;opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d"
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc"
 )
 
 # Create imported target opencv_video
 add_library(opencv_video SHARED IMPORTED)
 
 set_target_properties(opencv_video PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_dnn;opencv_features2d;opencv_calib3d;opencv_core;opencv_flann;opencv_imgproc;opencv_dnn;opencv_features2d;opencv_calib3d"
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc"
 )
 
-# Create imported target opencv_gapi
-add_library(opencv_gapi SHARED IMPORTED)
+# Create imported target opencv_dnn
+add_library(opencv_dnn SHARED IMPORTED)
 
-set_target_properties(opencv_gapi PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_dnn;opencv_features2d;opencv_calib3d;opencv_video;opencv_core;opencv_flann;opencv_imgproc;opencv_dnn;opencv_features2d;opencv_calib3d;opencv_video"
+set_target_properties(opencv_dnn PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc"
+)
+
+# Create imported target opencv_features2d
+add_library(opencv_features2d SHARED IMPORTED)
+
+set_target_properties(opencv_features2d PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc"
+)
+
+# Create imported target opencv_imgcodecs
+add_library(opencv_imgcodecs SHARED IMPORTED)
+
+set_target_properties(opencv_imgcodecs PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc"
+)
+
+# Create imported target opencv_shape
+add_library(opencv_shape SHARED IMPORTED)
+
+set_target_properties(opencv_shape PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_video"
+)
+
+# Create imported target opencv_videoio
+add_library(opencv_videoio SHARED IMPORTED)
+
+set_target_properties(opencv_videoio PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_imgcodecs"
+)
+
+# Create imported target opencv_calib3d
+add_library(opencv_calib3d SHARED IMPORTED)
+
+set_target_properties(opencv_calib3d PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d"
+)
+
+# Create imported target opencv_highgui
+add_library(opencv_highgui SHARED IMPORTED)
+
+set_target_properties(opencv_highgui PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio"
+)
+
+# Create imported target opencv_objdetect
+add_library(opencv_objdetect SHARED IMPORTED)
+
+set_target_properties(opencv_objdetect PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d"
+)
+
+# Create imported target opencv_stitching
+add_library(opencv_stitching SHARED IMPORTED)
+
+set_target_properties(opencv_stitching PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_calib3d"
+)
+
+# Create imported target opencv_superres
+add_library(opencv_superres SHARED IMPORTED)
+
+set_target_properties(opencv_superres PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_video;opencv_imgcodecs;opencv_videoio"
+)
+
+# Create imported target opencv_videostab
+add_library(opencv_videostab SHARED IMPORTED)
+
+set_target_properties(opencv_videostab PROPERTIES
+  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_photo;opencv_video;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d"
 )
 
 # Import target "opencv_core" for configuration "Release"
 set_property(TARGET opencv_core APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_core PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_core.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_core.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_core.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_core.3.4.dylib"
   )
 
 # Import target "opencv_flann" for configuration "Release"
 set_property(TARGET opencv_flann APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_flann PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_flann.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_flann.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_flann.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_flann.3.4.dylib"
   )
 
 # Import target "opencv_imgproc" for configuration "Release"
 set_property(TARGET opencv_imgproc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_imgproc PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_imgproc.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_imgproc.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_imgproc.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_imgproc.3.4.dylib"
   )
 
 # Import target "opencv_ml" for configuration "Release"
 set_property(TARGET opencv_ml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_ml PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_ml.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_ml.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_ml.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_ml.3.4.dylib"
   )
 
 # Import target "opencv_photo" for configuration "Release"
 set_property(TARGET opencv_photo APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_photo PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_photo.4.5.dylib"
-  )
-
-# Import target "opencv_dnn" for configuration "Release"
-set_property(TARGET opencv_dnn APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_dnn PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_dnn.4.5.dylib"
-  )
-
-# Import target "opencv_features2d" for configuration "Release"
-set_property(TARGET opencv_features2d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_features2d PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_features2d.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_features2d.4.5.dylib"
-  )
-
-# Import target "opencv_imgcodecs" for configuration "Release"
-set_property(TARGET opencv_imgcodecs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_imgcodecs PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_imgcodecs.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_imgcodecs.4.5.dylib"
-  )
-
-# Import target "opencv_videoio" for configuration "Release"
-set_property(TARGET opencv_videoio APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_videoio PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_videoio.4.5.dylib"
-  )
-
-# Import target "opencv_calib3d" for configuration "Release"
-set_property(TARGET opencv_calib3d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_calib3d PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_calib3d.4.5.dylib"
-  )
-
-# Import target "opencv_highgui" for configuration "Release"
-set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_highgui PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_highgui.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_highgui.4.5.dylib"
-  )
-
-# Import target "opencv_objdetect" for configuration "Release"
-set_property(TARGET opencv_objdetect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_objdetect PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_objdetect.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_objdetect.4.5.dylib"
-  )
-
-# Import target "opencv_stitching" for configuration "Release"
-set_property(TARGET opencv_stitching APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_stitching PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_stitching.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_photo.3.4.dylib"
   )
 
 # Import target "opencv_video" for configuration "Release"
 set_property(TARGET opencv_video APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_video PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_video.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_video.4.5.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_video.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_video.3.4.dylib"
   )
 
-# Import target "opencv_gapi" for configuration "Release"
-set_property(TARGET opencv_gapi APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(opencv_gapi PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_gapi.4.5.3.dylib"
-  IMPORTED_SONAME_RELEASE "@rpath/libopencv_gapi.4.5.dylib"
+# Import target "opencv_dnn" for configuration "Release"
+set_property(TARGET opencv_dnn APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_dnn PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_dnn.3.4.dylib"
+  )
+
+# Import target "opencv_features2d" for configuration "Release"
+set_property(TARGET opencv_features2d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_features2d PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_features2d.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_features2d.3.4.dylib"
+  )
+
+# Import target "opencv_imgcodecs" for configuration "Release"
+set_property(TARGET opencv_imgcodecs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_imgcodecs PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_imgcodecs.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_imgcodecs.3.4.dylib"
+  )
+
+# Import target "opencv_shape" for configuration "Release"
+set_property(TARGET opencv_shape APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_shape PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_shape.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_shape.3.4.dylib"
+  )
+
+# Import target "opencv_videoio" for configuration "Release"
+set_property(TARGET opencv_videoio APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_videoio PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_videoio.3.4.dylib"
+  )
+
+# Import target "opencv_calib3d" for configuration "Release"
+set_property(TARGET opencv_calib3d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_calib3d PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_calib3d.3.4.dylib"
+  )
+
+# Import target "opencv_highgui" for configuration "Release"
+set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_highgui PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_highgui.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_highgui.3.4.dylib"
+  )
+
+# Import target "opencv_objdetect" for configuration "Release"
+set_property(TARGET opencv_objdetect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_objdetect PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_objdetect.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_objdetect.3.4.dylib"
+  )
+
+# Import target "opencv_stitching" for configuration "Release"
+set_property(TARGET opencv_stitching APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_stitching PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_stitching.3.4.dylib"
+  )
+
+# Import target "opencv_superres" for configuration "Release"
+set_property(TARGET opencv_superres APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_superres PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_superres.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_superres.3.4.dylib"
+  )
+
+# Import target "opencv_videostab" for configuration "Release"
+set_property(TARGET opencv_videostab APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(opencv_videostab PROPERTIES
+  IMPORTED_LOCATION_RELEASE "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videostab.3.4.15.dylib"
+  IMPORTED_SONAME_RELEASE "@rpath/libopencv_videostab.3.4.dylib"
   )
 
 # This file does not depend on other imported targets which have

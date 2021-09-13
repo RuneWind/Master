@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -305,30 +305,6 @@ perf/opencl/perf_bgfg_mog2.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_bgfg_mog2.cpp.s
 .PHONY : perf/opencl/perf_bgfg_mog2.cpp.s
 
-perf/opencl/perf_dis_optflow.o: perf/opencl/perf_dis_optflow.cpp.o
-.PHONY : perf/opencl/perf_dis_optflow.o
-
-# target to build an object file
-perf/opencl/perf_dis_optflow.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_dis_optflow.cpp.o
-.PHONY : perf/opencl/perf_dis_optflow.cpp.o
-
-perf/opencl/perf_dis_optflow.i: perf/opencl/perf_dis_optflow.cpp.i
-.PHONY : perf/opencl/perf_dis_optflow.i
-
-# target to preprocess a source file
-perf/opencl/perf_dis_optflow.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_dis_optflow.cpp.i
-.PHONY : perf/opencl/perf_dis_optflow.cpp.i
-
-perf/opencl/perf_dis_optflow.s: perf/opencl/perf_dis_optflow.cpp.s
-.PHONY : perf/opencl/perf_dis_optflow.s
-
-# target to generate assembly for a file
-perf/opencl/perf_dis_optflow.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_dis_optflow.cpp.s
-.PHONY : perf/opencl/perf_dis_optflow.cpp.s
-
 perf/opencl/perf_motempl.o: perf/opencl/perf_motempl.cpp.o
 .PHONY : perf/opencl/perf_motempl.o
 
@@ -352,6 +328,30 @@ perf/opencl/perf_motempl.s: perf/opencl/perf_motempl.cpp.s
 perf/opencl/perf_motempl.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_motempl.cpp.s
 .PHONY : perf/opencl/perf_motempl.cpp.s
+
+perf/opencl/perf_optflow_dualTVL1.o: perf/opencl/perf_optflow_dualTVL1.cpp.o
+.PHONY : perf/opencl/perf_optflow_dualTVL1.o
+
+# target to build an object file
+perf/opencl/perf_optflow_dualTVL1.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_optflow_dualTVL1.cpp.o
+.PHONY : perf/opencl/perf_optflow_dualTVL1.cpp.o
+
+perf/opencl/perf_optflow_dualTVL1.i: perf/opencl/perf_optflow_dualTVL1.cpp.i
+.PHONY : perf/opencl/perf_optflow_dualTVL1.i
+
+# target to preprocess a source file
+perf/opencl/perf_optflow_dualTVL1.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_optflow_dualTVL1.cpp.i
+.PHONY : perf/opencl/perf_optflow_dualTVL1.cpp.i
+
+perf/opencl/perf_optflow_dualTVL1.s: perf/opencl/perf_optflow_dualTVL1.cpp.s
+.PHONY : perf/opencl/perf_optflow_dualTVL1.s
+
+# target to generate assembly for a file
+perf/opencl/perf_optflow_dualTVL1.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_optflow_dualTVL1.cpp.s
+.PHONY : perf/opencl/perf_optflow_dualTVL1.cpp.s
 
 perf/opencl/perf_optflow_farneback.o: perf/opencl/perf_optflow_farneback.cpp.o
 .PHONY : perf/opencl/perf_optflow_farneback.o
@@ -449,30 +449,6 @@ perf/perf_bgfg_mog2.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_bgfg_mog2.cpp.s
 .PHONY : perf/perf_bgfg_mog2.cpp.s
 
-perf/perf_disflow.o: perf/perf_disflow.cpp.o
-.PHONY : perf/perf_disflow.o
-
-# target to build an object file
-perf/perf_disflow.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_disflow.cpp.o
-.PHONY : perf/perf_disflow.cpp.o
-
-perf/perf_disflow.i: perf/perf_disflow.cpp.i
-.PHONY : perf/perf_disflow.i
-
-# target to preprocess a source file
-perf/perf_disflow.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_disflow.cpp.i
-.PHONY : perf/perf_disflow.cpp.i
-
-perf/perf_disflow.s: perf/perf_disflow.cpp.s
-.PHONY : perf/perf_disflow.s
-
-# target to generate assembly for a file
-perf/perf_disflow.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_disflow.cpp.s
-.PHONY : perf/perf_disflow.cpp.s
-
 perf/perf_ecc.o: perf/perf_ecc.cpp.o
 .PHONY : perf/perf_ecc.o
 
@@ -545,53 +521,29 @@ perf/perf_optflowpyrlk.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_optflowpyrlk.cpp.s
 .PHONY : perf/perf_optflowpyrlk.cpp.s
 
-perf/perf_trackers.o: perf/perf_trackers.cpp.o
-.PHONY : perf/perf_trackers.o
+perf/perf_tvl1optflow.o: perf/perf_tvl1optflow.cpp.o
+.PHONY : perf/perf_tvl1optflow.o
 
 # target to build an object file
-perf/perf_trackers.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_trackers.cpp.o
-.PHONY : perf/perf_trackers.cpp.o
+perf/perf_tvl1optflow.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_tvl1optflow.cpp.o
+.PHONY : perf/perf_tvl1optflow.cpp.o
 
-perf/perf_trackers.i: perf/perf_trackers.cpp.i
-.PHONY : perf/perf_trackers.i
-
-# target to preprocess a source file
-perf/perf_trackers.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_trackers.cpp.i
-.PHONY : perf/perf_trackers.cpp.i
-
-perf/perf_trackers.s: perf/perf_trackers.cpp.s
-.PHONY : perf/perf_trackers.s
-
-# target to generate assembly for a file
-perf/perf_trackers.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_trackers.cpp.s
-.PHONY : perf/perf_trackers.cpp.s
-
-perf/perf_variational_refinement.o: perf/perf_variational_refinement.cpp.o
-.PHONY : perf/perf_variational_refinement.o
-
-# target to build an object file
-perf/perf_variational_refinement.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_variational_refinement.cpp.o
-.PHONY : perf/perf_variational_refinement.cpp.o
-
-perf/perf_variational_refinement.i: perf/perf_variational_refinement.cpp.i
-.PHONY : perf/perf_variational_refinement.i
+perf/perf_tvl1optflow.i: perf/perf_tvl1optflow.cpp.i
+.PHONY : perf/perf_tvl1optflow.i
 
 # target to preprocess a source file
-perf/perf_variational_refinement.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_variational_refinement.cpp.i
-.PHONY : perf/perf_variational_refinement.cpp.i
+perf/perf_tvl1optflow.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_tvl1optflow.cpp.i
+.PHONY : perf/perf_tvl1optflow.cpp.i
 
-perf/perf_variational_refinement.s: perf/perf_variational_refinement.cpp.s
-.PHONY : perf/perf_variational_refinement.s
+perf/perf_tvl1optflow.s: perf/perf_tvl1optflow.cpp.s
+.PHONY : perf/perf_tvl1optflow.s
 
 # target to generate assembly for a file
-perf/perf_variational_refinement.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_variational_refinement.cpp.s
-.PHONY : perf/perf_variational_refinement.cpp.s
+perf/perf_tvl1optflow.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_tvl1optflow.cpp.s
+.PHONY : perf/perf_tvl1optflow.cpp.s
 
 src/bgfg_KNN.o: src/bgfg_KNN.cpp.o
 .PHONY : src/bgfg_KNN.o
@@ -665,29 +617,29 @@ src/camshift.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.s
 .PHONY : src/camshift.cpp.s
 
-src/dis_flow.o: src/dis_flow.cpp.o
-.PHONY : src/dis_flow.o
+src/compat_video.o: src/compat_video.cpp.o
+.PHONY : src/compat_video.o
 
 # target to build an object file
-src/dis_flow.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o
-.PHONY : src/dis_flow.cpp.o
+src/compat_video.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o
+.PHONY : src/compat_video.cpp.o
 
-src/dis_flow.i: src/dis_flow.cpp.i
-.PHONY : src/dis_flow.i
+src/compat_video.i: src/compat_video.cpp.i
+.PHONY : src/compat_video.i
 
 # target to preprocess a source file
-src/dis_flow.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.i
-.PHONY : src/dis_flow.cpp.i
+src/compat_video.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.i
+.PHONY : src/compat_video.cpp.i
 
-src/dis_flow.s: src/dis_flow.cpp.s
-.PHONY : src/dis_flow.s
+src/compat_video.s: src/compat_video.cpp.s
+.PHONY : src/compat_video.s
 
 # target to generate assembly for a file
-src/dis_flow.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.s
-.PHONY : src/dis_flow.cpp.s
+src/compat_video.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.s
+.PHONY : src/compat_video.cpp.s
 
 src/ecc.o: src/ecc.cpp.o
 .PHONY : src/ecc.o
@@ -785,389 +737,29 @@ src/optflowgf.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.s
 .PHONY : src/optflowgf.cpp.s
 
-src/optical_flow_io.o: src/optical_flow_io.cpp.o
-.PHONY : src/optical_flow_io.o
+src/tvl1flow.o: src/tvl1flow.cpp.o
+.PHONY : src/tvl1flow.o
 
 # target to build an object file
-src/optical_flow_io.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o
-.PHONY : src/optical_flow_io.cpp.o
+src/tvl1flow.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o
+.PHONY : src/tvl1flow.cpp.o
 
-src/optical_flow_io.i: src/optical_flow_io.cpp.i
-.PHONY : src/optical_flow_io.i
-
-# target to preprocess a source file
-src/optical_flow_io.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.i
-.PHONY : src/optical_flow_io.cpp.i
-
-src/optical_flow_io.s: src/optical_flow_io.cpp.s
-.PHONY : src/optical_flow_io.s
-
-# target to generate assembly for a file
-src/optical_flow_io.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.s
-.PHONY : src/optical_flow_io.cpp.s
-
-src/tracking/detail/tracker_feature.o: src/tracking/detail/tracker_feature.cpp.o
-.PHONY : src/tracking/detail/tracker_feature.o
-
-# target to build an object file
-src/tracking/detail/tracker_feature.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o
-.PHONY : src/tracking/detail/tracker_feature.cpp.o
-
-src/tracking/detail/tracker_feature.i: src/tracking/detail/tracker_feature.cpp.i
-.PHONY : src/tracking/detail/tracker_feature.i
+src/tvl1flow.i: src/tvl1flow.cpp.i
+.PHONY : src/tvl1flow.i
 
 # target to preprocess a source file
-src/tracking/detail/tracker_feature.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.i
-.PHONY : src/tracking/detail/tracker_feature.cpp.i
+src/tvl1flow.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.i
+.PHONY : src/tvl1flow.cpp.i
 
-src/tracking/detail/tracker_feature.s: src/tracking/detail/tracker_feature.cpp.s
-.PHONY : src/tracking/detail/tracker_feature.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_feature.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.s
-.PHONY : src/tracking/detail/tracker_feature.cpp.s
-
-src/tracking/detail/tracker_feature_set.o: src/tracking/detail/tracker_feature_set.cpp.o
-.PHONY : src/tracking/detail/tracker_feature_set.o
-
-# target to build an object file
-src/tracking/detail/tracker_feature_set.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o
-.PHONY : src/tracking/detail/tracker_feature_set.cpp.o
-
-src/tracking/detail/tracker_feature_set.i: src/tracking/detail/tracker_feature_set.cpp.i
-.PHONY : src/tracking/detail/tracker_feature_set.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_feature_set.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.i
-.PHONY : src/tracking/detail/tracker_feature_set.cpp.i
-
-src/tracking/detail/tracker_feature_set.s: src/tracking/detail/tracker_feature_set.cpp.s
-.PHONY : src/tracking/detail/tracker_feature_set.s
+src/tvl1flow.s: src/tvl1flow.cpp.s
+.PHONY : src/tvl1flow.s
 
 # target to generate assembly for a file
-src/tracking/detail/tracker_feature_set.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.s
-.PHONY : src/tracking/detail/tracker_feature_set.cpp.s
-
-src/tracking/detail/tracker_mil_model.o: src/tracking/detail/tracker_mil_model.cpp.o
-.PHONY : src/tracking/detail/tracker_mil_model.o
-
-# target to build an object file
-src/tracking/detail/tracker_mil_model.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o
-.PHONY : src/tracking/detail/tracker_mil_model.cpp.o
-
-src/tracking/detail/tracker_mil_model.i: src/tracking/detail/tracker_mil_model.cpp.i
-.PHONY : src/tracking/detail/tracker_mil_model.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_mil_model.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.i
-.PHONY : src/tracking/detail/tracker_mil_model.cpp.i
-
-src/tracking/detail/tracker_mil_model.s: src/tracking/detail/tracker_mil_model.cpp.s
-.PHONY : src/tracking/detail/tracker_mil_model.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_mil_model.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.s
-.PHONY : src/tracking/detail/tracker_mil_model.cpp.s
-
-src/tracking/detail/tracker_mil_state.o: src/tracking/detail/tracker_mil_state.cpp.o
-.PHONY : src/tracking/detail/tracker_mil_state.o
-
-# target to build an object file
-src/tracking/detail/tracker_mil_state.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o
-.PHONY : src/tracking/detail/tracker_mil_state.cpp.o
-
-src/tracking/detail/tracker_mil_state.i: src/tracking/detail/tracker_mil_state.cpp.i
-.PHONY : src/tracking/detail/tracker_mil_state.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_mil_state.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.i
-.PHONY : src/tracking/detail/tracker_mil_state.cpp.i
-
-src/tracking/detail/tracker_mil_state.s: src/tracking/detail/tracker_mil_state.cpp.s
-.PHONY : src/tracking/detail/tracker_mil_state.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_mil_state.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.s
-.PHONY : src/tracking/detail/tracker_mil_state.cpp.s
-
-src/tracking/detail/tracker_model.o: src/tracking/detail/tracker_model.cpp.o
-.PHONY : src/tracking/detail/tracker_model.o
-
-# target to build an object file
-src/tracking/detail/tracker_model.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o
-.PHONY : src/tracking/detail/tracker_model.cpp.o
-
-src/tracking/detail/tracker_model.i: src/tracking/detail/tracker_model.cpp.i
-.PHONY : src/tracking/detail/tracker_model.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_model.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.i
-.PHONY : src/tracking/detail/tracker_model.cpp.i
-
-src/tracking/detail/tracker_model.s: src/tracking/detail/tracker_model.cpp.s
-.PHONY : src/tracking/detail/tracker_model.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_model.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.s
-.PHONY : src/tracking/detail/tracker_model.cpp.s
-
-src/tracking/detail/tracker_sampler.o: src/tracking/detail/tracker_sampler.cpp.o
-.PHONY : src/tracking/detail/tracker_sampler.o
-
-# target to build an object file
-src/tracking/detail/tracker_sampler.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o
-.PHONY : src/tracking/detail/tracker_sampler.cpp.o
-
-src/tracking/detail/tracker_sampler.i: src/tracking/detail/tracker_sampler.cpp.i
-.PHONY : src/tracking/detail/tracker_sampler.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_sampler.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.i
-.PHONY : src/tracking/detail/tracker_sampler.cpp.i
-
-src/tracking/detail/tracker_sampler.s: src/tracking/detail/tracker_sampler.cpp.s
-.PHONY : src/tracking/detail/tracker_sampler.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_sampler.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.s
-.PHONY : src/tracking/detail/tracker_sampler.cpp.s
-
-src/tracking/detail/tracker_sampler_algorithm.o: src/tracking/detail/tracker_sampler_algorithm.cpp.o
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.o
-
-# target to build an object file
-src/tracking/detail/tracker_sampler_algorithm.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.cpp.o
-
-src/tracking/detail/tracker_sampler_algorithm.i: src/tracking/detail/tracker_sampler_algorithm.cpp.i
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_sampler_algorithm.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.i
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.cpp.i
-
-src/tracking/detail/tracker_sampler_algorithm.s: src/tracking/detail/tracker_sampler_algorithm.cpp.s
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_sampler_algorithm.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.s
-.PHONY : src/tracking/detail/tracker_sampler_algorithm.cpp.s
-
-src/tracking/detail/tracker_state_estimator.o: src/tracking/detail/tracker_state_estimator.cpp.o
-.PHONY : src/tracking/detail/tracker_state_estimator.o
-
-# target to build an object file
-src/tracking/detail/tracker_state_estimator.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o
-.PHONY : src/tracking/detail/tracker_state_estimator.cpp.o
-
-src/tracking/detail/tracker_state_estimator.i: src/tracking/detail/tracker_state_estimator.cpp.i
-.PHONY : src/tracking/detail/tracker_state_estimator.i
-
-# target to preprocess a source file
-src/tracking/detail/tracker_state_estimator.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.i
-.PHONY : src/tracking/detail/tracker_state_estimator.cpp.i
-
-src/tracking/detail/tracker_state_estimator.s: src/tracking/detail/tracker_state_estimator.cpp.s
-.PHONY : src/tracking/detail/tracker_state_estimator.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracker_state_estimator.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.s
-.PHONY : src/tracking/detail/tracker_state_estimator.cpp.s
-
-src/tracking/detail/tracking_feature.o: src/tracking/detail/tracking_feature.cpp.o
-.PHONY : src/tracking/detail/tracking_feature.o
-
-# target to build an object file
-src/tracking/detail/tracking_feature.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o
-.PHONY : src/tracking/detail/tracking_feature.cpp.o
-
-src/tracking/detail/tracking_feature.i: src/tracking/detail/tracking_feature.cpp.i
-.PHONY : src/tracking/detail/tracking_feature.i
-
-# target to preprocess a source file
-src/tracking/detail/tracking_feature.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.i
-.PHONY : src/tracking/detail/tracking_feature.cpp.i
-
-src/tracking/detail/tracking_feature.s: src/tracking/detail/tracking_feature.cpp.s
-.PHONY : src/tracking/detail/tracking_feature.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracking_feature.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.s
-.PHONY : src/tracking/detail/tracking_feature.cpp.s
-
-src/tracking/detail/tracking_online_mil.o: src/tracking/detail/tracking_online_mil.cpp.o
-.PHONY : src/tracking/detail/tracking_online_mil.o
-
-# target to build an object file
-src/tracking/detail/tracking_online_mil.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o
-.PHONY : src/tracking/detail/tracking_online_mil.cpp.o
-
-src/tracking/detail/tracking_online_mil.i: src/tracking/detail/tracking_online_mil.cpp.i
-.PHONY : src/tracking/detail/tracking_online_mil.i
-
-# target to preprocess a source file
-src/tracking/detail/tracking_online_mil.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.i
-.PHONY : src/tracking/detail/tracking_online_mil.cpp.i
-
-src/tracking/detail/tracking_online_mil.s: src/tracking/detail/tracking_online_mil.cpp.s
-.PHONY : src/tracking/detail/tracking_online_mil.s
-
-# target to generate assembly for a file
-src/tracking/detail/tracking_online_mil.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.s
-.PHONY : src/tracking/detail/tracking_online_mil.cpp.s
-
-src/tracking/tracker.o: src/tracking/tracker.cpp.o
-.PHONY : src/tracking/tracker.o
-
-# target to build an object file
-src/tracking/tracker.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o
-.PHONY : src/tracking/tracker.cpp.o
-
-src/tracking/tracker.i: src/tracking/tracker.cpp.i
-.PHONY : src/tracking/tracker.i
-
-# target to preprocess a source file
-src/tracking/tracker.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.i
-.PHONY : src/tracking/tracker.cpp.i
-
-src/tracking/tracker.s: src/tracking/tracker.cpp.s
-.PHONY : src/tracking/tracker.s
-
-# target to generate assembly for a file
-src/tracking/tracker.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.s
-.PHONY : src/tracking/tracker.cpp.s
-
-src/tracking/tracker_dasiamrpn.o: src/tracking/tracker_dasiamrpn.cpp.o
-.PHONY : src/tracking/tracker_dasiamrpn.o
-
-# target to build an object file
-src/tracking/tracker_dasiamrpn.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o
-.PHONY : src/tracking/tracker_dasiamrpn.cpp.o
-
-src/tracking/tracker_dasiamrpn.i: src/tracking/tracker_dasiamrpn.cpp.i
-.PHONY : src/tracking/tracker_dasiamrpn.i
-
-# target to preprocess a source file
-src/tracking/tracker_dasiamrpn.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.i
-.PHONY : src/tracking/tracker_dasiamrpn.cpp.i
-
-src/tracking/tracker_dasiamrpn.s: src/tracking/tracker_dasiamrpn.cpp.s
-.PHONY : src/tracking/tracker_dasiamrpn.s
-
-# target to generate assembly for a file
-src/tracking/tracker_dasiamrpn.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.s
-.PHONY : src/tracking/tracker_dasiamrpn.cpp.s
-
-src/tracking/tracker_goturn.o: src/tracking/tracker_goturn.cpp.o
-.PHONY : src/tracking/tracker_goturn.o
-
-# target to build an object file
-src/tracking/tracker_goturn.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o
-.PHONY : src/tracking/tracker_goturn.cpp.o
-
-src/tracking/tracker_goturn.i: src/tracking/tracker_goturn.cpp.i
-.PHONY : src/tracking/tracker_goturn.i
-
-# target to preprocess a source file
-src/tracking/tracker_goturn.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.i
-.PHONY : src/tracking/tracker_goturn.cpp.i
-
-src/tracking/tracker_goturn.s: src/tracking/tracker_goturn.cpp.s
-.PHONY : src/tracking/tracker_goturn.s
-
-# target to generate assembly for a file
-src/tracking/tracker_goturn.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.s
-.PHONY : src/tracking/tracker_goturn.cpp.s
-
-src/tracking/tracker_mil.o: src/tracking/tracker_mil.cpp.o
-.PHONY : src/tracking/tracker_mil.o
-
-# target to build an object file
-src/tracking/tracker_mil.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o
-.PHONY : src/tracking/tracker_mil.cpp.o
-
-src/tracking/tracker_mil.i: src/tracking/tracker_mil.cpp.i
-.PHONY : src/tracking/tracker_mil.i
-
-# target to preprocess a source file
-src/tracking/tracker_mil.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.i
-.PHONY : src/tracking/tracker_mil.cpp.i
-
-src/tracking/tracker_mil.s: src/tracking/tracker_mil.cpp.s
-.PHONY : src/tracking/tracker_mil.s
-
-# target to generate assembly for a file
-src/tracking/tracker_mil.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.s
-.PHONY : src/tracking/tracker_mil.cpp.s
-
-src/variational_refinement.o: src/variational_refinement.cpp.o
-.PHONY : src/variational_refinement.o
-
-# target to build an object file
-src/variational_refinement.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o
-.PHONY : src/variational_refinement.cpp.o
-
-src/variational_refinement.i: src/variational_refinement.cpp.i
-.PHONY : src/variational_refinement.i
-
-# target to preprocess a source file
-src/variational_refinement.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.i
-.PHONY : src/variational_refinement.cpp.i
-
-src/variational_refinement.s: src/variational_refinement.cpp.s
-.PHONY : src/variational_refinement.s
-
-# target to generate assembly for a file
-src/variational_refinement.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.s
-.PHONY : src/variational_refinement.cpp.s
+src/tvl1flow.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.s
+.PHONY : src/tvl1flow.cpp.s
 
 test/ocl/test_bgfg_mog2.o: test/ocl/test_bgfg_mog2.cpp.o
 .PHONY : test/ocl/test_bgfg_mog2.o
@@ -1193,30 +785,6 @@ test/ocl/test_bgfg_mog2.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.s
 .PHONY : test/ocl/test_bgfg_mog2.cpp.s
 
-test/ocl/test_dis.o: test/ocl/test_dis.cpp.o
-.PHONY : test/ocl/test_dis.o
-
-# target to build an object file
-test/ocl/test_dis.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_dis.cpp.o
-.PHONY : test/ocl/test_dis.cpp.o
-
-test/ocl/test_dis.i: test/ocl/test_dis.cpp.i
-.PHONY : test/ocl/test_dis.i
-
-# target to preprocess a source file
-test/ocl/test_dis.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_dis.cpp.i
-.PHONY : test/ocl/test_dis.cpp.i
-
-test/ocl/test_dis.s: test/ocl/test_dis.cpp.s
-.PHONY : test/ocl/test_dis.s
-
-# target to generate assembly for a file
-test/ocl/test_dis.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_dis.cpp.s
-.PHONY : test/ocl/test_dis.cpp.s
-
 test/ocl/test_optflow_farneback.o: test/ocl/test_optflow_farneback.cpp.o
 .PHONY : test/ocl/test_optflow_farneback.o
 
@@ -1241,6 +809,30 @@ test/ocl/test_optflow_farneback.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.s
 .PHONY : test/ocl/test_optflow_farneback.cpp.s
 
+test/ocl/test_optflow_tvl1flow.o: test/ocl/test_optflow_tvl1flow.cpp.o
+.PHONY : test/ocl/test_optflow_tvl1flow.o
+
+# target to build an object file
+test/ocl/test_optflow_tvl1flow.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o
+.PHONY : test/ocl/test_optflow_tvl1flow.cpp.o
+
+test/ocl/test_optflow_tvl1flow.i: test/ocl/test_optflow_tvl1flow.cpp.i
+.PHONY : test/ocl/test_optflow_tvl1flow.i
+
+# target to preprocess a source file
+test/ocl/test_optflow_tvl1flow.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.i
+.PHONY : test/ocl/test_optflow_tvl1flow.cpp.i
+
+test/ocl/test_optflow_tvl1flow.s: test/ocl/test_optflow_tvl1flow.cpp.s
+.PHONY : test/ocl/test_optflow_tvl1flow.s
+
+# target to generate assembly for a file
+test/ocl/test_optflow_tvl1flow.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.s
+.PHONY : test/ocl/test_optflow_tvl1flow.cpp.s
+
 test/ocl/test_optflowpyrlk.o: test/ocl/test_optflowpyrlk.cpp.o
 .PHONY : test/ocl/test_optflowpyrlk.o
 
@@ -1264,54 +856,6 @@ test/ocl/test_optflowpyrlk.s: test/ocl/test_optflowpyrlk.cpp.s
 test/ocl/test_optflowpyrlk.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.s
 .PHONY : test/ocl/test_optflowpyrlk.cpp.s
-
-test/test_OF_accuracy.o: test/test_OF_accuracy.cpp.o
-.PHONY : test/test_OF_accuracy.o
-
-# target to build an object file
-test/test_OF_accuracy.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_accuracy.cpp.o
-.PHONY : test/test_OF_accuracy.cpp.o
-
-test/test_OF_accuracy.i: test/test_OF_accuracy.cpp.i
-.PHONY : test/test_OF_accuracy.i
-
-# target to preprocess a source file
-test/test_OF_accuracy.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_accuracy.cpp.i
-.PHONY : test/test_OF_accuracy.cpp.i
-
-test/test_OF_accuracy.s: test/test_OF_accuracy.cpp.s
-.PHONY : test/test_OF_accuracy.s
-
-# target to generate assembly for a file
-test/test_OF_accuracy.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_accuracy.cpp.s
-.PHONY : test/test_OF_accuracy.cpp.s
-
-test/test_OF_reproducibility.o: test/test_OF_reproducibility.cpp.o
-.PHONY : test/test_OF_reproducibility.o
-
-# target to build an object file
-test/test_OF_reproducibility.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_reproducibility.cpp.o
-.PHONY : test/test_OF_reproducibility.cpp.o
-
-test/test_OF_reproducibility.i: test/test_OF_reproducibility.cpp.i
-.PHONY : test/test_OF_reproducibility.i
-
-# target to preprocess a source file
-test/test_OF_reproducibility.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_reproducibility.cpp.i
-.PHONY : test/test_OF_reproducibility.cpp.i
-
-test/test_OF_reproducibility.s: test/test_OF_reproducibility.cpp.s
-.PHONY : test/test_OF_reproducibility.s
-
-# target to generate assembly for a file
-test/test_OF_reproducibility.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_reproducibility.cpp.s
-.PHONY : test/test_OF_reproducibility.cpp.s
 
 test/test_accum.o: test/test_accum.cpp.o
 .PHONY : test/test_accum.o
@@ -1481,29 +1025,29 @@ test/test_optflowpyrlk.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.s
 .PHONY : test/test_optflowpyrlk.cpp.s
 
-test/test_trackers.o: test/test_trackers.cpp.o
-.PHONY : test/test_trackers.o
+test/test_tvl1optflow.o: test/test_tvl1optflow.cpp.o
+.PHONY : test/test_tvl1optflow.o
 
 # target to build an object file
-test/test_trackers.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_trackers.cpp.o
-.PHONY : test/test_trackers.cpp.o
+test/test_tvl1optflow.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o
+.PHONY : test/test_tvl1optflow.cpp.o
 
-test/test_trackers.i: test/test_trackers.cpp.i
-.PHONY : test/test_trackers.i
+test/test_tvl1optflow.i: test/test_tvl1optflow.cpp.i
+.PHONY : test/test_tvl1optflow.i
 
 # target to preprocess a source file
-test/test_trackers.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_trackers.cpp.i
-.PHONY : test/test_trackers.cpp.i
+test/test_tvl1optflow.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.i
+.PHONY : test/test_tvl1optflow.cpp.i
 
-test/test_trackers.s: test/test_trackers.cpp.s
-.PHONY : test/test_trackers.s
+test/test_tvl1optflow.s: test/test_tvl1optflow.cpp.s
+.PHONY : test/test_tvl1optflow.s
 
 # target to generate assembly for a file
-test/test_trackers.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_trackers.cpp.s
-.PHONY : test/test_trackers.cpp.s
+test/test_tvl1optflow.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.s
+.PHONY : test/test_tvl1optflow.cpp.s
 
 # Help Target
 help:
@@ -1532,12 +1076,12 @@ help:
 	@echo "... perf/opencl/perf_bgfg_mog2.o"
 	@echo "... perf/opencl/perf_bgfg_mog2.i"
 	@echo "... perf/opencl/perf_bgfg_mog2.s"
-	@echo "... perf/opencl/perf_dis_optflow.o"
-	@echo "... perf/opencl/perf_dis_optflow.i"
-	@echo "... perf/opencl/perf_dis_optflow.s"
 	@echo "... perf/opencl/perf_motempl.o"
 	@echo "... perf/opencl/perf_motempl.i"
 	@echo "... perf/opencl/perf_motempl.s"
+	@echo "... perf/opencl/perf_optflow_dualTVL1.o"
+	@echo "... perf/opencl/perf_optflow_dualTVL1.i"
+	@echo "... perf/opencl/perf_optflow_dualTVL1.s"
 	@echo "... perf/opencl/perf_optflow_farneback.o"
 	@echo "... perf/opencl/perf_optflow_farneback.i"
 	@echo "... perf/opencl/perf_optflow_farneback.s"
@@ -1550,9 +1094,6 @@ help:
 	@echo "... perf/perf_bgfg_mog2.o"
 	@echo "... perf/perf_bgfg_mog2.i"
 	@echo "... perf/perf_bgfg_mog2.s"
-	@echo "... perf/perf_disflow.o"
-	@echo "... perf/perf_disflow.i"
-	@echo "... perf/perf_disflow.s"
 	@echo "... perf/perf_ecc.o"
 	@echo "... perf/perf_ecc.i"
 	@echo "... perf/perf_ecc.s"
@@ -1562,12 +1103,9 @@ help:
 	@echo "... perf/perf_optflowpyrlk.o"
 	@echo "... perf/perf_optflowpyrlk.i"
 	@echo "... perf/perf_optflowpyrlk.s"
-	@echo "... perf/perf_trackers.o"
-	@echo "... perf/perf_trackers.i"
-	@echo "... perf/perf_trackers.s"
-	@echo "... perf/perf_variational_refinement.o"
-	@echo "... perf/perf_variational_refinement.i"
-	@echo "... perf/perf_variational_refinement.s"
+	@echo "... perf/perf_tvl1optflow.o"
+	@echo "... perf/perf_tvl1optflow.i"
+	@echo "... perf/perf_tvl1optflow.s"
 	@echo "... src/bgfg_KNN.o"
 	@echo "... src/bgfg_KNN.i"
 	@echo "... src/bgfg_KNN.s"
@@ -1577,9 +1115,9 @@ help:
 	@echo "... src/camshift.o"
 	@echo "... src/camshift.i"
 	@echo "... src/camshift.s"
-	@echo "... src/dis_flow.o"
-	@echo "... src/dis_flow.i"
-	@echo "... src/dis_flow.s"
+	@echo "... src/compat_video.o"
+	@echo "... src/compat_video.i"
+	@echo "... src/compat_video.s"
 	@echo "... src/ecc.o"
 	@echo "... src/ecc.i"
 	@echo "... src/ecc.s"
@@ -1592,72 +1130,21 @@ help:
 	@echo "... src/optflowgf.o"
 	@echo "... src/optflowgf.i"
 	@echo "... src/optflowgf.s"
-	@echo "... src/optical_flow_io.o"
-	@echo "... src/optical_flow_io.i"
-	@echo "... src/optical_flow_io.s"
-	@echo "... src/tracking/detail/tracker_feature.o"
-	@echo "... src/tracking/detail/tracker_feature.i"
-	@echo "... src/tracking/detail/tracker_feature.s"
-	@echo "... src/tracking/detail/tracker_feature_set.o"
-	@echo "... src/tracking/detail/tracker_feature_set.i"
-	@echo "... src/tracking/detail/tracker_feature_set.s"
-	@echo "... src/tracking/detail/tracker_mil_model.o"
-	@echo "... src/tracking/detail/tracker_mil_model.i"
-	@echo "... src/tracking/detail/tracker_mil_model.s"
-	@echo "... src/tracking/detail/tracker_mil_state.o"
-	@echo "... src/tracking/detail/tracker_mil_state.i"
-	@echo "... src/tracking/detail/tracker_mil_state.s"
-	@echo "... src/tracking/detail/tracker_model.o"
-	@echo "... src/tracking/detail/tracker_model.i"
-	@echo "... src/tracking/detail/tracker_model.s"
-	@echo "... src/tracking/detail/tracker_sampler.o"
-	@echo "... src/tracking/detail/tracker_sampler.i"
-	@echo "... src/tracking/detail/tracker_sampler.s"
-	@echo "... src/tracking/detail/tracker_sampler_algorithm.o"
-	@echo "... src/tracking/detail/tracker_sampler_algorithm.i"
-	@echo "... src/tracking/detail/tracker_sampler_algorithm.s"
-	@echo "... src/tracking/detail/tracker_state_estimator.o"
-	@echo "... src/tracking/detail/tracker_state_estimator.i"
-	@echo "... src/tracking/detail/tracker_state_estimator.s"
-	@echo "... src/tracking/detail/tracking_feature.o"
-	@echo "... src/tracking/detail/tracking_feature.i"
-	@echo "... src/tracking/detail/tracking_feature.s"
-	@echo "... src/tracking/detail/tracking_online_mil.o"
-	@echo "... src/tracking/detail/tracking_online_mil.i"
-	@echo "... src/tracking/detail/tracking_online_mil.s"
-	@echo "... src/tracking/tracker.o"
-	@echo "... src/tracking/tracker.i"
-	@echo "... src/tracking/tracker.s"
-	@echo "... src/tracking/tracker_dasiamrpn.o"
-	@echo "... src/tracking/tracker_dasiamrpn.i"
-	@echo "... src/tracking/tracker_dasiamrpn.s"
-	@echo "... src/tracking/tracker_goturn.o"
-	@echo "... src/tracking/tracker_goturn.i"
-	@echo "... src/tracking/tracker_goturn.s"
-	@echo "... src/tracking/tracker_mil.o"
-	@echo "... src/tracking/tracker_mil.i"
-	@echo "... src/tracking/tracker_mil.s"
-	@echo "... src/variational_refinement.o"
-	@echo "... src/variational_refinement.i"
-	@echo "... src/variational_refinement.s"
+	@echo "... src/tvl1flow.o"
+	@echo "... src/tvl1flow.i"
+	@echo "... src/tvl1flow.s"
 	@echo "... test/ocl/test_bgfg_mog2.o"
 	@echo "... test/ocl/test_bgfg_mog2.i"
 	@echo "... test/ocl/test_bgfg_mog2.s"
-	@echo "... test/ocl/test_dis.o"
-	@echo "... test/ocl/test_dis.i"
-	@echo "... test/ocl/test_dis.s"
 	@echo "... test/ocl/test_optflow_farneback.o"
 	@echo "... test/ocl/test_optflow_farneback.i"
 	@echo "... test/ocl/test_optflow_farneback.s"
+	@echo "... test/ocl/test_optflow_tvl1flow.o"
+	@echo "... test/ocl/test_optflow_tvl1flow.i"
+	@echo "... test/ocl/test_optflow_tvl1flow.s"
 	@echo "... test/ocl/test_optflowpyrlk.o"
 	@echo "... test/ocl/test_optflowpyrlk.i"
 	@echo "... test/ocl/test_optflowpyrlk.s"
-	@echo "... test/test_OF_accuracy.o"
-	@echo "... test/test_OF_accuracy.i"
-	@echo "... test/test_OF_accuracy.s"
-	@echo "... test/test_OF_reproducibility.o"
-	@echo "... test/test_OF_reproducibility.i"
-	@echo "... test/test_OF_reproducibility.s"
 	@echo "... test/test_accum.o"
 	@echo "... test/test_accum.i"
 	@echo "... test/test_accum.s"
@@ -1679,9 +1166,9 @@ help:
 	@echo "... test/test_optflowpyrlk.o"
 	@echo "... test/test_optflowpyrlk.i"
 	@echo "... test/test_optflowpyrlk.s"
-	@echo "... test/test_trackers.o"
-	@echo "... test/test_trackers.i"
-	@echo "... test/test_trackers.s"
+	@echo "... test/test_tvl1optflow.o"
+	@echo "... test/test_tvl1optflow.i"
+	@echo "... test/test_tvl1optflow.s"
 .PHONY : help
 
 

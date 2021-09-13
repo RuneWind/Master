@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../lib/libopencv_photo.4.5.3.dylib"
-  "../../lib/libopencv_photo.4.5.dylib"
+  "../../lib/libopencv_photo.3.4.15.dylib"
+  "../../lib/libopencv_photo.3.4.dylib"
   "../../lib/libopencv_photo.dylib"
   "../../lib/libopencv_photo.pdb"
   "CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o"

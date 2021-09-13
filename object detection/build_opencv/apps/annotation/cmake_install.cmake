@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/annotation
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/annotation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/opencl/perf_feature2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/opencl/perf_feature2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/perf_batchDistance.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/perf_batchDistance.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/perf_feature2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/perf_feature2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/perf_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/perf_feature2d.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/perf_feature2d.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/perf/perf_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

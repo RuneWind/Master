@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -69,100 +69,84 @@ include modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/progre
 modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source: modules/js_bindings_generator/gen/bindings.cpp
 modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source: CMakeFiles/dephelper/gen_opencv_js_source
 
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/src/core_bindings.cpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/generator/embindgen.py
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/generator/templates.py
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/python/src2/hdr_parser.py
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/affine.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/async.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/base.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/bindings_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/bufferpool.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/check.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/core.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/detail/async_promise.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/detail/exception_ptr.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/directx.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/dualquaternion.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/dualquaternion.inl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/eigen.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/fast_math.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/mat.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/mat.inl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/matx.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/neon_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/ocl_genbase.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/operations.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/optim.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/ovx.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/parallel/parallel_backend.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/persistence.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/private.cuda.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/quaternion.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/quaternion.inl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/saturate.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/simd_intrinsics.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/softfloat.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/sse_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/traits.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/types.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utility.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/allocator_stats.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/allocator_stats.impl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/buffer_area.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/configuration.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/filesystem.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/filesystem.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/lock.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/logger.defines.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/logger.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/logtag.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/plugin_loader.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/tls.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/va_intel.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/version.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/vsx_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc/bindings.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/include/opencv2/photo.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/include/opencv2/photo/cuda.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/include/opencv2/photo/photo.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/all_layers.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/dict.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/layer.details.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/layer.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/layer_reg.private.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/shape_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/utils/debug_utils.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/dnn/include/opencv2/dnn/version.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/features2d/include/opencv2/features2d.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/calib3d/include/opencv2/calib3d.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/include/opencv2/objdetect.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/include/opencv2/video.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/include/opencv2/video/background_segm.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/include/opencv2/video/detail/tracking.detail.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/include/opencv2/video/tracking.hpp
-modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/include/opencv2/video/video.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/src/core_bindings.cpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/generator/embindgen.py
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/generator/templates.py
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/python/src2/hdr_parser.py
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/affine.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/async.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/base.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/bindings_utils.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/bufferpool.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/check.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/core.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cvstd.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cvstd.inl.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/detail/async_promise.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/detail/exception_ptr.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/directx.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/eigen.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/fast_math.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ippasync.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/mat.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/mat.inl.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/matx.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/neon_utils.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ocl_genbase.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/operations.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/optim.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ovx.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/persistence.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/private.cuda.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/private.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ptr.inl.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/saturate.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/simd_intrinsics.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/softfloat.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/sse_utils.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/traits.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/types.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utility.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/allocator_stats.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/allocator_stats.impl.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/buffer_area.private.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/configuration.private.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/filesystem.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/filesystem.private.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/lock.private.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/logger.defines.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/logger.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/tls.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/va_intel.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/version.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/vsx_utils.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/wimage.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgproc/include/opencv2/imgproc.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgproc/include/opencv2/imgproc/detail/distortion_model.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/include/opencv2/video.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/include/opencv2/video/background_segm.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/include/opencv2/video/tracking.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/include/opencv2/video/video.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/all_layers.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dict.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dnn.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dnn.inl.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/layer.details.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/layer.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/shape_utils.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/features2d/include/opencv2/features2d.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/features2d/include/opencv2/features2d/features2d.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/calib3d/include/opencv2/calib3d.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect.hpp
+modules/js_bindings_generator/gen/bindings.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generate source files for JavaScript bindings"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator/gen" && /usr/bin/python2.7 /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/generator/embindgen.py /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/generator/../../python/src2/hdr_parser.py /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/js_bindings_generator/gen/bindings.cpp /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/js_bindings_generator/headers.txt /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/js/generator/../src/core_bindings.cpp /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/platforms/js/opencv_js.config.py
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator/gen" && /opt/anaconda3/bin/python3 /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/generator/embindgen.py /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/generator/../../python/src2/hdr_parser.py /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/js_bindings_generator/gen/bindings.cpp /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/js_bindings_generator/headers.txt /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/js/generator/../src/core_bindings.cpp /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/platforms/js/opencv_js.config.py
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator/gen" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -E touch /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/CMakeFiles/dephelper/gen_opencv_js_source
 
 CMakeFiles/dephelper/gen_opencv_js_source: modules/js_bindings_generator/gen/bindings.cpp
@@ -183,6 +167,6 @@ modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/clean:
 .PHONY : modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/clean
 
 modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/js/generator" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/js/generator" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/js_bindings_generator/CMakeFiles/gen_opencv_js_source.dir/depend
 

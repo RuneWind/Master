@@ -1,5 +1,5 @@
 /* libjpeg-turbo build number */
-#define BUILD  "opencv-4.5.3-dev-libjpeg-turbo"
+#define BUILD  "opencv-3.4.15-libjpeg-turbo"
 
 /* Compiler's inline keyword */
 #undef inline

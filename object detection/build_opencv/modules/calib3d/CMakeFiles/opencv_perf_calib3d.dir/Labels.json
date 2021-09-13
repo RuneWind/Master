@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/opencl/perf_stereobm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_affine2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_affine2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_cicrlesGrid.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_pnp.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_pnp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_stereosgbm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_stereosgbm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_undistort.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_undistort.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/perf/perf_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

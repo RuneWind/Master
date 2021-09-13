@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -2369,30 +2369,6 @@ src/imgwarp.sse4_1.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.sse4_1.cpp.s
 .PHONY : src/imgwarp.sse4_1.cpp.s
 
-src/intelligent_scissors.o: src/intelligent_scissors.cpp.o
-.PHONY : src/intelligent_scissors.o
-
-# target to build an object file
-src/intelligent_scissors.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intelligent_scissors.cpp.o
-.PHONY : src/intelligent_scissors.cpp.o
-
-src/intelligent_scissors.i: src/intelligent_scissors.cpp.i
-.PHONY : src/intelligent_scissors.i
-
-# target to preprocess a source file
-src/intelligent_scissors.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intelligent_scissors.cpp.i
-.PHONY : src/intelligent_scissors.cpp.i
-
-src/intelligent_scissors.s: src/intelligent_scissors.cpp.s
-.PHONY : src/intelligent_scissors.s
-
-# target to generate assembly for a file
-src/intelligent_scissors.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intelligent_scissors.cpp.s
-.PHONY : src/intelligent_scissors.cpp.s
-
 src/intersection.o: src/intersection.cpp.o
 .PHONY : src/intersection.o
 
@@ -2992,6 +2968,30 @@ src/thresh.s: src/thresh.cpp.s
 src/thresh.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.s
 .PHONY : src/thresh.cpp.s
+
+src/undistort.dispatch.o: src/undistort.dispatch.cpp.o
+.PHONY : src/undistort.dispatch.o
+
+# target to build an object file
+src/undistort.dispatch.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.dispatch.cpp.o
+.PHONY : src/undistort.dispatch.cpp.o
+
+src/undistort.dispatch.i: src/undistort.dispatch.cpp.i
+.PHONY : src/undistort.dispatch.i
+
+# target to preprocess a source file
+src/undistort.dispatch.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.dispatch.cpp.i
+.PHONY : src/undistort.dispatch.cpp.i
+
+src/undistort.dispatch.s: src/undistort.dispatch.cpp.s
+.PHONY : src/undistort.dispatch.s
+
+# target to generate assembly for a file
+src/undistort.dispatch.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.dispatch.cpp.s
+.PHONY : src/undistort.dispatch.cpp.s
 
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
@@ -4049,30 +4049,6 @@ test/test_imgwarp_strict.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_imgwarp_strict.cpp.s
 .PHONY : test/test_imgwarp_strict.cpp.s
 
-test/test_intelligent_scissors.o: test/test_intelligent_scissors.cpp.o
-.PHONY : test/test_intelligent_scissors.o
-
-# target to build an object file
-test/test_intelligent_scissors.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intelligent_scissors.cpp.o
-.PHONY : test/test_intelligent_scissors.cpp.o
-
-test/test_intelligent_scissors.i: test/test_intelligent_scissors.cpp.i
-.PHONY : test/test_intelligent_scissors.i
-
-# target to preprocess a source file
-test/test_intelligent_scissors.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intelligent_scissors.cpp.i
-.PHONY : test/test_intelligent_scissors.cpp.i
-
-test/test_intelligent_scissors.s: test/test_intelligent_scissors.cpp.s
-.PHONY : test/test_intelligent_scissors.s
-
-# target to generate assembly for a file
-test/test_intelligent_scissors.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intelligent_scissors.cpp.s
-.PHONY : test/test_intelligent_scissors.cpp.s
-
 test/test_intersectconvexconvex.o: test/test_intersectconvexconvex.cpp.o
 .PHONY : test/test_intersectconvexconvex.o
 
@@ -4313,30 +4289,6 @@ test/test_templmatch.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatch.cpp.s
 .PHONY : test/test_templmatch.cpp.s
 
-test/test_templmatchmask.o: test/test_templmatchmask.cpp.o
-.PHONY : test/test_templmatchmask.o
-
-# target to build an object file
-test/test_templmatchmask.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatchmask.cpp.o
-.PHONY : test/test_templmatchmask.cpp.o
-
-test/test_templmatchmask.i: test/test_templmatchmask.cpp.i
-.PHONY : test/test_templmatchmask.i
-
-# target to preprocess a source file
-test/test_templmatchmask.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatchmask.cpp.i
-.PHONY : test/test_templmatchmask.cpp.i
-
-test/test_templmatchmask.s: test/test_templmatchmask.cpp.s
-.PHONY : test/test_templmatchmask.s
-
-# target to generate assembly for a file
-test/test_templmatchmask.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatchmask.cpp.s
-.PHONY : test/test_templmatchmask.cpp.s
-
 test/test_thresh.o: test/test_thresh.cpp.o
 .PHONY : test/test_thresh.o
 
@@ -4384,6 +4336,30 @@ test/test_watershed.s: test/test_watershed.cpp.s
 test/test_watershed.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_watershed.cpp.s
 .PHONY : test/test_watershed.cpp.s
+
+undistort.avx2.o: undistort.avx2.cpp.o
+.PHONY : undistort.avx2.o
+
+# target to build an object file
+undistort.avx2.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/undistort.avx2.cpp.o
+.PHONY : undistort.avx2.cpp.o
+
+undistort.avx2.i: undistort.avx2.cpp.i
+.PHONY : undistort.avx2.i
+
+# target to preprocess a source file
+undistort.avx2.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/undistort.avx2.cpp.i
+.PHONY : undistort.avx2.cpp.i
+
+undistort.avx2.s: undistort.avx2.cpp.s
+.PHONY : undistort.avx2.s
+
+# target to generate assembly for a file
+undistort.avx2.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make modules/imgproc/CMakeFiles/opencv_imgproc.dir/undistort.avx2.cpp.s
+.PHONY : undistort.avx2.cpp.s
 
 # Help Target
 help:
@@ -4670,9 +4646,6 @@ help:
 	@echo "... src/imgwarp.sse4_1.o"
 	@echo "... src/imgwarp.sse4_1.i"
 	@echo "... src/imgwarp.sse4_1.s"
-	@echo "... src/intelligent_scissors.o"
-	@echo "... src/intelligent_scissors.i"
-	@echo "... src/intelligent_scissors.s"
 	@echo "... src/intersection.o"
 	@echo "... src/intersection.i"
 	@echo "... src/intersection.s"
@@ -4748,6 +4721,9 @@ help:
 	@echo "... src/thresh.o"
 	@echo "... src/thresh.i"
 	@echo "... src/thresh.s"
+	@echo "... src/undistort.dispatch.o"
+	@echo "... src/undistort.dispatch.i"
+	@echo "... src/undistort.dispatch.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
@@ -4880,9 +4856,6 @@ help:
 	@echo "... test/test_imgwarp_strict.o"
 	@echo "... test/test_imgwarp_strict.i"
 	@echo "... test/test_imgwarp_strict.s"
-	@echo "... test/test_intelligent_scissors.o"
-	@echo "... test/test_intelligent_scissors.i"
-	@echo "... test/test_intelligent_scissors.s"
 	@echo "... test/test_intersectconvexconvex.o"
 	@echo "... test/test_intersectconvexconvex.i"
 	@echo "... test/test_intersectconvexconvex.s"
@@ -4913,15 +4886,15 @@ help:
 	@echo "... test/test_templmatch.o"
 	@echo "... test/test_templmatch.i"
 	@echo "... test/test_templmatch.s"
-	@echo "... test/test_templmatchmask.o"
-	@echo "... test/test_templmatchmask.i"
-	@echo "... test/test_templmatchmask.s"
 	@echo "... test/test_thresh.o"
 	@echo "... test/test_thresh.i"
 	@echo "... test/test_thresh.s"
 	@echo "... test/test_watershed.o"
 	@echo "... test/test_watershed.i"
 	@echo "... test/test_watershed.s"
+	@echo "... undistort.avx2.o"
+	@echo "... undistort.avx2.i"
+	@echo "... undistort.avx2.s"
 .PHONY : help
 
 

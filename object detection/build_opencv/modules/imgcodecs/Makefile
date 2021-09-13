@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -256,30 +256,6 @@ perf/perf_main.s: perf/perf_main.cpp.s
 perf/perf_main.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.s
 .PHONY : perf/perf_main.cpp.s
-
-src/apple_conversions.o: src/apple_conversions.mm.o
-.PHONY : src/apple_conversions.o
-
-# target to build an object file
-src/apple_conversions.mm.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/apple_conversions.mm.o
-.PHONY : src/apple_conversions.mm.o
-
-src/apple_conversions.i: src/apple_conversions.mm.i
-.PHONY : src/apple_conversions.i
-
-# target to preprocess a source file
-src/apple_conversions.mm.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/apple_conversions.mm.i
-.PHONY : src/apple_conversions.mm.i
-
-src/apple_conversions.s: src/apple_conversions.mm.s
-.PHONY : src/apple_conversions.s
-
-# target to generate assembly for a file
-src/apple_conversions.mm.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/apple_conversions.mm.s
-.PHONY : src/apple_conversions.mm.s
 
 src/bitstrm.o: src/bitstrm.cpp.o
 .PHONY : src/bitstrm.o
@@ -521,30 +497,6 @@ src/grfmt_jpeg2000.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s
 .PHONY : src/grfmt_jpeg2000.cpp.s
 
-src/grfmt_jpeg2000_openjpeg.o: src/grfmt_jpeg2000_openjpeg.cpp.o
-.PHONY : src/grfmt_jpeg2000_openjpeg.o
-
-# target to build an object file
-src/grfmt_jpeg2000_openjpeg.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.o
-.PHONY : src/grfmt_jpeg2000_openjpeg.cpp.o
-
-src/grfmt_jpeg2000_openjpeg.i: src/grfmt_jpeg2000_openjpeg.cpp.i
-.PHONY : src/grfmt_jpeg2000_openjpeg.i
-
-# target to preprocess a source file
-src/grfmt_jpeg2000_openjpeg.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.i
-.PHONY : src/grfmt_jpeg2000_openjpeg.cpp.i
-
-src/grfmt_jpeg2000_openjpeg.s: src/grfmt_jpeg2000_openjpeg.cpp.s
-.PHONY : src/grfmt_jpeg2000_openjpeg.s
-
-# target to generate assembly for a file
-src/grfmt_jpeg2000_openjpeg.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.s
-.PHONY : src/grfmt_jpeg2000_openjpeg.cpp.s
-
 src/grfmt_pam.o: src/grfmt_pam.cpp.o
 .PHONY : src/grfmt_pam.o
 
@@ -568,30 +520,6 @@ src/grfmt_pam.s: src/grfmt_pam.cpp.s
 src/grfmt_pam.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s
 .PHONY : src/grfmt_pam.cpp.s
-
-src/grfmt_pfm.o: src/grfmt_pfm.cpp.o
-.PHONY : src/grfmt_pfm.o
-
-# target to build an object file
-src/grfmt_pfm.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.o
-.PHONY : src/grfmt_pfm.cpp.o
-
-src/grfmt_pfm.i: src/grfmt_pfm.cpp.i
-.PHONY : src/grfmt_pfm.i
-
-# target to preprocess a source file
-src/grfmt_pfm.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.i
-.PHONY : src/grfmt_pfm.cpp.i
-
-src/grfmt_pfm.s: src/grfmt_pfm.cpp.s
-.PHONY : src/grfmt_pfm.s
-
-# target to generate assembly for a file
-src/grfmt_pfm.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.s
-.PHONY : src/grfmt_pfm.cpp.s
 
 src/grfmt_png.o: src/grfmt_png.cpp.o
 .PHONY : src/grfmt_png.o
@@ -736,30 +664,6 @@ src/loadsave.s: src/loadsave.cpp.s
 src/loadsave.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s
 .PHONY : src/loadsave.cpp.s
-
-src/macosx_conversions.o: src/macosx_conversions.mm.o
-.PHONY : src/macosx_conversions.o
-
-# target to build an object file
-src/macosx_conversions.mm.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/macosx_conversions.mm.o
-.PHONY : src/macosx_conversions.mm.o
-
-src/macosx_conversions.i: src/macosx_conversions.mm.i
-.PHONY : src/macosx_conversions.i
-
-# target to preprocess a source file
-src/macosx_conversions.mm.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/macosx_conversions.mm.i
-.PHONY : src/macosx_conversions.mm.i
-
-src/macosx_conversions.s: src/macosx_conversions.mm.s
-.PHONY : src/macosx_conversions.s
-
-# target to generate assembly for a file
-src/macosx_conversions.mm.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/macosx_conversions.mm.s
-.PHONY : src/macosx_conversions.mm.s
 
 src/rgbe.o: src/rgbe.cpp.o
 .PHONY : src/rgbe.o
@@ -1022,9 +926,6 @@ help:
 	@echo "... perf/perf_main.o"
 	@echo "... perf/perf_main.i"
 	@echo "... perf/perf_main.s"
-	@echo "... src/apple_conversions.o"
-	@echo "... src/apple_conversions.i"
-	@echo "... src/apple_conversions.s"
 	@echo "... src/bitstrm.o"
 	@echo "... src/bitstrm.i"
 	@echo "... src/bitstrm.s"
@@ -1055,15 +956,9 @@ help:
 	@echo "... src/grfmt_jpeg2000.o"
 	@echo "... src/grfmt_jpeg2000.i"
 	@echo "... src/grfmt_jpeg2000.s"
-	@echo "... src/grfmt_jpeg2000_openjpeg.o"
-	@echo "... src/grfmt_jpeg2000_openjpeg.i"
-	@echo "... src/grfmt_jpeg2000_openjpeg.s"
 	@echo "... src/grfmt_pam.o"
 	@echo "... src/grfmt_pam.i"
 	@echo "... src/grfmt_pam.s"
-	@echo "... src/grfmt_pfm.o"
-	@echo "... src/grfmt_pfm.i"
-	@echo "... src/grfmt_pfm.s"
 	@echo "... src/grfmt_png.o"
 	@echo "... src/grfmt_png.i"
 	@echo "... src/grfmt_png.s"
@@ -1082,9 +977,6 @@ help:
 	@echo "... src/loadsave.o"
 	@echo "... src/loadsave.i"
 	@echo "... src/loadsave.s"
-	@echo "... src/macosx_conversions.o"
-	@echo "... src/macosx_conversions.i"
-	@echo "... src/macosx_conversions.s"
 	@echo "... src/rgbe.o"
 	@echo "... src/rgbe.i"
 	@echo "... src/rgbe.s"

@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -69,355 +69,145 @@ include modules/video/CMakeFiles/opencv_video.dir/progress.make
 # Include the compile flags for this target's objects.
 include modules/video/CMakeFiles/opencv_video.dir/flags.make
 
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl/bgfg_knn.cl
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl/bgfg_mog2.cl
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl/dis_flow.cl
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl/optical_flow_farneback.cl
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl/pyrlk.cl
-modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl/bgfg_knn.cl
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl/bgfg_mog2.cl
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl/optical_flow_farneback.cl
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl/optical_flow_tvl1.cl
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl/pyrlk.cl
+modules/video/opencl_kernels_video.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (video)"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=video -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/video/opencl_kernels_video.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=video -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/video/opencl_kernels_video.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/bgfg_KNN.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/bgfg_KNN.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o -MF CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o.d -o CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_KNN.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o -MF CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o.d -o CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_KNN.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_KNN.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_KNN.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_KNN.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_KNN.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/bgfg_gaussmix2.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/bgfg_gaussmix2.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o -MF CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o.d -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_gaussmix2.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o -MF CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o.d -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_gaussmix2.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_gaussmix2.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_gaussmix2.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_gaussmix2.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_gaussmix2.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/camshift.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/camshift.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o -MF CMakeFiles/opencv_video.dir/src/camshift.cpp.o.d -o CMakeFiles/opencv_video.dir/src/camshift.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/camshift.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o -MF CMakeFiles/opencv_video.dir/src/camshift.cpp.o.d -o CMakeFiles/opencv_video.dir/src/camshift.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/camshift.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/camshift.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/camshift.cpp" > CMakeFiles/opencv_video.dir/src/camshift.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/camshift.cpp" > CMakeFiles/opencv_video.dir/src/camshift.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/camshift.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/camshift.cpp" -o CMakeFiles/opencv_video.dir/src/camshift.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/camshift.cpp" -o CMakeFiles/opencv_video.dir/src/camshift.cpp.s
 
-modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/dis_flow.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o -MF CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o.d -o CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/dis_flow.cpp"
+modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
+modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/compat_video.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o -MF CMakeFiles/opencv_video.dir/src/compat_video.cpp.o.d -o CMakeFiles/opencv_video.dir/src/compat_video.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/compat_video.cpp"
 
-modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/dis_flow.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/dis_flow.cpp" > CMakeFiles/opencv_video.dir/src/dis_flow.cpp.i
+modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/compat_video.cpp.i"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/compat_video.cpp" > CMakeFiles/opencv_video.dir/src/compat_video.cpp.i
 
-modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/dis_flow.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/dis_flow.cpp" -o CMakeFiles/opencv_video.dir/src/dis_flow.cpp.s
+modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/compat_video.cpp.s"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/compat_video.cpp" -o CMakeFiles/opencv_video.dir/src/compat_video.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/ecc.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/ecc.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o -MF CMakeFiles/opencv_video.dir/src/ecc.cpp.o.d -o CMakeFiles/opencv_video.dir/src/ecc.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/ecc.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o -MF CMakeFiles/opencv_video.dir/src/ecc.cpp.o.d -o CMakeFiles/opencv_video.dir/src/ecc.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/ecc.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/ecc.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/ecc.cpp" > CMakeFiles/opencv_video.dir/src/ecc.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/ecc.cpp" > CMakeFiles/opencv_video.dir/src/ecc.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/ecc.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/ecc.cpp" -o CMakeFiles/opencv_video.dir/src/ecc.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/ecc.cpp" -o CMakeFiles/opencv_video.dir/src/ecc.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/kalman.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/kalman.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o -MF CMakeFiles/opencv_video.dir/src/kalman.cpp.o.d -o CMakeFiles/opencv_video.dir/src/kalman.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/kalman.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o -MF CMakeFiles/opencv_video.dir/src/kalman.cpp.o.d -o CMakeFiles/opencv_video.dir/src/kalman.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/kalman.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/kalman.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/kalman.cpp" > CMakeFiles/opencv_video.dir/src/kalman.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/kalman.cpp" > CMakeFiles/opencv_video.dir/src/kalman.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/kalman.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/kalman.cpp" -o CMakeFiles/opencv_video.dir/src/kalman.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/kalman.cpp" -o CMakeFiles/opencv_video.dir/src/kalman.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/lkpyramid.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/lkpyramid.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o -MF CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o.d -o CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/lkpyramid.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o -MF CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o.d -o CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/lkpyramid.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/lkpyramid.cpp" > CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/lkpyramid.cpp" > CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/lkpyramid.cpp" -o CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/lkpyramid.cpp" -o CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/optflowgf.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/optflowgf.cpp
 modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o -MF CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o.d -o CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optflowgf.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o -MF CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o.d -o CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/optflowgf.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowgf.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optflowgf.cpp" > CMakeFiles/opencv_video.dir/src/optflowgf.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/optflowgf.cpp" > CMakeFiles/opencv_video.dir/src/optflowgf.cpp.i
 
 modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowgf.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optflowgf.cpp" -o CMakeFiles/opencv_video.dir/src/optflowgf.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/optflowgf.cpp" -o CMakeFiles/opencv_video.dir/src/optflowgf.cpp.s
 
-modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/optical_flow_io.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o -MF CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o.d -o CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optical_flow_io.cpp"
+modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
+modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/video/src/tvl1flow.cpp
+modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o -MF CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/tvl1flow.cpp"
 
-modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optical_flow_io.cpp" > CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.i
+modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.i"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/tvl1flow.cpp" > CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.i
 
-modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optical_flow_io.cpp" -o CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_feature.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_feature_set.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature_set.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature_set.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature_set.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_model.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_model.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_model.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_model.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_sampler.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_sampler_algorithm.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler_algorithm.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler_algorithm.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler_algorithm.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracking_feature.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_feature.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_feature.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_feature.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp" > CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/tracker.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker.cpp" > CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/tracker_dasiamrpn.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_dasiamrpn.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_dasiamrpn.cpp" > CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_dasiamrpn.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/tracker_goturn.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_goturn.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_goturn.cpp" > CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_goturn.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/tracking/tracker_mil.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o -MF CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o.d -o CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_mil.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_mil.cpp" > CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_mil.cpp" -o CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.s
-
-modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
-modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/video/src/variational_refinement.cpp
-modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o -MF CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o.d -o CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/variational_refinement.cpp"
-
-modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/variational_refinement.cpp" > CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.i
-
-modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/variational_refinement.cpp" -o CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.s
+modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.s"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/tvl1flow.cpp" -o CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.s
 
 modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o: modules/video/CMakeFiles/opencv_video.dir/flags.make
 modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o: modules/video/opencl_kernels_video.cpp
 modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o: modules/video/CMakeFiles/opencv_video.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o -MF CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o.d -o CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video/opencl_kernels_video.cpp"
 
 modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.i: cmake_force
@@ -433,75 +223,41 @@ opencv_video_OBJECTS = \
 "CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/camshift.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o" \
+"CMakeFiles/opencv_video.dir/src/compat_video.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/ecc.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/kalman.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o" \
 "CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o" \
-"CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o" \
+"CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o" \
 "CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o"
 
 # External object files for target opencv_video
 opencv_video_EXTERNAL_OBJECTS =
 
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/build.make
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_dnn.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_calib3d.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: 3rdparty/lib/libippiw.a
-lib/libopencv_video.4.5.3.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_features2d.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_flann.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_imgproc.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: lib/libopencv_core.4.5.3.dylib
-lib/libopencv_video.4.5.3.dylib: modules/video/CMakeFiles/opencv_video.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../../lib/libopencv_video.dylib"
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/compat_video.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/src/tvl1flow.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/build.make
+lib/libopencv_video.3.4.15.dylib: lib/libopencv_imgproc.3.4.15.dylib
+lib/libopencv_video.3.4.15.dylib: 3rdparty/lib/libippiw.a
+lib/libopencv_video.3.4.15.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
+lib/libopencv_video.3.4.15.dylib: lib/libopencv_core.3.4.15.dylib
+lib/libopencv_video.3.4.15.dylib: modules/video/CMakeFiles/opencv_video.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library ../../lib/libopencv_video.dylib"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_video.dir/link.txt --verbose=$(VERBOSE)
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_video.4.5.3.dylib ../../lib/libopencv_video.4.5.dylib ../../lib/libopencv_video.dylib
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_video.3.4.15.dylib ../../lib/libopencv_video.3.4.dylib ../../lib/libopencv_video.dylib
 
-lib/libopencv_video.4.5.dylib: lib/libopencv_video.4.5.3.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_video.4.5.dylib
+lib/libopencv_video.3.4.dylib: lib/libopencv_video.3.4.15.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_video.3.4.dylib
 
-lib/libopencv_video.dylib: lib/libopencv_video.4.5.3.dylib
+lib/libopencv_video.dylib: lib/libopencv_video.3.4.15.dylib
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_video.dylib
 
 # Rule to build all files generated by this target.
@@ -513,6 +269,6 @@ modules/video/CMakeFiles/opencv_video.dir/clean:
 .PHONY : modules/video/CMakeFiles/opencv_video.dir/clean
 
 modules/video/CMakeFiles/opencv_video.dir/depend: modules/video/opencl_kernels_video.cpp
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/video/CMakeFiles/opencv_video.dir/depend
 

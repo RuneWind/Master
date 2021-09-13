@@ -27,7 +27,7 @@ set(CMAKE_INSTALL_PREFIX "/usr/local")
 
 set(OPENCV_PYTHON_INSTALL_PATH "")
 
-set(OpenCV_SOURCE_DIR "/Users/runewind/Documents/GitHub/Master/object detection/opencv")
+set(OpenCV_SOURCE_DIR "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15")
 
 set(OPENCV_FORCE_PYTHON_LIBS "")
 

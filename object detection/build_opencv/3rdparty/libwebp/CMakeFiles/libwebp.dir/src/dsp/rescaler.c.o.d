@@ -1,11 +1,11 @@
 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/rescaler.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/rescaler.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_posix_availability.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/dsp.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/dsp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/inttypes.h \
@@ -61,4 +61,4 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/rescaler_utils.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/rescaler_utils.h

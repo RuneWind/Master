@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libjpeg-turbo
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libjpeg-turbo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libjpeg-turbo-README.md" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libjpeg-turbo/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "libjpeg-turbo-README.md" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libjpeg-turbo/README.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libjpeg-turbo-LICENSE.md" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libjpeg-turbo/LICENSE.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "libjpeg-turbo-LICENSE.md" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libjpeg-turbo/LICENSE.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "libjpeg-turbo-README.ijg" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libjpeg-turbo/README.ijg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "libjpeg-turbo-README.ijg" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libjpeg-turbo/README.ijg")
 endif()
 

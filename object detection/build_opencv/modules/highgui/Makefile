@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -219,30 +219,6 @@ opencv_highgui/fast:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/build
 .PHONY : opencv_highgui/fast
 
-src/backend.o: src/backend.cpp.o
-.PHONY : src/backend.o
-
-# target to build an object file
-src/backend.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/backend.cpp.o
-.PHONY : src/backend.cpp.o
-
-src/backend.i: src/backend.cpp.i
-.PHONY : src/backend.i
-
-# target to preprocess a source file
-src/backend.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/backend.cpp.i
-.PHONY : src/backend.cpp.i
-
-src/backend.s: src/backend.cpp.s
-.PHONY : src/backend.s
-
-# target to generate assembly for a file
-src/backend.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/backend.cpp.s
-.PHONY : src/backend.cpp.s
-
 src/roiSelector.o: src/roiSelector.cpp.o
 .PHONY : src/roiSelector.o
 
@@ -380,9 +356,6 @@ help:
 	@echo "... test"
 	@echo "... opencv_highgui"
 	@echo "... opencv_test_highgui"
-	@echo "... src/backend.o"
-	@echo "... src/backend.i"
-	@echo "... src/backend.s"
 	@echo "... src/roiSelector.o"
 	@echo "... src/roiSelector.i"
 	@echo "... src/roiSelector.s"

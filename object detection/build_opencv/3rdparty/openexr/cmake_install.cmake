@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/openexr
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/openexr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "openexr-LICENSE" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/openexr/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "openexr-LICENSE" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/openexr/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "openexr-AUTHORS.ilmbase" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/openexr/AUTHORS.ilmbase")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "openexr-AUTHORS.ilmbase" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/openexr/AUTHORS.ilmbase")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "openexr-AUTHORS.openexr" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/openexr/AUTHORS.openexr")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "openexr-AUTHORS.openexr" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/openexr/AUTHORS.openexr")
 endif()
 

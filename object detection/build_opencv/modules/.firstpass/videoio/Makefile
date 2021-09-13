@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -120,15 +120,15 @@ test:
 test/fast: test
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.21.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && /usr/local/Cellar/cmake/3.21.2/bin/cpack --config ./CPackSourceConfig.cmake /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
+# Special rule for the target package_source
+package_source/fast: package_source
+.PHONY : package_source/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -140,15 +140,15 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && /usr/local/Cellar/cmake/3.21.2/bin/cpack --config ./CPackSourceConfig.cmake /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/CPackSourceConfig.cmake
-.PHONY : package_source
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.21.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
 
-# Special rule for the target package_source
-package_source/fast: package_source
-.PHONY : package_source/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # Special rule for the target package
 package: preinstall
@@ -191,20 +191,6 @@ depend:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/rule:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/rule
-.PHONY : modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/rule
-
-# Convenience name for target.
-opencv_videoio_plugins: modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/rule
-.PHONY : opencv_videoio_plugins
-
-# fast build rule for target.
-opencv_videoio_plugins/fast:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/build.make modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/build
-.PHONY : opencv_videoio_plugins/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,7 +206,6 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... opencv_videoio_plugins"
 .PHONY : help
 
 

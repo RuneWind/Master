@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o" "gcc" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/ittnotify/src/ittnotify/jitprofiling.c" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o" "gcc" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o" "gcc" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/jitprofiling.c" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o" "gcc" "3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.4.5.3.dylib"
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.4.5.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.3.4.15.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_dnn.3.4.dylib"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_dnn.4.5.3.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_dnn.4.5.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_dnn.3.4.15.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_dnn.3.4.dylib"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -84,46 +84,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/all_layers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/all_layers.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/dict.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dict.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dnn.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/dnn.inl.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/layer.details.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/layer.details.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/layer.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/layer.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/shape_utils.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/shape_utils.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn/utils" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/utils/debug_utils.hpp")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn/utils" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/dnn" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include/opencv2/dnn/version.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/dnn/utils" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp")
 endif()
 

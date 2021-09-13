@@ -1,7 +1,7 @@
 3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/src/version_db.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/include/quirc_internal.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/quirc/include/quirc.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/include/quirc_internal.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/quirc/include/quirc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_int8_t.h \

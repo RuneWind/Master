@@ -1,5 +1,5 @@
 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/bit_writer_utils.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/bit_writer_utils.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -70,13 +70,13 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/bit_writer_utils.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/bit_writer_utils.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/inttypes.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/endian_inl_utils.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/dsp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/endian_inl_utils.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/dsp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread/sched.h \
@@ -97,7 +97,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/utils.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/utils.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/limits.h \

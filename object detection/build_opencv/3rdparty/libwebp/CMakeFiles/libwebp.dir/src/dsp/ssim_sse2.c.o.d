@@ -1,7 +1,7 @@
 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/ssim_sse2.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/ssim_sse2.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/dsp.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/ssim_sse2.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/dsp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/inttypes.h \
@@ -93,4 +93,4 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/common_sse2.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/common_sse2.h

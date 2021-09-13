@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/cuda_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/cuda_test.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ocl_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ocl_test.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_arrtest.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_func.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_gtest.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/src/ts_tags.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/cuda_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/cuda_test.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ocl_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ocl_test.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_arrtest.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_func.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_gtest.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_perf.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/src/ts_tags.cpp" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o" "gcc" "modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o.d"
   )
 
 # Targets to which this target links.

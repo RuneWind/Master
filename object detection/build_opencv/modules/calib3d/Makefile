@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -449,6 +449,30 @@ src/ap3p.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.s
 .PHONY : src/ap3p.cpp.s
 
+src/calib3d_c_api.o: src/calib3d_c_api.cpp.o
+.PHONY : src/calib3d_c_api.o
+
+# target to build an object file
+src/calib3d_c_api.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calib3d_c_api.cpp.o
+.PHONY : src/calib3d_c_api.cpp.o
+
+src/calib3d_c_api.i: src/calib3d_c_api.cpp.i
+.PHONY : src/calib3d_c_api.i
+
+# target to preprocess a source file
+src/calib3d_c_api.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calib3d_c_api.cpp.i
+.PHONY : src/calib3d_c_api.cpp.i
+
+src/calib3d_c_api.s: src/calib3d_c_api.cpp.s
+.PHONY : src/calib3d_c_api.s
+
+# target to generate assembly for a file
+src/calib3d_c_api.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calib3d_c_api.cpp.s
+.PHONY : src/calib3d_c_api.cpp.s
+
 src/calibinit.o: src/calibinit.cpp.o
 .PHONY : src/calibinit.o
 
@@ -545,30 +569,6 @@ src/checkchessboard.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.s
 .PHONY : src/checkchessboard.cpp.s
 
-src/chessboard.o: src/chessboard.cpp.o
-.PHONY : src/chessboard.o
-
-# target to build an object file
-src/chessboard.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.o
-.PHONY : src/chessboard.cpp.o
-
-src/chessboard.i: src/chessboard.cpp.i
-.PHONY : src/chessboard.i
-
-# target to preprocess a source file
-src/chessboard.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.i
-.PHONY : src/chessboard.cpp.i
-
-src/chessboard.s: src/chessboard.cpp.s
-.PHONY : src/chessboard.s
-
-# target to generate assembly for a file
-src/chessboard.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.s
-.PHONY : src/chessboard.cpp.s
-
 src/circlesgrid.o: src/circlesgrid.cpp.o
 .PHONY : src/circlesgrid.o
 
@@ -616,6 +616,30 @@ src/compat_ptsetreg.s: src/compat_ptsetreg.cpp.s
 src/compat_ptsetreg.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.s
 .PHONY : src/compat_ptsetreg.cpp.s
+
+src/compat_stereo.o: src/compat_stereo.cpp.o
+.PHONY : src/compat_stereo.o
+
+# target to build an object file
+src/compat_stereo.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.o
+.PHONY : src/compat_stereo.cpp.o
+
+src/compat_stereo.i: src/compat_stereo.cpp.i
+.PHONY : src/compat_stereo.i
+
+# target to preprocess a source file
+src/compat_stereo.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.i
+.PHONY : src/compat_stereo.cpp.i
+
+src/compat_stereo.s: src/compat_stereo.cpp.s
+.PHONY : src/compat_stereo.s
+
+# target to generate assembly for a file
+src/compat_stereo.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.s
+.PHONY : src/compat_stereo.cpp.s
 
 src/dls.o: src/dls.cpp.o
 .PHONY : src/dls.o
@@ -1097,30 +1121,6 @@ src/triangulate.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.s
 .PHONY : src/triangulate.cpp.s
 
-src/undistort.dispatch.o: src/undistort.dispatch.cpp.o
-.PHONY : src/undistort.dispatch.o
-
-# target to build an object file
-src/undistort.dispatch.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.o
-.PHONY : src/undistort.dispatch.cpp.o
-
-src/undistort.dispatch.i: src/undistort.dispatch.cpp.i
-.PHONY : src/undistort.dispatch.i
-
-# target to preprocess a source file
-src/undistort.dispatch.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.i
-.PHONY : src/undistort.dispatch.cpp.i
-
-src/undistort.dispatch.s: src/undistort.dispatch.cpp.s
-.PHONY : src/undistort.dispatch.s
-
-# target to generate assembly for a file
-src/undistort.dispatch.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.s
-.PHONY : src/undistort.dispatch.cpp.s
-
 src/upnp.o: src/upnp.cpp.o
 .PHONY : src/upnp.o
 
@@ -1144,342 +1144,6 @@ src/upnp.s: src/upnp.cpp.s
 src/upnp.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.s
 .PHONY : src/upnp.cpp.s
-
-src/usac/degeneracy.o: src/usac/degeneracy.cpp.o
-.PHONY : src/usac/degeneracy.o
-
-# target to build an object file
-src/usac/degeneracy.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/degeneracy.cpp.o
-.PHONY : src/usac/degeneracy.cpp.o
-
-src/usac/degeneracy.i: src/usac/degeneracy.cpp.i
-.PHONY : src/usac/degeneracy.i
-
-# target to preprocess a source file
-src/usac/degeneracy.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/degeneracy.cpp.i
-.PHONY : src/usac/degeneracy.cpp.i
-
-src/usac/degeneracy.s: src/usac/degeneracy.cpp.s
-.PHONY : src/usac/degeneracy.s
-
-# target to generate assembly for a file
-src/usac/degeneracy.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/degeneracy.cpp.s
-.PHONY : src/usac/degeneracy.cpp.s
-
-src/usac/dls_solver.o: src/usac/dls_solver.cpp.o
-.PHONY : src/usac/dls_solver.o
-
-# target to build an object file
-src/usac/dls_solver.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/dls_solver.cpp.o
-.PHONY : src/usac/dls_solver.cpp.o
-
-src/usac/dls_solver.i: src/usac/dls_solver.cpp.i
-.PHONY : src/usac/dls_solver.i
-
-# target to preprocess a source file
-src/usac/dls_solver.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/dls_solver.cpp.i
-.PHONY : src/usac/dls_solver.cpp.i
-
-src/usac/dls_solver.s: src/usac/dls_solver.cpp.s
-.PHONY : src/usac/dls_solver.s
-
-# target to generate assembly for a file
-src/usac/dls_solver.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/dls_solver.cpp.s
-.PHONY : src/usac/dls_solver.cpp.s
-
-src/usac/essential_solver.o: src/usac/essential_solver.cpp.o
-.PHONY : src/usac/essential_solver.o
-
-# target to build an object file
-src/usac/essential_solver.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/essential_solver.cpp.o
-.PHONY : src/usac/essential_solver.cpp.o
-
-src/usac/essential_solver.i: src/usac/essential_solver.cpp.i
-.PHONY : src/usac/essential_solver.i
-
-# target to preprocess a source file
-src/usac/essential_solver.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/essential_solver.cpp.i
-.PHONY : src/usac/essential_solver.cpp.i
-
-src/usac/essential_solver.s: src/usac/essential_solver.cpp.s
-.PHONY : src/usac/essential_solver.s
-
-# target to generate assembly for a file
-src/usac/essential_solver.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/essential_solver.cpp.s
-.PHONY : src/usac/essential_solver.cpp.s
-
-src/usac/estimator.o: src/usac/estimator.cpp.o
-.PHONY : src/usac/estimator.o
-
-# target to build an object file
-src/usac/estimator.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.o
-.PHONY : src/usac/estimator.cpp.o
-
-src/usac/estimator.i: src/usac/estimator.cpp.i
-.PHONY : src/usac/estimator.i
-
-# target to preprocess a source file
-src/usac/estimator.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.i
-.PHONY : src/usac/estimator.cpp.i
-
-src/usac/estimator.s: src/usac/estimator.cpp.s
-.PHONY : src/usac/estimator.s
-
-# target to generate assembly for a file
-src/usac/estimator.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.s
-.PHONY : src/usac/estimator.cpp.s
-
-src/usac/fundamental_solver.o: src/usac/fundamental_solver.cpp.o
-.PHONY : src/usac/fundamental_solver.o
-
-# target to build an object file
-src/usac/fundamental_solver.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.o
-.PHONY : src/usac/fundamental_solver.cpp.o
-
-src/usac/fundamental_solver.i: src/usac/fundamental_solver.cpp.i
-.PHONY : src/usac/fundamental_solver.i
-
-# target to preprocess a source file
-src/usac/fundamental_solver.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.i
-.PHONY : src/usac/fundamental_solver.cpp.i
-
-src/usac/fundamental_solver.s: src/usac/fundamental_solver.cpp.s
-.PHONY : src/usac/fundamental_solver.s
-
-# target to generate assembly for a file
-src/usac/fundamental_solver.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.s
-.PHONY : src/usac/fundamental_solver.cpp.s
-
-src/usac/gamma_values.o: src/usac/gamma_values.cpp.o
-.PHONY : src/usac/gamma_values.o
-
-# target to build an object file
-src/usac/gamma_values.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.o
-.PHONY : src/usac/gamma_values.cpp.o
-
-src/usac/gamma_values.i: src/usac/gamma_values.cpp.i
-.PHONY : src/usac/gamma_values.i
-
-# target to preprocess a source file
-src/usac/gamma_values.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.i
-.PHONY : src/usac/gamma_values.cpp.i
-
-src/usac/gamma_values.s: src/usac/gamma_values.cpp.s
-.PHONY : src/usac/gamma_values.s
-
-# target to generate assembly for a file
-src/usac/gamma_values.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.s
-.PHONY : src/usac/gamma_values.cpp.s
-
-src/usac/homography_solver.o: src/usac/homography_solver.cpp.o
-.PHONY : src/usac/homography_solver.o
-
-# target to build an object file
-src/usac/homography_solver.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.o
-.PHONY : src/usac/homography_solver.cpp.o
-
-src/usac/homography_solver.i: src/usac/homography_solver.cpp.i
-.PHONY : src/usac/homography_solver.i
-
-# target to preprocess a source file
-src/usac/homography_solver.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.i
-.PHONY : src/usac/homography_solver.cpp.i
-
-src/usac/homography_solver.s: src/usac/homography_solver.cpp.s
-.PHONY : src/usac/homography_solver.s
-
-# target to generate assembly for a file
-src/usac/homography_solver.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.s
-.PHONY : src/usac/homography_solver.cpp.s
-
-src/usac/local_optimization.o: src/usac/local_optimization.cpp.o
-.PHONY : src/usac/local_optimization.o
-
-# target to build an object file
-src/usac/local_optimization.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.o
-.PHONY : src/usac/local_optimization.cpp.o
-
-src/usac/local_optimization.i: src/usac/local_optimization.cpp.i
-.PHONY : src/usac/local_optimization.i
-
-# target to preprocess a source file
-src/usac/local_optimization.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.i
-.PHONY : src/usac/local_optimization.cpp.i
-
-src/usac/local_optimization.s: src/usac/local_optimization.cpp.s
-.PHONY : src/usac/local_optimization.s
-
-# target to generate assembly for a file
-src/usac/local_optimization.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.s
-.PHONY : src/usac/local_optimization.cpp.s
-
-src/usac/pnp_solver.o: src/usac/pnp_solver.cpp.o
-.PHONY : src/usac/pnp_solver.o
-
-# target to build an object file
-src/usac/pnp_solver.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.o
-.PHONY : src/usac/pnp_solver.cpp.o
-
-src/usac/pnp_solver.i: src/usac/pnp_solver.cpp.i
-.PHONY : src/usac/pnp_solver.i
-
-# target to preprocess a source file
-src/usac/pnp_solver.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.i
-.PHONY : src/usac/pnp_solver.cpp.i
-
-src/usac/pnp_solver.s: src/usac/pnp_solver.cpp.s
-.PHONY : src/usac/pnp_solver.s
-
-# target to generate assembly for a file
-src/usac/pnp_solver.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.s
-.PHONY : src/usac/pnp_solver.cpp.s
-
-src/usac/quality.o: src/usac/quality.cpp.o
-.PHONY : src/usac/quality.o
-
-# target to build an object file
-src/usac/quality.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.o
-.PHONY : src/usac/quality.cpp.o
-
-src/usac/quality.i: src/usac/quality.cpp.i
-.PHONY : src/usac/quality.i
-
-# target to preprocess a source file
-src/usac/quality.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.i
-.PHONY : src/usac/quality.cpp.i
-
-src/usac/quality.s: src/usac/quality.cpp.s
-.PHONY : src/usac/quality.s
-
-# target to generate assembly for a file
-src/usac/quality.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.s
-.PHONY : src/usac/quality.cpp.s
-
-src/usac/ransac_solvers.o: src/usac/ransac_solvers.cpp.o
-.PHONY : src/usac/ransac_solvers.o
-
-# target to build an object file
-src/usac/ransac_solvers.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.o
-.PHONY : src/usac/ransac_solvers.cpp.o
-
-src/usac/ransac_solvers.i: src/usac/ransac_solvers.cpp.i
-.PHONY : src/usac/ransac_solvers.i
-
-# target to preprocess a source file
-src/usac/ransac_solvers.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.i
-.PHONY : src/usac/ransac_solvers.cpp.i
-
-src/usac/ransac_solvers.s: src/usac/ransac_solvers.cpp.s
-.PHONY : src/usac/ransac_solvers.s
-
-# target to generate assembly for a file
-src/usac/ransac_solvers.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.s
-.PHONY : src/usac/ransac_solvers.cpp.s
-
-src/usac/sampler.o: src/usac/sampler.cpp.o
-.PHONY : src/usac/sampler.o
-
-# target to build an object file
-src/usac/sampler.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.o
-.PHONY : src/usac/sampler.cpp.o
-
-src/usac/sampler.i: src/usac/sampler.cpp.i
-.PHONY : src/usac/sampler.i
-
-# target to preprocess a source file
-src/usac/sampler.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.i
-.PHONY : src/usac/sampler.cpp.i
-
-src/usac/sampler.s: src/usac/sampler.cpp.s
-.PHONY : src/usac/sampler.s
-
-# target to generate assembly for a file
-src/usac/sampler.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.s
-.PHONY : src/usac/sampler.cpp.s
-
-src/usac/termination.o: src/usac/termination.cpp.o
-.PHONY : src/usac/termination.o
-
-# target to build an object file
-src/usac/termination.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.o
-.PHONY : src/usac/termination.cpp.o
-
-src/usac/termination.i: src/usac/termination.cpp.i
-.PHONY : src/usac/termination.i
-
-# target to preprocess a source file
-src/usac/termination.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.i
-.PHONY : src/usac/termination.cpp.i
-
-src/usac/termination.s: src/usac/termination.cpp.s
-.PHONY : src/usac/termination.s
-
-# target to generate assembly for a file
-src/usac/termination.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.s
-.PHONY : src/usac/termination.cpp.s
-
-src/usac/utils.o: src/usac/utils.cpp.o
-.PHONY : src/usac/utils.o
-
-# target to build an object file
-src/usac/utils.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o
-.PHONY : src/usac/utils.cpp.o
-
-src/usac/utils.i: src/usac/utils.cpp.i
-.PHONY : src/usac/utils.i
-
-# target to preprocess a source file
-src/usac/utils.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.i
-.PHONY : src/usac/utils.cpp.i
-
-src/usac/utils.s: src/usac/utils.cpp.s
-.PHONY : src/usac/utils.s
-
-# target to generate assembly for a file
-src/usac/utils.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.s
-.PHONY : src/usac/utils.cpp.s
 
 test/opencl/test_stereobm.o: test/opencl/test_stereobm.cpp.o
 .PHONY : test/opencl/test_stereobm.o
@@ -2153,30 +1817,6 @@ test/test_stereomatching.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.s
 .PHONY : test/test_stereomatching.cpp.s
 
-test/test_translation3d_estimator.o: test/test_translation3d_estimator.cpp.o
-.PHONY : test/test_translation3d_estimator.o
-
-# target to build an object file
-test/test_translation3d_estimator.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.o
-.PHONY : test/test_translation3d_estimator.cpp.o
-
-test/test_translation3d_estimator.i: test/test_translation3d_estimator.cpp.i
-.PHONY : test/test_translation3d_estimator.i
-
-# target to preprocess a source file
-test/test_translation3d_estimator.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.i
-.PHONY : test/test_translation3d_estimator.cpp.i
-
-test/test_translation3d_estimator.s: test/test_translation3d_estimator.cpp.s
-.PHONY : test/test_translation3d_estimator.s
-
-# target to generate assembly for a file
-test/test_translation3d_estimator.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.s
-.PHONY : test/test_translation3d_estimator.cpp.s
-
 test/test_undistort.o: test/test_undistort.cpp.o
 .PHONY : test/test_undistort.o
 
@@ -2249,54 +1889,6 @@ test/test_undistort_points.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.s
 .PHONY : test/test_undistort_points.cpp.s
 
-test/test_usac.o: test/test_usac.cpp.o
-.PHONY : test/test_usac.o
-
-# target to build an object file
-test/test_usac.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.o
-.PHONY : test/test_usac.cpp.o
-
-test/test_usac.i: test/test_usac.cpp.i
-.PHONY : test/test_usac.i
-
-# target to preprocess a source file
-test/test_usac.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.i
-.PHONY : test/test_usac.cpp.i
-
-test/test_usac.s: test/test_usac.cpp.s
-.PHONY : test/test_usac.s
-
-# target to generate assembly for a file
-test/test_usac.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.s
-.PHONY : test/test_usac.cpp.s
-
-undistort.avx2.o: undistort.avx2.cpp.o
-.PHONY : undistort.avx2.o
-
-# target to build an object file
-undistort.avx2.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o
-.PHONY : undistort.avx2.cpp.o
-
-undistort.avx2.i: undistort.avx2.cpp.i
-.PHONY : undistort.avx2.i
-
-# target to preprocess a source file
-undistort.avx2.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.i
-.PHONY : undistort.avx2.cpp.i
-
-undistort.avx2.s: undistort.avx2.cpp.s
-.PHONY : undistort.avx2.s
-
-# target to generate assembly for a file
-undistort.avx2.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.s
-.PHONY : undistort.avx2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2342,6 +1934,9 @@ help:
 	@echo "... src/ap3p.o"
 	@echo "... src/ap3p.i"
 	@echo "... src/ap3p.s"
+	@echo "... src/calib3d_c_api.o"
+	@echo "... src/calib3d_c_api.i"
+	@echo "... src/calib3d_c_api.s"
 	@echo "... src/calibinit.o"
 	@echo "... src/calibinit.i"
 	@echo "... src/calibinit.s"
@@ -2354,15 +1949,15 @@ help:
 	@echo "... src/checkchessboard.o"
 	@echo "... src/checkchessboard.i"
 	@echo "... src/checkchessboard.s"
-	@echo "... src/chessboard.o"
-	@echo "... src/chessboard.i"
-	@echo "... src/chessboard.s"
 	@echo "... src/circlesgrid.o"
 	@echo "... src/circlesgrid.i"
 	@echo "... src/circlesgrid.s"
 	@echo "... src/compat_ptsetreg.o"
 	@echo "... src/compat_ptsetreg.i"
 	@echo "... src/compat_ptsetreg.s"
+	@echo "... src/compat_stereo.o"
+	@echo "... src/compat_stereo.i"
+	@echo "... src/compat_stereo.s"
 	@echo "... src/dls.o"
 	@echo "... src/dls.i"
 	@echo "... src/dls.s"
@@ -2423,54 +2018,9 @@ help:
 	@echo "... src/triangulate.o"
 	@echo "... src/triangulate.i"
 	@echo "... src/triangulate.s"
-	@echo "... src/undistort.dispatch.o"
-	@echo "... src/undistort.dispatch.i"
-	@echo "... src/undistort.dispatch.s"
 	@echo "... src/upnp.o"
 	@echo "... src/upnp.i"
 	@echo "... src/upnp.s"
-	@echo "... src/usac/degeneracy.o"
-	@echo "... src/usac/degeneracy.i"
-	@echo "... src/usac/degeneracy.s"
-	@echo "... src/usac/dls_solver.o"
-	@echo "... src/usac/dls_solver.i"
-	@echo "... src/usac/dls_solver.s"
-	@echo "... src/usac/essential_solver.o"
-	@echo "... src/usac/essential_solver.i"
-	@echo "... src/usac/essential_solver.s"
-	@echo "... src/usac/estimator.o"
-	@echo "... src/usac/estimator.i"
-	@echo "... src/usac/estimator.s"
-	@echo "... src/usac/fundamental_solver.o"
-	@echo "... src/usac/fundamental_solver.i"
-	@echo "... src/usac/fundamental_solver.s"
-	@echo "... src/usac/gamma_values.o"
-	@echo "... src/usac/gamma_values.i"
-	@echo "... src/usac/gamma_values.s"
-	@echo "... src/usac/homography_solver.o"
-	@echo "... src/usac/homography_solver.i"
-	@echo "... src/usac/homography_solver.s"
-	@echo "... src/usac/local_optimization.o"
-	@echo "... src/usac/local_optimization.i"
-	@echo "... src/usac/local_optimization.s"
-	@echo "... src/usac/pnp_solver.o"
-	@echo "... src/usac/pnp_solver.i"
-	@echo "... src/usac/pnp_solver.s"
-	@echo "... src/usac/quality.o"
-	@echo "... src/usac/quality.i"
-	@echo "... src/usac/quality.s"
-	@echo "... src/usac/ransac_solvers.o"
-	@echo "... src/usac/ransac_solvers.i"
-	@echo "... src/usac/ransac_solvers.s"
-	@echo "... src/usac/sampler.o"
-	@echo "... src/usac/sampler.i"
-	@echo "... src/usac/sampler.s"
-	@echo "... src/usac/termination.o"
-	@echo "... src/usac/termination.i"
-	@echo "... src/usac/termination.s"
-	@echo "... src/usac/utils.o"
-	@echo "... src/usac/utils.i"
-	@echo "... src/usac/utils.s"
 	@echo "... test/opencl/test_stereobm.o"
 	@echo "... test/opencl/test_stereobm.i"
 	@echo "... test/opencl/test_stereobm.s"
@@ -2555,9 +2105,6 @@ help:
 	@echo "... test/test_stereomatching.o"
 	@echo "... test/test_stereomatching.i"
 	@echo "... test/test_stereomatching.s"
-	@echo "... test/test_translation3d_estimator.o"
-	@echo "... test/test_translation3d_estimator.i"
-	@echo "... test/test_translation3d_estimator.s"
 	@echo "... test/test_undistort.o"
 	@echo "... test/test_undistort.i"
 	@echo "... test/test_undistort.s"
@@ -2567,12 +2114,6 @@ help:
 	@echo "... test/test_undistort_points.o"
 	@echo "... test/test_undistort_points.i"
 	@echo "... test/test_undistort_points.s"
-	@echo "... test/test_usac.o"
-	@echo "... test/test_usac.i"
-	@echo "... test/test_usac.s"
-	@echo "... undistort.avx2.o"
-	@echo "... undistort.avx2.i"
-	@echo "... undistort.avx2.s"
 .PHONY : help
 
 

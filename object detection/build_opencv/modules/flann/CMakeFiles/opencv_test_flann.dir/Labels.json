@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/flann/test/test_lshtable_badarg.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/flann/test/test_lshtable_badarg.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/flann/test/test_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/flann/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/flann/test/test_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/flann/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_accumulate.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_accumulate.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_blend.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_blend.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_boxfilter.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_boxfilter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_canny.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_canny.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_color.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_color.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_filter2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_filter2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_filters.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_filters.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_gftt.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_gftt.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_histogram.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_histogram.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_houghlines.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_houghlines.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_imgproc.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_imgproc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_match_template.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_match_template.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_medianfilter.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_medianfilter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_pyramids.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_pyramids.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_sepfilter2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_sepfilter2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/ocl/test_warp.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/ocl/test_warp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_approxpoly.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_approxpoly.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_bilateral_filter.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_bilateral_filter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_boundingrect.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_boundingrect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_canny.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_canny.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_color.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_color.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -191,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_connectedcomponents.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_connectedcomponents.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_contours.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_contours.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_convhull.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_convhull.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_cvtyuv.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_cvtyuv.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -227,7 +227,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_distancetransform.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_distancetransform.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_drawing.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_drawing.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_emd.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_emd.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_filter.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_filter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -263,7 +263,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_fitellipse.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_fitellipse.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_fitellipse_ams.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_fitellipse_ams.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -281,7 +281,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_fitellipse_direct.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_fitellipse_direct.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -290,7 +290,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_floodfill.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_floodfill.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -299,7 +299,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_goodfeaturetotrack.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_goodfeaturetotrack.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_grabcut.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_grabcut.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -317,7 +317,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_histograms.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_histograms.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -326,7 +326,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_houghcircles.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_houghcircles.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -335,7 +335,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_houghlines.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_houghlines.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -344,7 +344,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_imgproc_umat.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_imgproc_umat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -353,7 +353,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_imgwarp.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_imgwarp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -362,7 +362,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_imgwarp_strict.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_imgwarp_strict.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -371,7 +371,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_intelligent_scissors.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_intersectconvexconvex.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_intersectconvexconvex.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_intersection.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -389,7 +389,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_intersection.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_lsd.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -398,7 +398,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_lsd.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -407,7 +407,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_moments.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -416,7 +416,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_moments.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_pc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -425,7 +425,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_pc.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_resize_bitexact.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -434,7 +434,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_resize_bitexact.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_smooth_bitexact.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -443,7 +443,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_smooth_bitexact.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_subdivision2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -452,7 +452,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_subdivision2d.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_templmatch.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -461,7 +461,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_templmatch.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_thresh.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -470,7 +470,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_templmatchmask.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_watershed.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -479,25 +479,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_thresh.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_imgproc",
-				"AccuracyTest"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_watershed.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_imgproc",
-				"AccuracyTest"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/test/test_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

@@ -1,4 +1,4 @@
-#define CV_CPU_SIMD_FILENAME "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/test/test_intrin128.simd.hpp"
+#define CV_CPU_SIMD_FILENAME "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/test/test_intrin128.simd.hpp"
 #define CV_CPU_DISPATCH_MODE SSE2
 #include "opencv2/core/private/cv_cpu_include_simd_declarations.hpp"
 

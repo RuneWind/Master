@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/.firstpass/photo
 # 
 # This file includes the relevant testing commands required for 

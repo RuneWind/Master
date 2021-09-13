@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../lib/libopencv_ml.4.5.3.dylib"
-  "../../lib/libopencv_ml.4.5.dylib"
+  "../../lib/libopencv_ml.3.4.15.dylib"
+  "../../lib/libopencv_ml.3.4.dylib"
   "../../lib/libopencv_ml.dylib"
   "../../lib/libopencv_ml.pdb"
   "CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o"

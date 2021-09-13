@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/test/test_gui.cpp" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o" "gcc" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/test/test_main.cpp" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o" "gcc" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/test/test_gui.cpp" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o" "gcc" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/test/test_main.cpp" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o" "gcc" "modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o.d"
   )
 
 # Targets to which this target links.

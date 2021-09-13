@@ -1,7 +1,7 @@
 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/upsampling.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/dsp.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/upsampling.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/dsp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/inttypes.h \
@@ -60,8 +60,8 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/yuv.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dec/vp8_dec.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/decode.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/./types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/yuv.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dec/vp8_dec.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/decode.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/./types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h

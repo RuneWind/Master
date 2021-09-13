@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -76,18 +76,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/local/Cellar/cmake/3.21.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.21.2/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.21.2/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -127,6 +115,18 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/Cellar/cmake/3.21.2/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/Cellar/cmake/3.21.2/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -192,32 +192,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencv_highgui_plugins
-
-# Build rule for target.
-opencv_highgui_plugins: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_highgui_plugins
-.PHONY : opencv_highgui_plugins
-
-# fast build rule for target.
-opencv_highgui_plugins/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv_highgui_plugins.dir/build.make CMakeFiles/opencv_highgui_plugins.dir/build
-.PHONY : opencv_highgui_plugins/fast
-
-#=============================================================================
-# Target rules for targets named ade
-
-# Build rule for target.
-ade: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ade
-.PHONY : ade
-
-# fast build rule for target.
-ade/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/build
-.PHONY : ade/fast
-
-#=============================================================================
 # Target rules for targets named opencv_perf_tests
 
 # Build rule for target.
@@ -229,6 +203,32 @@ opencv_perf_tests: cmake_check_build_system
 opencv_perf_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv_perf_tests.dir/build.make CMakeFiles/opencv_perf_tests.dir/build
 .PHONY : opencv_perf_tests/fast
+
+#=============================================================================
+# Target rules for targets named gen-pkgconfig
+
+# Build rule for target.
+gen-pkgconfig: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen-pkgconfig
+.PHONY : gen-pkgconfig
+
+# fast build rule for target.
+gen-pkgconfig/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen-pkgconfig.dir/build.make CMakeFiles/gen-pkgconfig.dir/build
+.PHONY : gen-pkgconfig/fast
+
+#=============================================================================
+# Target rules for targets named developer_scripts
+
+# Build rule for target.
+developer_scripts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 developer_scripts
+.PHONY : developer_scripts
+
+# fast build rule for target.
+developer_scripts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/developer_scripts.dir/build.make CMakeFiles/developer_scripts.dir/build
+.PHONY : developer_scripts/fast
 
 #=============================================================================
 # Target rules for targets named opencv_modules
@@ -322,17 +322,17 @@ libwebp/fast:
 .PHONY : libwebp/fast
 
 #=============================================================================
-# Target rules for targets named libopenjp2
+# Target rules for targets named libjasper
 
 # Build rule for target.
-libopenjp2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libopenjp2
-.PHONY : libopenjp2
+libjasper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libjasper
+.PHONY : libjasper
 
 # fast build rule for target.
-libopenjp2/fast:
-	$(MAKE) $(MAKESILENT) -f 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/build.make 3rdparty/openjpeg/openjp2/CMakeFiles/libopenjp2.dir/build
-.PHONY : libopenjp2/fast
+libjasper/fast:
+	$(MAKE) $(MAKESILENT) -f 3rdparty/libjasper/CMakeFiles/libjasper.dir/build.make 3rdparty/libjasper/CMakeFiles/libjasper.dir/build
+.PHONY : libjasper/fast
 
 #=============================================================================
 # Target rules for targets named libpng
@@ -411,19 +411,6 @@ ittnotify: cmake_check_build_system
 ittnotify/fast:
 	$(MAKE) $(MAKESILENT) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build
 .PHONY : ittnotify/fast
-
-#=============================================================================
-# Target rules for targets named opencv_videoio_plugins
-
-# Build rule for target.
-opencv_videoio_plugins: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_videoio_plugins
-.PHONY : opencv_videoio_plugins
-
-# fast build rule for target.
-opencv_videoio_plugins/fast:
-	$(MAKE) $(MAKESILENT) -f modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/build.make modules/.firstpass/videoio/CMakeFiles/opencv_videoio_plugins.dir/build
-.PHONY : opencv_videoio_plugins/fast
 
 #=============================================================================
 # Target rules for targets named opencv_perf_core
@@ -595,6 +582,45 @@ opencv_photo/fast:
 .PHONY : opencv_photo/fast
 
 #=============================================================================
+# Target rules for targets named opencv_perf_video
+
+# Build rule for target.
+opencv_perf_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_perf_video
+.PHONY : opencv_perf_video
+
+# fast build rule for target.
+opencv_perf_video/fast:
+	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/build
+.PHONY : opencv_perf_video/fast
+
+#=============================================================================
+# Target rules for targets named opencv_test_video
+
+# Build rule for target.
+opencv_test_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_video
+.PHONY : opencv_test_video
+
+# fast build rule for target.
+opencv_test_video/fast:
+	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/build
+.PHONY : opencv_test_video/fast
+
+#=============================================================================
+# Target rules for targets named opencv_video
+
+# Build rule for target.
+opencv_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_video
+.PHONY : opencv_video
+
+# fast build rule for target.
+opencv_video/fast:
+	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/build
+.PHONY : opencv_video/fast
+
+#=============================================================================
 # Target rules for targets named opencv_perf_dnn
 
 # Build rule for target.
@@ -710,6 +736,32 @@ opencv_test_imgcodecs: cmake_check_build_system
 opencv_test_imgcodecs/fast:
 	$(MAKE) $(MAKESILENT) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build
 .PHONY : opencv_test_imgcodecs/fast
+
+#=============================================================================
+# Target rules for targets named opencv_shape
+
+# Build rule for target.
+opencv_shape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_shape
+.PHONY : opencv_shape
+
+# fast build rule for target.
+opencv_shape/fast:
+	$(MAKE) $(MAKESILENT) -f modules/shape/CMakeFiles/opencv_shape.dir/build.make modules/shape/CMakeFiles/opencv_shape.dir/build
+.PHONY : opencv_shape/fast
+
+#=============================================================================
+# Target rules for targets named opencv_test_shape
+
+# Build rule for target.
+opencv_test_shape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_shape
+.PHONY : opencv_test_shape
+
+# fast build rule for target.
+opencv_test_shape/fast:
+	$(MAKE) $(MAKESILENT) -f modules/shape/CMakeFiles/opencv_test_shape.dir/build.make modules/shape/CMakeFiles/opencv_test_shape.dir/build
+.PHONY : opencv_test_shape/fast
 
 #=============================================================================
 # Target rules for targets named opencv_perf_videoio
@@ -894,6 +946,45 @@ opencv_stitching/fast:
 .PHONY : opencv_stitching/fast
 
 #=============================================================================
+# Target rules for targets named opencv_perf_superres
+
+# Build rule for target.
+opencv_perf_superres: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_perf_superres
+.PHONY : opencv_perf_superres
+
+# fast build rule for target.
+opencv_perf_superres/fast:
+	$(MAKE) $(MAKESILENT) -f modules/superres/CMakeFiles/opencv_perf_superres.dir/build.make modules/superres/CMakeFiles/opencv_perf_superres.dir/build
+.PHONY : opencv_perf_superres/fast
+
+#=============================================================================
+# Target rules for targets named opencv_test_superres
+
+# Build rule for target.
+opencv_test_superres: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_superres
+.PHONY : opencv_test_superres
+
+# fast build rule for target.
+opencv_test_superres/fast:
+	$(MAKE) $(MAKESILENT) -f modules/superres/CMakeFiles/opencv_test_superres.dir/build.make modules/superres/CMakeFiles/opencv_test_superres.dir/build
+.PHONY : opencv_test_superres/fast
+
+#=============================================================================
+# Target rules for targets named opencv_superres
+
+# Build rule for target.
+opencv_superres: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_superres
+.PHONY : opencv_superres
+
+# fast build rule for target.
+opencv_superres/fast:
+	$(MAKE) $(MAKESILENT) -f modules/superres/CMakeFiles/opencv_superres.dir/build.make modules/superres/CMakeFiles/opencv_superres.dir/build
+.PHONY : opencv_superres/fast
+
+#=============================================================================
 # Target rules for targets named opencv_ts
 
 # Build rule for target.
@@ -907,82 +998,30 @@ opencv_ts/fast:
 .PHONY : opencv_ts/fast
 
 #=============================================================================
-# Target rules for targets named opencv_perf_video
+# Target rules for targets named opencv_test_videostab
 
 # Build rule for target.
-opencv_perf_video: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_perf_video
-.PHONY : opencv_perf_video
+opencv_test_videostab: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_videostab
+.PHONY : opencv_test_videostab
 
 # fast build rule for target.
-opencv_perf_video/fast:
-	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_perf_video.dir/build.make modules/video/CMakeFiles/opencv_perf_video.dir/build
-.PHONY : opencv_perf_video/fast
+opencv_test_videostab/fast:
+	$(MAKE) $(MAKESILENT) -f modules/videostab/CMakeFiles/opencv_test_videostab.dir/build.make modules/videostab/CMakeFiles/opencv_test_videostab.dir/build
+.PHONY : opencv_test_videostab/fast
 
 #=============================================================================
-# Target rules for targets named opencv_test_video
+# Target rules for targets named opencv_videostab
 
 # Build rule for target.
-opencv_test_video: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_video
-.PHONY : opencv_test_video
+opencv_videostab: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_videostab
+.PHONY : opencv_videostab
 
 # fast build rule for target.
-opencv_test_video/fast:
-	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_test_video.dir/build.make modules/video/CMakeFiles/opencv_test_video.dir/build
-.PHONY : opencv_test_video/fast
-
-#=============================================================================
-# Target rules for targets named opencv_video
-
-# Build rule for target.
-opencv_video: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_video
-.PHONY : opencv_video
-
-# fast build rule for target.
-opencv_video/fast:
-	$(MAKE) $(MAKESILENT) -f modules/video/CMakeFiles/opencv_video.dir/build.make modules/video/CMakeFiles/opencv_video.dir/build
-.PHONY : opencv_video/fast
-
-#=============================================================================
-# Target rules for targets named opencv_perf_gapi
-
-# Build rule for target.
-opencv_perf_gapi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_perf_gapi
-.PHONY : opencv_perf_gapi
-
-# fast build rule for target.
-opencv_perf_gapi/fast:
-	$(MAKE) $(MAKESILENT) -f modules/gapi/CMakeFiles/opencv_perf_gapi.dir/build.make modules/gapi/CMakeFiles/opencv_perf_gapi.dir/build
-.PHONY : opencv_perf_gapi/fast
-
-#=============================================================================
-# Target rules for targets named opencv_test_gapi
-
-# Build rule for target.
-opencv_test_gapi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_test_gapi
-.PHONY : opencv_test_gapi
-
-# fast build rule for target.
-opencv_test_gapi/fast:
-	$(MAKE) $(MAKESILENT) -f modules/gapi/CMakeFiles/opencv_test_gapi.dir/build.make modules/gapi/CMakeFiles/opencv_test_gapi.dir/build
-.PHONY : opencv_test_gapi/fast
-
-#=============================================================================
-# Target rules for targets named opencv_gapi
-
-# Build rule for target.
-opencv_gapi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_gapi
-.PHONY : opencv_gapi
-
-# fast build rule for target.
-opencv_gapi/fast:
-	$(MAKE) $(MAKESILENT) -f modules/gapi/CMakeFiles/opencv_gapi.dir/build.make modules/gapi/CMakeFiles/opencv_gapi.dir/build
-.PHONY : opencv_gapi/fast
+opencv_videostab/fast:
+	$(MAKE) $(MAKESILENT) -f modules/videostab/CMakeFiles/opencv_videostab.dir/build.make modules/videostab/CMakeFiles/opencv_videostab.dir/build
+.PHONY : opencv_videostab/fast
 
 #=============================================================================
 # Target rules for targets named gen_opencv_java_source
@@ -1011,45 +1050,6 @@ gen_opencv_js_source/fast:
 .PHONY : gen_opencv_js_source/fast
 
 #=============================================================================
-# Target rules for targets named gen_opencv_objc_source_osx
-
-# Build rule for target.
-gen_opencv_objc_source_osx: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_opencv_objc_source_osx
-.PHONY : gen_opencv_objc_source_osx
-
-# fast build rule for target.
-gen_opencv_objc_source_osx/fast:
-	$(MAKE) $(MAKESILENT) -f modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source_osx.dir/build.make modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source_osx.dir/build
-.PHONY : gen_opencv_objc_source_osx/fast
-
-#=============================================================================
-# Target rules for targets named gen_opencv_objc_source_ios
-
-# Build rule for target.
-gen_opencv_objc_source_ios: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_opencv_objc_source_ios
-.PHONY : gen_opencv_objc_source_ios
-
-# fast build rule for target.
-gen_opencv_objc_source_ios/fast:
-	$(MAKE) $(MAKESILENT) -f modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source_ios.dir/build.make modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source_ios.dir/build
-.PHONY : gen_opencv_objc_source_ios/fast
-
-#=============================================================================
-# Target rules for targets named gen_opencv_objc_source
-
-# Build rule for target.
-gen_opencv_objc_source: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_opencv_objc_source
-.PHONY : gen_opencv_objc_source
-
-# fast build rule for target.
-gen_opencv_objc_source/fast:
-	$(MAKE) $(MAKESILENT) -f modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source.dir/build.make modules/objc_bindings_generator/CMakeFiles/gen_opencv_objc_source.dir/build
-.PHONY : gen_opencv_objc_source/fast
-
-#=============================================================================
 # Target rules for targets named gen_opencv_python_source
 
 # Build rule for target.
@@ -1061,6 +1061,32 @@ gen_opencv_python_source: cmake_check_build_system
 gen_opencv_python_source/fast:
 	$(MAKE) $(MAKESILENT) -f modules/python_bindings_generator/CMakeFiles/gen_opencv_python_source.dir/build.make modules/python_bindings_generator/CMakeFiles/gen_opencv_python_source.dir/build
 .PHONY : gen_opencv_python_source/fast
+
+#=============================================================================
+# Target rules for targets named opencv_traincascade
+
+# Build rule for target.
+opencv_traincascade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_traincascade
+.PHONY : opencv_traincascade
+
+# fast build rule for target.
+opencv_traincascade/fast:
+	$(MAKE) $(MAKESILENT) -f apps/traincascade/CMakeFiles/opencv_traincascade.dir/build.make apps/traincascade/CMakeFiles/opencv_traincascade.dir/build
+.PHONY : opencv_traincascade/fast
+
+#=============================================================================
+# Target rules for targets named opencv_createsamples
+
+# Build rule for target.
+opencv_createsamples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_createsamples
+.PHONY : opencv_createsamples
+
+# fast build rule for target.
+opencv_createsamples/fast:
+	$(MAKE) $(MAKESILENT) -f apps/createsamples/CMakeFiles/opencv_createsamples.dir/build.make apps/createsamples/CMakeFiles/opencv_createsamples.dir/build
+.PHONY : opencv_createsamples/fast
 
 #=============================================================================
 # Target rules for targets named opencv_annotation
@@ -1114,427 +1140,6 @@ opencv_version/fast:
 	$(MAKE) $(MAKESILENT) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/build
 .PHONY : opencv_version/fast
 
-#=============================================================================
-# Target rules for targets named opencv_model_diagnostics
-
-# Build rule for target.
-opencv_model_diagnostics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_model_diagnostics
-.PHONY : opencv_model_diagnostics
-
-# fast build rule for target.
-opencv_model_diagnostics/fast:
-	$(MAKE) $(MAKESILENT) -f apps/model-diagnostics/CMakeFiles/opencv_model_diagnostics.dir/build.make apps/model-diagnostics/CMakeFiles/opencv_model_diagnostics.dir/build
-.PHONY : opencv_model_diagnostics/fast
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.cpp.s
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.o: 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.o
-
-# target to build an object file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.o
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.o
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.i: 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.i
-
-# target to preprocess a source file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.i
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.i
-
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.s: 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.s
-
-# target to generate assembly for a file
-3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ade.dir/build.make CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.s
-.PHONY : 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1550,24 +1155,20 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... developer_scripts"
+	@echo "... gen-pkgconfig"
 	@echo "... gen_opencv_java_source"
 	@echo "... gen_opencv_js_source"
-	@echo "... gen_opencv_objc_source"
-	@echo "... gen_opencv_objc_source_ios"
-	@echo "... gen_opencv_objc_source_osx"
 	@echo "... gen_opencv_python_source"
-	@echo "... opencv_highgui_plugins"
 	@echo "... opencv_modules"
 	@echo "... opencv_perf_tests"
 	@echo "... opencv_tests"
-	@echo "... opencv_videoio_plugins"
 	@echo "... uninstall"
 	@echo "... IlmImf"
-	@echo "... ade"
 	@echo "... ippiw"
 	@echo "... ittnotify"
+	@echo "... libjasper"
 	@echo "... libjpeg-turbo"
-	@echo "... libopenjp2"
 	@echo "... libpng"
 	@echo "... libprotobuf"
 	@echo "... libtiff"
@@ -1575,104 +1176,58 @@ help:
 	@echo "... opencv_annotation"
 	@echo "... opencv_calib3d"
 	@echo "... opencv_core"
+	@echo "... opencv_createsamples"
 	@echo "... opencv_dnn"
 	@echo "... opencv_features2d"
 	@echo "... opencv_flann"
-	@echo "... opencv_gapi"
 	@echo "... opencv_highgui"
 	@echo "... opencv_imgcodecs"
 	@echo "... opencv_imgproc"
 	@echo "... opencv_interactive-calibration"
 	@echo "... opencv_ml"
-	@echo "... opencv_model_diagnostics"
 	@echo "... opencv_objdetect"
 	@echo "... opencv_perf_calib3d"
 	@echo "... opencv_perf_core"
 	@echo "... opencv_perf_dnn"
 	@echo "... opencv_perf_features2d"
-	@echo "... opencv_perf_gapi"
 	@echo "... opencv_perf_imgcodecs"
 	@echo "... opencv_perf_imgproc"
 	@echo "... opencv_perf_objdetect"
 	@echo "... opencv_perf_photo"
 	@echo "... opencv_perf_stitching"
+	@echo "... opencv_perf_superres"
 	@echo "... opencv_perf_video"
 	@echo "... opencv_perf_videoio"
 	@echo "... opencv_photo"
+	@echo "... opencv_shape"
 	@echo "... opencv_stitching"
+	@echo "... opencv_superres"
 	@echo "... opencv_test_calib3d"
 	@echo "... opencv_test_core"
 	@echo "... opencv_test_dnn"
 	@echo "... opencv_test_features2d"
 	@echo "... opencv_test_flann"
-	@echo "... opencv_test_gapi"
 	@echo "... opencv_test_highgui"
 	@echo "... opencv_test_imgcodecs"
 	@echo "... opencv_test_imgproc"
 	@echo "... opencv_test_ml"
 	@echo "... opencv_test_objdetect"
 	@echo "... opencv_test_photo"
+	@echo "... opencv_test_shape"
 	@echo "... opencv_test_stitching"
+	@echo "... opencv_test_superres"
 	@echo "... opencv_test_video"
 	@echo "... opencv_test_videoio"
+	@echo "... opencv_test_videostab"
+	@echo "... opencv_traincascade"
 	@echo "... opencv_ts"
 	@echo "... opencv_version"
 	@echo "... opencv_video"
 	@echo "... opencv_videoio"
+	@echo "... opencv_videostab"
 	@echo "... opencv_visualisation"
 	@echo "... quirc"
 	@echo "... zlib"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/alloc.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/assert.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/check_cycles.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/edge.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/execution_engine.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/graph.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_accessor.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_ref.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/memory_descriptor_view.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metadata.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/metatypes.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/node.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/passes/communications.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/search.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/subgraphs.s"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.o"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.i"
-	@echo "... 3rdparty/ade/ade-0.1.1f/sources/ade/source/topological_sort.s"
 .PHONY : help
 
 

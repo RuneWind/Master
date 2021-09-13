@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/cuda/perf_gpumat.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/cuda/perf_gpumat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_arithm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_arithm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_bufferpool.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_bufferpool.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_channels.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_channels.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_dxt.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_dxt.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_gemm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_gemm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_matop.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_matop.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/opencl/perf_usage_flags.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/opencl/perf_usage_flags.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_abs.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_abs.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_addWeighted.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_addWeighted.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_allocation.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_arithm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_arithm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_bitwise.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_bitwise.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_compare.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_compare.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_convertTo.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_convertTo.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_cvround.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_cvround.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_dft.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_dft.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_dot.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_dot.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_inRange.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_inRange.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_io_base64.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_io_base64.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_lut.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_lut.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -191,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_mat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_mat.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_math.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_math.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_merge.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_merge.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_minmaxloc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -227,7 +227,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_minmaxloc.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_norm.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_norm.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_reduce.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_reduce.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_sort.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_sort.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_split.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -263,7 +263,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_split.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_stat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_stat.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_umat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -281,16 +281,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_umat.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_core",
-				"PerfTest"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/perf/perf_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

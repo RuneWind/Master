@@ -15,8 +15,8 @@ namespace video
 
 extern struct cv::ocl::internal::ProgramEntry bgfg_knn_oclsrc;
 extern struct cv::ocl::internal::ProgramEntry bgfg_mog2_oclsrc;
-extern struct cv::ocl::internal::ProgramEntry dis_flow_oclsrc;
 extern struct cv::ocl::internal::ProgramEntry optical_flow_farneback_oclsrc;
+extern struct cv::ocl::internal::ProgramEntry optical_flow_tvl1_oclsrc;
 extern struct cv::ocl::internal::ProgramEntry pyrlk_oclsrc;
 
 }}}

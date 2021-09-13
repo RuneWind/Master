@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.4.5.3.dylib"
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.4.5.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.3.4.15.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_videoio.3.4.dylib"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_videoio.4.5.3.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_videoio.4.5.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_videoio.3.4.15.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_videoio.3.4.dylib"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -84,26 +84,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include/opencv2/videoio.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio/cap_ios.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include/opencv2/videoio/cap_ios.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/videoio/legacy" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio/legacy/constants_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include/opencv2/videoio/registry.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio/registry.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include/opencv2/videoio/videoio.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio/videoio.hpp")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include/opencv2/videoio/videoio_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/videoio" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include/opencv2/videoio/videoio_c.h")
 endif()
 

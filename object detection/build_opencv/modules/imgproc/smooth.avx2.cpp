@@ -1,3 +1,3 @@
 
-#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/src/precomp.hpp"
-#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/src/smooth.simd.hpp"
+#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/src/precomp.hpp"
+#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/src/smooth.simd.hpp"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../lib/libopencv_features2d.4.5.3.dylib"
-  "../../lib/libopencv_features2d.4.5.dylib"
+  "../../lib/libopencv_features2d.3.4.15.dylib"
+  "../../lib/libopencv_features2d.3.4.dylib"
   "../../lib/libopencv_features2d.dylib"
   "../../lib/libopencv_features2d.pdb"
   "CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o"

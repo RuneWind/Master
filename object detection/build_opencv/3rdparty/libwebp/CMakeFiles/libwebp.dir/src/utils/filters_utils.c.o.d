@@ -1,7 +1,7 @@
 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/filters_utils.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/filters_utils.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/utils/filters_utils.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/webp/types.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/filters_utils.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/utils/filters_utils.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/webp/types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/inttypes.h \
@@ -36,7 +36,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libwebp/src/dsp/dsp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libwebp/src/dsp/dsp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread/sched.h \

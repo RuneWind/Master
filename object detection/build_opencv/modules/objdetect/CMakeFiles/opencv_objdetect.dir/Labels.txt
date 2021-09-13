@@ -3,47 +3,55 @@
  opencv_objdetect
  Module
 # Source files and their labels
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect.hpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include/opencv2/objdetect/objdetect_c.h
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect_convert.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/detection_based_tracker.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect_convert.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/hog.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/detection_based_tracker.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/main.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/qrcode.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/hog.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/opencl/cascadedetect.cl
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/main.cpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/opencl/objdetect_hog.cl
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/qrcode.cpp
+ Main
+ opencv_objdetect
+ Module
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/opencl/cascadedetect.cl
+ Main
+ opencv_objdetect
+ Module
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/opencl/objdetect_hog.cl
  Main
  opencv_objdetect
  Module
@@ -55,11 +63,19 @@
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/cascadedetect.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/cascadedetect.hpp
  Main
  opencv_objdetect
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/src/precomp.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.hpp
+ Main
+ opencv_objdetect
+ Module
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/precomp.hpp
+ Main
+ opencv_objdetect
+ Module
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/src/haar.avx.cpp
  Main
  opencv_objdetect
  Module

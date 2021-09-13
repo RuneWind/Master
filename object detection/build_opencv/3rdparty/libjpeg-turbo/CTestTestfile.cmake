@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libjpeg-turbo
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libjpeg-turbo
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/libjpeg-turbo
 # 
 # This file includes the relevant testing commands required for 

@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -232,54 +232,6 @@ opencv_test_dnn: modules/dnn/CMakeFiles/opencv_test_dnn.dir/rule
 opencv_test_dnn/fast:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/build
 .PHONY : opencv_test_dnn/fast
-
-int8layers/layers_common.avx2.o: int8layers/layers_common.avx2.cpp.o
-.PHONY : int8layers/layers_common.avx2.o
-
-# target to build an object file
-int8layers/layers_common.avx2.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx2.cpp.o
-.PHONY : int8layers/layers_common.avx2.cpp.o
-
-int8layers/layers_common.avx2.i: int8layers/layers_common.avx2.cpp.i
-.PHONY : int8layers/layers_common.avx2.i
-
-# target to preprocess a source file
-int8layers/layers_common.avx2.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx2.cpp.i
-.PHONY : int8layers/layers_common.avx2.cpp.i
-
-int8layers/layers_common.avx2.s: int8layers/layers_common.avx2.cpp.s
-.PHONY : int8layers/layers_common.avx2.s
-
-# target to generate assembly for a file
-int8layers/layers_common.avx2.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx2.cpp.s
-.PHONY : int8layers/layers_common.avx2.cpp.s
-
-int8layers/layers_common.avx512_skx.o: int8layers/layers_common.avx512_skx.cpp.o
-.PHONY : int8layers/layers_common.avx512_skx.o
-
-# target to build an object file
-int8layers/layers_common.avx512_skx.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx512_skx.cpp.o
-.PHONY : int8layers/layers_common.avx512_skx.cpp.o
-
-int8layers/layers_common.avx512_skx.i: int8layers/layers_common.avx512_skx.cpp.i
-.PHONY : int8layers/layers_common.avx512_skx.i
-
-# target to preprocess a source file
-int8layers/layers_common.avx512_skx.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx512_skx.cpp.i
-.PHONY : int8layers/layers_common.avx512_skx.cpp.i
-
-int8layers/layers_common.avx512_skx.s: int8layers/layers_common.avx512_skx.cpp.s
-.PHONY : int8layers/layers_common.avx512_skx.s
-
-# target to generate assembly for a file
-int8layers/layers_common.avx512_skx.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx512_skx.cpp.s
-.PHONY : int8layers/layers_common.avx512_skx.cpp.s
 
 layers/layers_common.avx.o: layers/layers_common.avx.cpp.o
 .PHONY : layers/layers_common.avx.o
@@ -905,30 +857,6 @@ src/darknet/darknet_io.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/darknet/darknet_io.cpp.s
 .PHONY : src/darknet/darknet_io.cpp.s
 
-src/debug_utils.o: src/debug_utils.cpp.o
-.PHONY : src/debug_utils.o
-
-# target to build an object file
-src/debug_utils.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/debug_utils.cpp.o
-.PHONY : src/debug_utils.cpp.o
-
-src/debug_utils.i: src/debug_utils.cpp.i
-.PHONY : src/debug_utils.i
-
-# target to preprocess a source file
-src/debug_utils.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/debug_utils.cpp.i
-.PHONY : src/debug_utils.cpp.i
-
-src/debug_utils.s: src/debug_utils.cpp.s
-.PHONY : src/debug_utils.s
-
-# target to generate assembly for a file
-src/debug_utils.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/debug_utils.cpp.s
-.PHONY : src/debug_utils.cpp.s
-
 src/dnn.o: src/dnn.cpp.o
 .PHONY : src/dnn.o
 
@@ -1048,222 +976,6 @@ src/init.s: src/init.cpp.s
 src/init.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/init.cpp.s
 .PHONY : src/init.cpp.s
-
-src/int8layers/batch_norm_layer.o: src/int8layers/batch_norm_layer.cpp.o
-.PHONY : src/int8layers/batch_norm_layer.o
-
-# target to build an object file
-src/int8layers/batch_norm_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/batch_norm_layer.cpp.o
-.PHONY : src/int8layers/batch_norm_layer.cpp.o
-
-src/int8layers/batch_norm_layer.i: src/int8layers/batch_norm_layer.cpp.i
-.PHONY : src/int8layers/batch_norm_layer.i
-
-# target to preprocess a source file
-src/int8layers/batch_norm_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/batch_norm_layer.cpp.i
-.PHONY : src/int8layers/batch_norm_layer.cpp.i
-
-src/int8layers/batch_norm_layer.s: src/int8layers/batch_norm_layer.cpp.s
-.PHONY : src/int8layers/batch_norm_layer.s
-
-# target to generate assembly for a file
-src/int8layers/batch_norm_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/batch_norm_layer.cpp.s
-.PHONY : src/int8layers/batch_norm_layer.cpp.s
-
-src/int8layers/convolution_layer.o: src/int8layers/convolution_layer.cpp.o
-.PHONY : src/int8layers/convolution_layer.o
-
-# target to build an object file
-src/int8layers/convolution_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/convolution_layer.cpp.o
-.PHONY : src/int8layers/convolution_layer.cpp.o
-
-src/int8layers/convolution_layer.i: src/int8layers/convolution_layer.cpp.i
-.PHONY : src/int8layers/convolution_layer.i
-
-# target to preprocess a source file
-src/int8layers/convolution_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/convolution_layer.cpp.i
-.PHONY : src/int8layers/convolution_layer.cpp.i
-
-src/int8layers/convolution_layer.s: src/int8layers/convolution_layer.cpp.s
-.PHONY : src/int8layers/convolution_layer.s
-
-# target to generate assembly for a file
-src/int8layers/convolution_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/convolution_layer.cpp.s
-.PHONY : src/int8layers/convolution_layer.cpp.s
-
-src/int8layers/elementwise_layers.o: src/int8layers/elementwise_layers.cpp.o
-.PHONY : src/int8layers/elementwise_layers.o
-
-# target to build an object file
-src/int8layers/elementwise_layers.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/elementwise_layers.cpp.o
-.PHONY : src/int8layers/elementwise_layers.cpp.o
-
-src/int8layers/elementwise_layers.i: src/int8layers/elementwise_layers.cpp.i
-.PHONY : src/int8layers/elementwise_layers.i
-
-# target to preprocess a source file
-src/int8layers/elementwise_layers.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/elementwise_layers.cpp.i
-.PHONY : src/int8layers/elementwise_layers.cpp.i
-
-src/int8layers/elementwise_layers.s: src/int8layers/elementwise_layers.cpp.s
-.PHONY : src/int8layers/elementwise_layers.s
-
-# target to generate assembly for a file
-src/int8layers/elementwise_layers.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/elementwise_layers.cpp.s
-.PHONY : src/int8layers/elementwise_layers.cpp.s
-
-src/int8layers/eltwise_layer.o: src/int8layers/eltwise_layer.cpp.o
-.PHONY : src/int8layers/eltwise_layer.o
-
-# target to build an object file
-src/int8layers/eltwise_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/eltwise_layer.cpp.o
-.PHONY : src/int8layers/eltwise_layer.cpp.o
-
-src/int8layers/eltwise_layer.i: src/int8layers/eltwise_layer.cpp.i
-.PHONY : src/int8layers/eltwise_layer.i
-
-# target to preprocess a source file
-src/int8layers/eltwise_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/eltwise_layer.cpp.i
-.PHONY : src/int8layers/eltwise_layer.cpp.i
-
-src/int8layers/eltwise_layer.s: src/int8layers/eltwise_layer.cpp.s
-.PHONY : src/int8layers/eltwise_layer.s
-
-# target to generate assembly for a file
-src/int8layers/eltwise_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/eltwise_layer.cpp.s
-.PHONY : src/int8layers/eltwise_layer.cpp.s
-
-src/int8layers/fully_connected_layer.o: src/int8layers/fully_connected_layer.cpp.o
-.PHONY : src/int8layers/fully_connected_layer.o
-
-# target to build an object file
-src/int8layers/fully_connected_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/fully_connected_layer.cpp.o
-.PHONY : src/int8layers/fully_connected_layer.cpp.o
-
-src/int8layers/fully_connected_layer.i: src/int8layers/fully_connected_layer.cpp.i
-.PHONY : src/int8layers/fully_connected_layer.i
-
-# target to preprocess a source file
-src/int8layers/fully_connected_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/fully_connected_layer.cpp.i
-.PHONY : src/int8layers/fully_connected_layer.cpp.i
-
-src/int8layers/fully_connected_layer.s: src/int8layers/fully_connected_layer.cpp.s
-.PHONY : src/int8layers/fully_connected_layer.s
-
-# target to generate assembly for a file
-src/int8layers/fully_connected_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/fully_connected_layer.cpp.s
-.PHONY : src/int8layers/fully_connected_layer.cpp.s
-
-src/int8layers/pooling_layer.o: src/int8layers/pooling_layer.cpp.o
-.PHONY : src/int8layers/pooling_layer.o
-
-# target to build an object file
-src/int8layers/pooling_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/pooling_layer.cpp.o
-.PHONY : src/int8layers/pooling_layer.cpp.o
-
-src/int8layers/pooling_layer.i: src/int8layers/pooling_layer.cpp.i
-.PHONY : src/int8layers/pooling_layer.i
-
-# target to preprocess a source file
-src/int8layers/pooling_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/pooling_layer.cpp.i
-.PHONY : src/int8layers/pooling_layer.cpp.i
-
-src/int8layers/pooling_layer.s: src/int8layers/pooling_layer.cpp.s
-.PHONY : src/int8layers/pooling_layer.s
-
-# target to generate assembly for a file
-src/int8layers/pooling_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/pooling_layer.cpp.s
-.PHONY : src/int8layers/pooling_layer.cpp.s
-
-src/int8layers/quantize_dequantize_layer.o: src/int8layers/quantize_dequantize_layer.cpp.o
-.PHONY : src/int8layers/quantize_dequantize_layer.o
-
-# target to build an object file
-src/int8layers/quantize_dequantize_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/quantize_dequantize_layer.cpp.o
-.PHONY : src/int8layers/quantize_dequantize_layer.cpp.o
-
-src/int8layers/quantize_dequantize_layer.i: src/int8layers/quantize_dequantize_layer.cpp.i
-.PHONY : src/int8layers/quantize_dequantize_layer.i
-
-# target to preprocess a source file
-src/int8layers/quantize_dequantize_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/quantize_dequantize_layer.cpp.i
-.PHONY : src/int8layers/quantize_dequantize_layer.cpp.i
-
-src/int8layers/quantize_dequantize_layer.s: src/int8layers/quantize_dequantize_layer.cpp.s
-.PHONY : src/int8layers/quantize_dequantize_layer.s
-
-# target to generate assembly for a file
-src/int8layers/quantize_dequantize_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/quantize_dequantize_layer.cpp.s
-.PHONY : src/int8layers/quantize_dequantize_layer.cpp.s
-
-src/int8layers/scale_layer.o: src/int8layers/scale_layer.cpp.o
-.PHONY : src/int8layers/scale_layer.o
-
-# target to build an object file
-src/int8layers/scale_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/scale_layer.cpp.o
-.PHONY : src/int8layers/scale_layer.cpp.o
-
-src/int8layers/scale_layer.i: src/int8layers/scale_layer.cpp.i
-.PHONY : src/int8layers/scale_layer.i
-
-# target to preprocess a source file
-src/int8layers/scale_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/scale_layer.cpp.i
-.PHONY : src/int8layers/scale_layer.cpp.i
-
-src/int8layers/scale_layer.s: src/int8layers/scale_layer.cpp.s
-.PHONY : src/int8layers/scale_layer.s
-
-# target to generate assembly for a file
-src/int8layers/scale_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/scale_layer.cpp.s
-.PHONY : src/int8layers/scale_layer.cpp.s
-
-src/int8layers/softmax_layer.o: src/int8layers/softmax_layer.cpp.o
-.PHONY : src/int8layers/softmax_layer.o
-
-# target to build an object file
-src/int8layers/softmax_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/softmax_layer.cpp.o
-.PHONY : src/int8layers/softmax_layer.cpp.o
-
-src/int8layers/softmax_layer.i: src/int8layers/softmax_layer.cpp.i
-.PHONY : src/int8layers/softmax_layer.i
-
-# target to preprocess a source file
-src/int8layers/softmax_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/softmax_layer.cpp.i
-.PHONY : src/int8layers/softmax_layer.cpp.i
-
-src/int8layers/softmax_layer.s: src/int8layers/softmax_layer.cpp.s
-.PHONY : src/int8layers/softmax_layer.s
-
-# target to generate assembly for a file
-src/int8layers/softmax_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/softmax_layer.cpp.s
-.PHONY : src/int8layers/softmax_layer.cpp.s
 
 src/layers/accum_layer.o: src/layers/accum_layer.cpp.o
 .PHONY : src/layers/accum_layer.o
@@ -1456,30 +1168,6 @@ src/layers/crop_and_resize_layer.s: src/layers/crop_and_resize_layer.cpp.s
 src/layers/crop_and_resize_layer.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/crop_and_resize_layer.cpp.s
 .PHONY : src/layers/crop_and_resize_layer.cpp.s
-
-src/layers/cumsum_layer.o: src/layers/cumsum_layer.cpp.o
-.PHONY : src/layers/cumsum_layer.o
-
-# target to build an object file
-src/layers/cumsum_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cumsum_layer.cpp.o
-.PHONY : src/layers/cumsum_layer.cpp.o
-
-src/layers/cumsum_layer.i: src/layers/cumsum_layer.cpp.i
-.PHONY : src/layers/cumsum_layer.i
-
-# target to preprocess a source file
-src/layers/cumsum_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cumsum_layer.cpp.i
-.PHONY : src/layers/cumsum_layer.cpp.i
-
-src/layers/cumsum_layer.s: src/layers/cumsum_layer.cpp.s
-.PHONY : src/layers/cumsum_layer.s
-
-# target to generate assembly for a file
-src/layers/cumsum_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cumsum_layer.cpp.s
-.PHONY : src/layers/cumsum_layer.cpp.s
 
 src/layers/detection_output_layer.o: src/layers/detection_output_layer.cpp.o
 .PHONY : src/layers/detection_output_layer.o
@@ -1744,30 +1432,6 @@ src/layers/normalize_bbox_layer.s: src/layers/normalize_bbox_layer.cpp.s
 src/layers/normalize_bbox_layer.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/normalize_bbox_layer.cpp.s
 .PHONY : src/layers/normalize_bbox_layer.cpp.s
-
-src/layers/not_implemented_layer.o: src/layers/not_implemented_layer.cpp.o
-.PHONY : src/layers/not_implemented_layer.o
-
-# target to build an object file
-src/layers/not_implemented_layer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/not_implemented_layer.cpp.o
-.PHONY : src/layers/not_implemented_layer.cpp.o
-
-src/layers/not_implemented_layer.i: src/layers/not_implemented_layer.cpp.i
-.PHONY : src/layers/not_implemented_layer.i
-
-# target to preprocess a source file
-src/layers/not_implemented_layer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/not_implemented_layer.cpp.i
-.PHONY : src/layers/not_implemented_layer.cpp.i
-
-src/layers/not_implemented_layer.s: src/layers/not_implemented_layer.cpp.s
-.PHONY : src/layers/not_implemented_layer.s
-
-# target to generate assembly for a file
-src/layers/not_implemented_layer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/not_implemented_layer.cpp.s
-.PHONY : src/layers/not_implemented_layer.cpp.s
 
 src/layers/padding_layer.o: src/layers/padding_layer.cpp.o
 .PHONY : src/layers/padding_layer.o
@@ -2129,30 +1793,6 @@ src/layers/split_layer.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/split_layer.cpp.s
 .PHONY : src/layers/split_layer.cpp.s
 
-src/model.o: src/model.cpp.o
-.PHONY : src/model.o
-
-# target to build an object file
-src/model.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/model.cpp.o
-.PHONY : src/model.cpp.o
-
-src/model.i: src/model.cpp.i
-.PHONY : src/model.i
-
-# target to preprocess a source file
-src/model.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/model.cpp.i
-.PHONY : src/model.cpp.i
-
-src/model.s: src/model.cpp.s
-.PHONY : src/model.s
-
-# target to generate assembly for a file
-src/model.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/model.cpp.s
-.PHONY : src/model.cpp.s
-
 src/nms.o: src/nms.cpp.o
 .PHONY : src/nms.o
 
@@ -2272,30 +1912,6 @@ src/op_inf_engine.s: src/op_inf_engine.cpp.s
 src/op_inf_engine.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_inf_engine.cpp.s
 .PHONY : src/op_inf_engine.cpp.s
-
-src/op_vkcom.o: src/op_vkcom.cpp.o
-.PHONY : src/op_vkcom.o
-
-# target to build an object file
-src/op_vkcom.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_vkcom.cpp.o
-.PHONY : src/op_vkcom.cpp.o
-
-src/op_vkcom.i: src/op_vkcom.cpp.i
-.PHONY : src/op_vkcom.i
-
-# target to preprocess a source file
-src/op_vkcom.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_vkcom.cpp.i
-.PHONY : src/op_vkcom.cpp.i
-
-src/op_vkcom.s: src/op_vkcom.cpp.s
-.PHONY : src/op_vkcom.s
-
-# target to generate assembly for a file
-src/op_vkcom.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_vkcom.cpp.s
-.PHONY : src/op_vkcom.cpp.s
 
 src/tengine4dnn/src/tengine_graph_convolution.o: src/tengine4dnn/src/tengine_graph_convolution.cpp.o
 .PHONY : src/tengine4dnn/src/tengine_graph_convolution.o
@@ -2489,630 +2105,6 @@ src/torch/torch_importer.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/torch_importer.cpp.s
 .PHONY : src/torch/torch_importer.cpp.s
 
-src/vkcom/shader/avg_pool_spv.o: src/vkcom/shader/avg_pool_spv.cpp.o
-.PHONY : src/vkcom/shader/avg_pool_spv.o
-
-# target to build an object file
-src/vkcom/shader/avg_pool_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/avg_pool_spv.cpp.o
-.PHONY : src/vkcom/shader/avg_pool_spv.cpp.o
-
-src/vkcom/shader/avg_pool_spv.i: src/vkcom/shader/avg_pool_spv.cpp.i
-.PHONY : src/vkcom/shader/avg_pool_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/avg_pool_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/avg_pool_spv.cpp.i
-.PHONY : src/vkcom/shader/avg_pool_spv.cpp.i
-
-src/vkcom/shader/avg_pool_spv.s: src/vkcom/shader/avg_pool_spv.cpp.s
-.PHONY : src/vkcom/shader/avg_pool_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/avg_pool_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/avg_pool_spv.cpp.s
-.PHONY : src/vkcom/shader/avg_pool_spv.cpp.s
-
-src/vkcom/shader/concat_spv.o: src/vkcom/shader/concat_spv.cpp.o
-.PHONY : src/vkcom/shader/concat_spv.o
-
-# target to build an object file
-src/vkcom/shader/concat_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/concat_spv.cpp.o
-.PHONY : src/vkcom/shader/concat_spv.cpp.o
-
-src/vkcom/shader/concat_spv.i: src/vkcom/shader/concat_spv.cpp.i
-.PHONY : src/vkcom/shader/concat_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/concat_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/concat_spv.cpp.i
-.PHONY : src/vkcom/shader/concat_spv.cpp.i
-
-src/vkcom/shader/concat_spv.s: src/vkcom/shader/concat_spv.cpp.s
-.PHONY : src/vkcom/shader/concat_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/concat_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/concat_spv.cpp.s
-.PHONY : src/vkcom/shader/concat_spv.cpp.s
-
-src/vkcom/shader/conv48_spv.o: src/vkcom/shader/conv48_spv.cpp.o
-.PHONY : src/vkcom/shader/conv48_spv.o
-
-# target to build an object file
-src/vkcom/shader/conv48_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv48_spv.cpp.o
-.PHONY : src/vkcom/shader/conv48_spv.cpp.o
-
-src/vkcom/shader/conv48_spv.i: src/vkcom/shader/conv48_spv.cpp.i
-.PHONY : src/vkcom/shader/conv48_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/conv48_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv48_spv.cpp.i
-.PHONY : src/vkcom/shader/conv48_spv.cpp.i
-
-src/vkcom/shader/conv48_spv.s: src/vkcom/shader/conv48_spv.cpp.s
-.PHONY : src/vkcom/shader/conv48_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/conv48_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv48_spv.cpp.s
-.PHONY : src/vkcom/shader/conv48_spv.cpp.s
-
-src/vkcom/shader/conv_spv.o: src/vkcom/shader/conv_spv.cpp.o
-.PHONY : src/vkcom/shader/conv_spv.o
-
-# target to build an object file
-src/vkcom/shader/conv_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_spv.cpp.o
-.PHONY : src/vkcom/shader/conv_spv.cpp.o
-
-src/vkcom/shader/conv_spv.i: src/vkcom/shader/conv_spv.cpp.i
-.PHONY : src/vkcom/shader/conv_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/conv_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_spv.cpp.i
-.PHONY : src/vkcom/shader/conv_spv.cpp.i
-
-src/vkcom/shader/conv_spv.s: src/vkcom/shader/conv_spv.cpp.s
-.PHONY : src/vkcom/shader/conv_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/conv_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_spv.cpp.s
-.PHONY : src/vkcom/shader/conv_spv.cpp.s
-
-src/vkcom/shader/dw_conv_spv.o: src/vkcom/shader/dw_conv_spv.cpp.o
-.PHONY : src/vkcom/shader/dw_conv_spv.o
-
-# target to build an object file
-src/vkcom/shader/dw_conv_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/dw_conv_spv.cpp.o
-.PHONY : src/vkcom/shader/dw_conv_spv.cpp.o
-
-src/vkcom/shader/dw_conv_spv.i: src/vkcom/shader/dw_conv_spv.cpp.i
-.PHONY : src/vkcom/shader/dw_conv_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/dw_conv_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/dw_conv_spv.cpp.i
-.PHONY : src/vkcom/shader/dw_conv_spv.cpp.i
-
-src/vkcom/shader/dw_conv_spv.s: src/vkcom/shader/dw_conv_spv.cpp.s
-.PHONY : src/vkcom/shader/dw_conv_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/dw_conv_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/dw_conv_spv.cpp.s
-.PHONY : src/vkcom/shader/dw_conv_spv.cpp.s
-
-src/vkcom/shader/lrn_spv.o: src/vkcom/shader/lrn_spv.cpp.o
-.PHONY : src/vkcom/shader/lrn_spv.o
-
-# target to build an object file
-src/vkcom/shader/lrn_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/lrn_spv.cpp.o
-.PHONY : src/vkcom/shader/lrn_spv.cpp.o
-
-src/vkcom/shader/lrn_spv.i: src/vkcom/shader/lrn_spv.cpp.i
-.PHONY : src/vkcom/shader/lrn_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/lrn_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/lrn_spv.cpp.i
-.PHONY : src/vkcom/shader/lrn_spv.cpp.i
-
-src/vkcom/shader/lrn_spv.s: src/vkcom/shader/lrn_spv.cpp.s
-.PHONY : src/vkcom/shader/lrn_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/lrn_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/lrn_spv.cpp.s
-.PHONY : src/vkcom/shader/lrn_spv.cpp.s
-
-src/vkcom/shader/max_pool_spv.o: src/vkcom/shader/max_pool_spv.cpp.o
-.PHONY : src/vkcom/shader/max_pool_spv.o
-
-# target to build an object file
-src/vkcom/shader/max_pool_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/max_pool_spv.cpp.o
-.PHONY : src/vkcom/shader/max_pool_spv.cpp.o
-
-src/vkcom/shader/max_pool_spv.i: src/vkcom/shader/max_pool_spv.cpp.i
-.PHONY : src/vkcom/shader/max_pool_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/max_pool_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/max_pool_spv.cpp.i
-.PHONY : src/vkcom/shader/max_pool_spv.cpp.i
-
-src/vkcom/shader/max_pool_spv.s: src/vkcom/shader/max_pool_spv.cpp.s
-.PHONY : src/vkcom/shader/max_pool_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/max_pool_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/max_pool_spv.cpp.s
-.PHONY : src/vkcom/shader/max_pool_spv.cpp.s
-
-src/vkcom/shader/permute_spv.o: src/vkcom/shader/permute_spv.cpp.o
-.PHONY : src/vkcom/shader/permute_spv.o
-
-# target to build an object file
-src/vkcom/shader/permute_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/permute_spv.cpp.o
-.PHONY : src/vkcom/shader/permute_spv.cpp.o
-
-src/vkcom/shader/permute_spv.i: src/vkcom/shader/permute_spv.cpp.i
-.PHONY : src/vkcom/shader/permute_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/permute_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/permute_spv.cpp.i
-.PHONY : src/vkcom/shader/permute_spv.cpp.i
-
-src/vkcom/shader/permute_spv.s: src/vkcom/shader/permute_spv.cpp.s
-.PHONY : src/vkcom/shader/permute_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/permute_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/permute_spv.cpp.s
-.PHONY : src/vkcom/shader/permute_spv.cpp.s
-
-src/vkcom/shader/prior_box_spv.o: src/vkcom/shader/prior_box_spv.cpp.o
-.PHONY : src/vkcom/shader/prior_box_spv.o
-
-# target to build an object file
-src/vkcom/shader/prior_box_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/prior_box_spv.cpp.o
-.PHONY : src/vkcom/shader/prior_box_spv.cpp.o
-
-src/vkcom/shader/prior_box_spv.i: src/vkcom/shader/prior_box_spv.cpp.i
-.PHONY : src/vkcom/shader/prior_box_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/prior_box_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/prior_box_spv.cpp.i
-.PHONY : src/vkcom/shader/prior_box_spv.cpp.i
-
-src/vkcom/shader/prior_box_spv.s: src/vkcom/shader/prior_box_spv.cpp.s
-.PHONY : src/vkcom/shader/prior_box_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/prior_box_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/prior_box_spv.cpp.s
-.PHONY : src/vkcom/shader/prior_box_spv.cpp.s
-
-src/vkcom/shader/relu_spv.o: src/vkcom/shader/relu_spv.cpp.o
-.PHONY : src/vkcom/shader/relu_spv.o
-
-# target to build an object file
-src/vkcom/shader/relu_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/relu_spv.cpp.o
-.PHONY : src/vkcom/shader/relu_spv.cpp.o
-
-src/vkcom/shader/relu_spv.i: src/vkcom/shader/relu_spv.cpp.i
-.PHONY : src/vkcom/shader/relu_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/relu_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/relu_spv.cpp.i
-.PHONY : src/vkcom/shader/relu_spv.cpp.i
-
-src/vkcom/shader/relu_spv.s: src/vkcom/shader/relu_spv.cpp.s
-.PHONY : src/vkcom/shader/relu_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/relu_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/relu_spv.cpp.s
-.PHONY : src/vkcom/shader/relu_spv.cpp.s
-
-src/vkcom/shader/softmax_spv.o: src/vkcom/shader/softmax_spv.cpp.o
-.PHONY : src/vkcom/shader/softmax_spv.o
-
-# target to build an object file
-src/vkcom/shader/softmax_spv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/softmax_spv.cpp.o
-.PHONY : src/vkcom/shader/softmax_spv.cpp.o
-
-src/vkcom/shader/softmax_spv.i: src/vkcom/shader/softmax_spv.cpp.i
-.PHONY : src/vkcom/shader/softmax_spv.i
-
-# target to preprocess a source file
-src/vkcom/shader/softmax_spv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/softmax_spv.cpp.i
-.PHONY : src/vkcom/shader/softmax_spv.cpp.i
-
-src/vkcom/shader/softmax_spv.s: src/vkcom/shader/softmax_spv.cpp.s
-.PHONY : src/vkcom/shader/softmax_spv.s
-
-# target to generate assembly for a file
-src/vkcom/shader/softmax_spv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/softmax_spv.cpp.s
-.PHONY : src/vkcom/shader/softmax_spv.cpp.s
-
-src/vkcom/src/buffer.o: src/vkcom/src/buffer.cpp.o
-.PHONY : src/vkcom/src/buffer.o
-
-# target to build an object file
-src/vkcom/src/buffer.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/buffer.cpp.o
-.PHONY : src/vkcom/src/buffer.cpp.o
-
-src/vkcom/src/buffer.i: src/vkcom/src/buffer.cpp.i
-.PHONY : src/vkcom/src/buffer.i
-
-# target to preprocess a source file
-src/vkcom/src/buffer.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/buffer.cpp.i
-.PHONY : src/vkcom/src/buffer.cpp.i
-
-src/vkcom/src/buffer.s: src/vkcom/src/buffer.cpp.s
-.PHONY : src/vkcom/src/buffer.s
-
-# target to generate assembly for a file
-src/vkcom/src/buffer.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/buffer.cpp.s
-.PHONY : src/vkcom/src/buffer.cpp.s
-
-src/vkcom/src/context.o: src/vkcom/src/context.cpp.o
-.PHONY : src/vkcom/src/context.o
-
-# target to build an object file
-src/vkcom/src/context.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/context.cpp.o
-.PHONY : src/vkcom/src/context.cpp.o
-
-src/vkcom/src/context.i: src/vkcom/src/context.cpp.i
-.PHONY : src/vkcom/src/context.i
-
-# target to preprocess a source file
-src/vkcom/src/context.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/context.cpp.i
-.PHONY : src/vkcom/src/context.cpp.i
-
-src/vkcom/src/context.s: src/vkcom/src/context.cpp.s
-.PHONY : src/vkcom/src/context.s
-
-# target to generate assembly for a file
-src/vkcom/src/context.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/context.cpp.s
-.PHONY : src/vkcom/src/context.cpp.s
-
-src/vkcom/src/internal.o: src/vkcom/src/internal.cpp.o
-.PHONY : src/vkcom/src/internal.o
-
-# target to build an object file
-src/vkcom/src/internal.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/internal.cpp.o
-.PHONY : src/vkcom/src/internal.cpp.o
-
-src/vkcom/src/internal.i: src/vkcom/src/internal.cpp.i
-.PHONY : src/vkcom/src/internal.i
-
-# target to preprocess a source file
-src/vkcom/src/internal.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/internal.cpp.i
-.PHONY : src/vkcom/src/internal.cpp.i
-
-src/vkcom/src/internal.s: src/vkcom/src/internal.cpp.s
-.PHONY : src/vkcom/src/internal.s
-
-# target to generate assembly for a file
-src/vkcom/src/internal.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/internal.cpp.s
-.PHONY : src/vkcom/src/internal.cpp.s
-
-src/vkcom/src/op_base.o: src/vkcom/src/op_base.cpp.o
-.PHONY : src/vkcom/src/op_base.o
-
-# target to build an object file
-src/vkcom/src/op_base.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_base.cpp.o
-.PHONY : src/vkcom/src/op_base.cpp.o
-
-src/vkcom/src/op_base.i: src/vkcom/src/op_base.cpp.i
-.PHONY : src/vkcom/src/op_base.i
-
-# target to preprocess a source file
-src/vkcom/src/op_base.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_base.cpp.i
-.PHONY : src/vkcom/src/op_base.cpp.i
-
-src/vkcom/src/op_base.s: src/vkcom/src/op_base.cpp.s
-.PHONY : src/vkcom/src/op_base.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_base.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_base.cpp.s
-.PHONY : src/vkcom/src/op_base.cpp.s
-
-src/vkcom/src/op_concat.o: src/vkcom/src/op_concat.cpp.o
-.PHONY : src/vkcom/src/op_concat.o
-
-# target to build an object file
-src/vkcom/src/op_concat.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_concat.cpp.o
-.PHONY : src/vkcom/src/op_concat.cpp.o
-
-src/vkcom/src/op_concat.i: src/vkcom/src/op_concat.cpp.i
-.PHONY : src/vkcom/src/op_concat.i
-
-# target to preprocess a source file
-src/vkcom/src/op_concat.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_concat.cpp.i
-.PHONY : src/vkcom/src/op_concat.cpp.i
-
-src/vkcom/src/op_concat.s: src/vkcom/src/op_concat.cpp.s
-.PHONY : src/vkcom/src/op_concat.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_concat.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_concat.cpp.s
-.PHONY : src/vkcom/src/op_concat.cpp.s
-
-src/vkcom/src/op_conv.o: src/vkcom/src/op_conv.cpp.o
-.PHONY : src/vkcom/src/op_conv.o
-
-# target to build an object file
-src/vkcom/src/op_conv.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_conv.cpp.o
-.PHONY : src/vkcom/src/op_conv.cpp.o
-
-src/vkcom/src/op_conv.i: src/vkcom/src/op_conv.cpp.i
-.PHONY : src/vkcom/src/op_conv.i
-
-# target to preprocess a source file
-src/vkcom/src/op_conv.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_conv.cpp.i
-.PHONY : src/vkcom/src/op_conv.cpp.i
-
-src/vkcom/src/op_conv.s: src/vkcom/src/op_conv.cpp.s
-.PHONY : src/vkcom/src/op_conv.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_conv.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_conv.cpp.s
-.PHONY : src/vkcom/src/op_conv.cpp.s
-
-src/vkcom/src/op_lrn.o: src/vkcom/src/op_lrn.cpp.o
-.PHONY : src/vkcom/src/op_lrn.o
-
-# target to build an object file
-src/vkcom/src/op_lrn.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_lrn.cpp.o
-.PHONY : src/vkcom/src/op_lrn.cpp.o
-
-src/vkcom/src/op_lrn.i: src/vkcom/src/op_lrn.cpp.i
-.PHONY : src/vkcom/src/op_lrn.i
-
-# target to preprocess a source file
-src/vkcom/src/op_lrn.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_lrn.cpp.i
-.PHONY : src/vkcom/src/op_lrn.cpp.i
-
-src/vkcom/src/op_lrn.s: src/vkcom/src/op_lrn.cpp.s
-.PHONY : src/vkcom/src/op_lrn.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_lrn.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_lrn.cpp.s
-.PHONY : src/vkcom/src/op_lrn.cpp.s
-
-src/vkcom/src/op_permute.o: src/vkcom/src/op_permute.cpp.o
-.PHONY : src/vkcom/src/op_permute.o
-
-# target to build an object file
-src/vkcom/src/op_permute.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_permute.cpp.o
-.PHONY : src/vkcom/src/op_permute.cpp.o
-
-src/vkcom/src/op_permute.i: src/vkcom/src/op_permute.cpp.i
-.PHONY : src/vkcom/src/op_permute.i
-
-# target to preprocess a source file
-src/vkcom/src/op_permute.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_permute.cpp.i
-.PHONY : src/vkcom/src/op_permute.cpp.i
-
-src/vkcom/src/op_permute.s: src/vkcom/src/op_permute.cpp.s
-.PHONY : src/vkcom/src/op_permute.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_permute.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_permute.cpp.s
-.PHONY : src/vkcom/src/op_permute.cpp.s
-
-src/vkcom/src/op_pool.o: src/vkcom/src/op_pool.cpp.o
-.PHONY : src/vkcom/src/op_pool.o
-
-# target to build an object file
-src/vkcom/src/op_pool.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_pool.cpp.o
-.PHONY : src/vkcom/src/op_pool.cpp.o
-
-src/vkcom/src/op_pool.i: src/vkcom/src/op_pool.cpp.i
-.PHONY : src/vkcom/src/op_pool.i
-
-# target to preprocess a source file
-src/vkcom/src/op_pool.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_pool.cpp.i
-.PHONY : src/vkcom/src/op_pool.cpp.i
-
-src/vkcom/src/op_pool.s: src/vkcom/src/op_pool.cpp.s
-.PHONY : src/vkcom/src/op_pool.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_pool.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_pool.cpp.s
-.PHONY : src/vkcom/src/op_pool.cpp.s
-
-src/vkcom/src/op_prior_box.o: src/vkcom/src/op_prior_box.cpp.o
-.PHONY : src/vkcom/src/op_prior_box.o
-
-# target to build an object file
-src/vkcom/src/op_prior_box.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_prior_box.cpp.o
-.PHONY : src/vkcom/src/op_prior_box.cpp.o
-
-src/vkcom/src/op_prior_box.i: src/vkcom/src/op_prior_box.cpp.i
-.PHONY : src/vkcom/src/op_prior_box.i
-
-# target to preprocess a source file
-src/vkcom/src/op_prior_box.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_prior_box.cpp.i
-.PHONY : src/vkcom/src/op_prior_box.cpp.i
-
-src/vkcom/src/op_prior_box.s: src/vkcom/src/op_prior_box.cpp.s
-.PHONY : src/vkcom/src/op_prior_box.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_prior_box.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_prior_box.cpp.s
-.PHONY : src/vkcom/src/op_prior_box.cpp.s
-
-src/vkcom/src/op_relu.o: src/vkcom/src/op_relu.cpp.o
-.PHONY : src/vkcom/src/op_relu.o
-
-# target to build an object file
-src/vkcom/src/op_relu.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_relu.cpp.o
-.PHONY : src/vkcom/src/op_relu.cpp.o
-
-src/vkcom/src/op_relu.i: src/vkcom/src/op_relu.cpp.i
-.PHONY : src/vkcom/src/op_relu.i
-
-# target to preprocess a source file
-src/vkcom/src/op_relu.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_relu.cpp.i
-.PHONY : src/vkcom/src/op_relu.cpp.i
-
-src/vkcom/src/op_relu.s: src/vkcom/src/op_relu.cpp.s
-.PHONY : src/vkcom/src/op_relu.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_relu.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_relu.cpp.s
-.PHONY : src/vkcom/src/op_relu.cpp.s
-
-src/vkcom/src/op_softmax.o: src/vkcom/src/op_softmax.cpp.o
-.PHONY : src/vkcom/src/op_softmax.o
-
-# target to build an object file
-src/vkcom/src/op_softmax.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_softmax.cpp.o
-.PHONY : src/vkcom/src/op_softmax.cpp.o
-
-src/vkcom/src/op_softmax.i: src/vkcom/src/op_softmax.cpp.i
-.PHONY : src/vkcom/src/op_softmax.i
-
-# target to preprocess a source file
-src/vkcom/src/op_softmax.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_softmax.cpp.i
-.PHONY : src/vkcom/src/op_softmax.cpp.i
-
-src/vkcom/src/op_softmax.s: src/vkcom/src/op_softmax.cpp.s
-.PHONY : src/vkcom/src/op_softmax.s
-
-# target to generate assembly for a file
-src/vkcom/src/op_softmax.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_softmax.cpp.s
-.PHONY : src/vkcom/src/op_softmax.cpp.s
-
-src/vkcom/src/tensor.o: src/vkcom/src/tensor.cpp.o
-.PHONY : src/vkcom/src/tensor.o
-
-# target to build an object file
-src/vkcom/src/tensor.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/tensor.cpp.o
-.PHONY : src/vkcom/src/tensor.cpp.o
-
-src/vkcom/src/tensor.i: src/vkcom/src/tensor.cpp.i
-.PHONY : src/vkcom/src/tensor.i
-
-# target to preprocess a source file
-src/vkcom/src/tensor.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/tensor.cpp.i
-.PHONY : src/vkcom/src/tensor.cpp.i
-
-src/vkcom/src/tensor.s: src/vkcom/src/tensor.cpp.s
-.PHONY : src/vkcom/src/tensor.s
-
-# target to generate assembly for a file
-src/vkcom/src/tensor.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/tensor.cpp.s
-.PHONY : src/vkcom/src/tensor.cpp.s
-
-src/vkcom/vulkan/vk_functions.o: src/vkcom/vulkan/vk_functions.cpp.o
-.PHONY : src/vkcom/vulkan/vk_functions.o
-
-# target to build an object file
-src/vkcom/vulkan/vk_functions.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_functions.cpp.o
-.PHONY : src/vkcom/vulkan/vk_functions.cpp.o
-
-src/vkcom/vulkan/vk_functions.i: src/vkcom/vulkan/vk_functions.cpp.i
-.PHONY : src/vkcom/vulkan/vk_functions.i
-
-# target to preprocess a source file
-src/vkcom/vulkan/vk_functions.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_functions.cpp.i
-.PHONY : src/vkcom/vulkan/vk_functions.cpp.i
-
-src/vkcom/vulkan/vk_functions.s: src/vkcom/vulkan/vk_functions.cpp.s
-.PHONY : src/vkcom/vulkan/vk_functions.s
-
-# target to generate assembly for a file
-src/vkcom/vulkan/vk_functions.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_functions.cpp.s
-.PHONY : src/vkcom/vulkan/vk_functions.cpp.s
-
-src/vkcom/vulkan/vk_loader.o: src/vkcom/vulkan/vk_loader.cpp.o
-.PHONY : src/vkcom/vulkan/vk_loader.o
-
-# target to build an object file
-src/vkcom/vulkan/vk_loader.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_loader.cpp.o
-.PHONY : src/vkcom/vulkan/vk_loader.cpp.o
-
-src/vkcom/vulkan/vk_loader.i: src/vkcom/vulkan/vk_loader.cpp.i
-.PHONY : src/vkcom/vulkan/vk_loader.i
-
-# target to preprocess a source file
-src/vkcom/vulkan/vk_loader.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_loader.cpp.i
-.PHONY : src/vkcom/vulkan/vk_loader.cpp.i
-
-src/vkcom/vulkan/vk_loader.s: src/vkcom/vulkan/vk_loader.cpp.s
-.PHONY : src/vkcom/vulkan/vk_loader.s
-
-# target to generate assembly for a file
-src/vkcom/vulkan/vk_loader.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_loader.cpp.s
-.PHONY : src/vkcom/vulkan/vk_loader.cpp.s
-
 test/npy_blob.o: test/npy_blob.cpp.o
 .PHONY : test/npy_blob.o
 
@@ -3305,30 +2297,6 @@ test/test_ie_models.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_ie_models.cpp.s
 .PHONY : test/test_ie_models.cpp.s
 
-test/test_int8_layers.o: test/test_int8_layers.cpp.o
-.PHONY : test/test_int8_layers.o
-
-# target to build an object file
-test/test_int8_layers.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_int8_layers.cpp.o
-.PHONY : test/test_int8_layers.cpp.o
-
-test/test_int8_layers.i: test/test_int8_layers.cpp.i
-.PHONY : test/test_int8_layers.i
-
-# target to preprocess a source file
-test/test_int8_layers.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_int8_layers.cpp.i
-.PHONY : test/test_int8_layers.cpp.i
-
-test/test_int8_layers.s: test/test_int8_layers.cpp.s
-.PHONY : test/test_int8_layers.s
-
-# target to generate assembly for a file
-test/test_int8_layers.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_int8_layers.cpp.s
-.PHONY : test/test_int8_layers.cpp.s
-
 test/test_layers.o: test/test_layers.cpp.o
 .PHONY : test/test_layers.o
 
@@ -3400,30 +2368,6 @@ test/test_misc.s: test/test_misc.cpp.s
 test/test_misc.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_misc.cpp.s
 .PHONY : test/test_misc.cpp.s
-
-test/test_model.o: test/test_model.cpp.o
-.PHONY : test/test_model.o
-
-# target to build an object file
-test/test_model.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_model.cpp.o
-.PHONY : test/test_model.cpp.o
-
-test/test_model.i: test/test_model.cpp.i
-.PHONY : test/test_model.i
-
-# target to preprocess a source file
-test/test_model.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_model.cpp.i
-.PHONY : test/test_model.cpp.i
-
-test/test_model.s: test/test_model.cpp.s
-.PHONY : test/test_model.s
-
-# target to generate assembly for a file
-test/test_model.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/dnn/CMakeFiles/opencv_test_dnn.dir/build.make modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_model.cpp.s
-.PHONY : test/test_model.cpp.s
 
 test/test_nms.o: test/test_nms.cpp.o
 .PHONY : test/test_nms.o
@@ -3539,12 +2483,6 @@ help:
 	@echo "... opencv_dnn"
 	@echo "... opencv_perf_dnn"
 	@echo "... opencv_test_dnn"
-	@echo "... int8layers/layers_common.avx2.o"
-	@echo "... int8layers/layers_common.avx2.i"
-	@echo "... int8layers/layers_common.avx2.s"
-	@echo "... int8layers/layers_common.avx512_skx.o"
-	@echo "... int8layers/layers_common.avx512_skx.i"
-	@echo "... int8layers/layers_common.avx512_skx.s"
 	@echo "... layers/layers_common.avx.o"
 	@echo "... layers/layers_common.avx.i"
 	@echo "... layers/layers_common.avx.s"
@@ -3623,9 +2561,6 @@ help:
 	@echo "... src/darknet/darknet_io.o"
 	@echo "... src/darknet/darknet_io.i"
 	@echo "... src/darknet/darknet_io.s"
-	@echo "... src/debug_utils.o"
-	@echo "... src/debug_utils.i"
-	@echo "... src/debug_utils.s"
 	@echo "... src/dnn.o"
 	@echo "... src/dnn.i"
 	@echo "... src/dnn.s"
@@ -3641,33 +2576,6 @@ help:
 	@echo "... src/init.o"
 	@echo "... src/init.i"
 	@echo "... src/init.s"
-	@echo "... src/int8layers/batch_norm_layer.o"
-	@echo "... src/int8layers/batch_norm_layer.i"
-	@echo "... src/int8layers/batch_norm_layer.s"
-	@echo "... src/int8layers/convolution_layer.o"
-	@echo "... src/int8layers/convolution_layer.i"
-	@echo "... src/int8layers/convolution_layer.s"
-	@echo "... src/int8layers/elementwise_layers.o"
-	@echo "... src/int8layers/elementwise_layers.i"
-	@echo "... src/int8layers/elementwise_layers.s"
-	@echo "... src/int8layers/eltwise_layer.o"
-	@echo "... src/int8layers/eltwise_layer.i"
-	@echo "... src/int8layers/eltwise_layer.s"
-	@echo "... src/int8layers/fully_connected_layer.o"
-	@echo "... src/int8layers/fully_connected_layer.i"
-	@echo "... src/int8layers/fully_connected_layer.s"
-	@echo "... src/int8layers/pooling_layer.o"
-	@echo "... src/int8layers/pooling_layer.i"
-	@echo "... src/int8layers/pooling_layer.s"
-	@echo "... src/int8layers/quantize_dequantize_layer.o"
-	@echo "... src/int8layers/quantize_dequantize_layer.i"
-	@echo "... src/int8layers/quantize_dequantize_layer.s"
-	@echo "... src/int8layers/scale_layer.o"
-	@echo "... src/int8layers/scale_layer.i"
-	@echo "... src/int8layers/scale_layer.s"
-	@echo "... src/int8layers/softmax_layer.o"
-	@echo "... src/int8layers/softmax_layer.i"
-	@echo "... src/int8layers/softmax_layer.s"
 	@echo "... src/layers/accum_layer.o"
 	@echo "... src/layers/accum_layer.i"
 	@echo "... src/layers/accum_layer.s"
@@ -3692,9 +2600,6 @@ help:
 	@echo "... src/layers/crop_and_resize_layer.o"
 	@echo "... src/layers/crop_and_resize_layer.i"
 	@echo "... src/layers/crop_and_resize_layer.s"
-	@echo "... src/layers/cumsum_layer.o"
-	@echo "... src/layers/cumsum_layer.i"
-	@echo "... src/layers/cumsum_layer.s"
 	@echo "... src/layers/detection_output_layer.o"
 	@echo "... src/layers/detection_output_layer.i"
 	@echo "... src/layers/detection_output_layer.s"
@@ -3728,9 +2633,6 @@ help:
 	@echo "... src/layers/normalize_bbox_layer.o"
 	@echo "... src/layers/normalize_bbox_layer.i"
 	@echo "... src/layers/normalize_bbox_layer.s"
-	@echo "... src/layers/not_implemented_layer.o"
-	@echo "... src/layers/not_implemented_layer.i"
-	@echo "... src/layers/not_implemented_layer.s"
 	@echo "... src/layers/padding_layer.o"
 	@echo "... src/layers/padding_layer.i"
 	@echo "... src/layers/padding_layer.s"
@@ -3776,9 +2678,6 @@ help:
 	@echo "... src/layers/split_layer.o"
 	@echo "... src/layers/split_layer.i"
 	@echo "... src/layers/split_layer.s"
-	@echo "... src/model.o"
-	@echo "... src/model.i"
-	@echo "... src/model.s"
 	@echo "... src/nms.o"
 	@echo "... src/nms.i"
 	@echo "... src/nms.s"
@@ -3794,9 +2693,6 @@ help:
 	@echo "... src/op_inf_engine.o"
 	@echo "... src/op_inf_engine.i"
 	@echo "... src/op_inf_engine.s"
-	@echo "... src/op_vkcom.o"
-	@echo "... src/op_vkcom.i"
-	@echo "... src/op_vkcom.s"
 	@echo "... src/tengine4dnn/src/tengine_graph_convolution.o"
 	@echo "... src/tengine4dnn/src/tengine_graph_convolution.i"
 	@echo "... src/tengine4dnn/src/tengine_graph_convolution.s"
@@ -3821,84 +2717,6 @@ help:
 	@echo "... src/torch/torch_importer.o"
 	@echo "... src/torch/torch_importer.i"
 	@echo "... src/torch/torch_importer.s"
-	@echo "... src/vkcom/shader/avg_pool_spv.o"
-	@echo "... src/vkcom/shader/avg_pool_spv.i"
-	@echo "... src/vkcom/shader/avg_pool_spv.s"
-	@echo "... src/vkcom/shader/concat_spv.o"
-	@echo "... src/vkcom/shader/concat_spv.i"
-	@echo "... src/vkcom/shader/concat_spv.s"
-	@echo "... src/vkcom/shader/conv48_spv.o"
-	@echo "... src/vkcom/shader/conv48_spv.i"
-	@echo "... src/vkcom/shader/conv48_spv.s"
-	@echo "... src/vkcom/shader/conv_spv.o"
-	@echo "... src/vkcom/shader/conv_spv.i"
-	@echo "... src/vkcom/shader/conv_spv.s"
-	@echo "... src/vkcom/shader/dw_conv_spv.o"
-	@echo "... src/vkcom/shader/dw_conv_spv.i"
-	@echo "... src/vkcom/shader/dw_conv_spv.s"
-	@echo "... src/vkcom/shader/lrn_spv.o"
-	@echo "... src/vkcom/shader/lrn_spv.i"
-	@echo "... src/vkcom/shader/lrn_spv.s"
-	@echo "... src/vkcom/shader/max_pool_spv.o"
-	@echo "... src/vkcom/shader/max_pool_spv.i"
-	@echo "... src/vkcom/shader/max_pool_spv.s"
-	@echo "... src/vkcom/shader/permute_spv.o"
-	@echo "... src/vkcom/shader/permute_spv.i"
-	@echo "... src/vkcom/shader/permute_spv.s"
-	@echo "... src/vkcom/shader/prior_box_spv.o"
-	@echo "... src/vkcom/shader/prior_box_spv.i"
-	@echo "... src/vkcom/shader/prior_box_spv.s"
-	@echo "... src/vkcom/shader/relu_spv.o"
-	@echo "... src/vkcom/shader/relu_spv.i"
-	@echo "... src/vkcom/shader/relu_spv.s"
-	@echo "... src/vkcom/shader/softmax_spv.o"
-	@echo "... src/vkcom/shader/softmax_spv.i"
-	@echo "... src/vkcom/shader/softmax_spv.s"
-	@echo "... src/vkcom/src/buffer.o"
-	@echo "... src/vkcom/src/buffer.i"
-	@echo "... src/vkcom/src/buffer.s"
-	@echo "... src/vkcom/src/context.o"
-	@echo "... src/vkcom/src/context.i"
-	@echo "... src/vkcom/src/context.s"
-	@echo "... src/vkcom/src/internal.o"
-	@echo "... src/vkcom/src/internal.i"
-	@echo "... src/vkcom/src/internal.s"
-	@echo "... src/vkcom/src/op_base.o"
-	@echo "... src/vkcom/src/op_base.i"
-	@echo "... src/vkcom/src/op_base.s"
-	@echo "... src/vkcom/src/op_concat.o"
-	@echo "... src/vkcom/src/op_concat.i"
-	@echo "... src/vkcom/src/op_concat.s"
-	@echo "... src/vkcom/src/op_conv.o"
-	@echo "... src/vkcom/src/op_conv.i"
-	@echo "... src/vkcom/src/op_conv.s"
-	@echo "... src/vkcom/src/op_lrn.o"
-	@echo "... src/vkcom/src/op_lrn.i"
-	@echo "... src/vkcom/src/op_lrn.s"
-	@echo "... src/vkcom/src/op_permute.o"
-	@echo "... src/vkcom/src/op_permute.i"
-	@echo "... src/vkcom/src/op_permute.s"
-	@echo "... src/vkcom/src/op_pool.o"
-	@echo "... src/vkcom/src/op_pool.i"
-	@echo "... src/vkcom/src/op_pool.s"
-	@echo "... src/vkcom/src/op_prior_box.o"
-	@echo "... src/vkcom/src/op_prior_box.i"
-	@echo "... src/vkcom/src/op_prior_box.s"
-	@echo "... src/vkcom/src/op_relu.o"
-	@echo "... src/vkcom/src/op_relu.i"
-	@echo "... src/vkcom/src/op_relu.s"
-	@echo "... src/vkcom/src/op_softmax.o"
-	@echo "... src/vkcom/src/op_softmax.i"
-	@echo "... src/vkcom/src/op_softmax.s"
-	@echo "... src/vkcom/src/tensor.o"
-	@echo "... src/vkcom/src/tensor.i"
-	@echo "... src/vkcom/src/tensor.s"
-	@echo "... src/vkcom/vulkan/vk_functions.o"
-	@echo "... src/vkcom/vulkan/vk_functions.i"
-	@echo "... src/vkcom/vulkan/vk_functions.s"
-	@echo "... src/vkcom/vulkan/vk_loader.o"
-	@echo "... src/vkcom/vulkan/vk_loader.i"
-	@echo "... src/vkcom/vulkan/vk_loader.s"
 	@echo "... test/npy_blob.o"
 	@echo "... test/npy_blob.i"
 	@echo "... test/npy_blob.s"
@@ -3923,9 +2741,6 @@ help:
 	@echo "... test/test_ie_models.o"
 	@echo "... test/test_ie_models.i"
 	@echo "... test/test_ie_models.s"
-	@echo "... test/test_int8_layers.o"
-	@echo "... test/test_int8_layers.i"
-	@echo "... test/test_int8_layers.s"
 	@echo "... test/test_layers.o"
 	@echo "... test/test_layers.i"
 	@echo "... test/test_layers.s"
@@ -3935,9 +2750,6 @@ help:
 	@echo "... test/test_misc.o"
 	@echo "... test/test_misc.i"
 	@echo "... test/test_misc.s"
-	@echo "... test/test_model.o"
-	@echo "... test/test_model.i"
-	@echo "... test/test_model.s"
 	@echo "... test/test_nms.o"
 	@echo "... test/test_nms.i"
 	@echo "... test/test_nms.s"

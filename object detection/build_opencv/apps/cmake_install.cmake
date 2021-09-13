@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/apps
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/traincascade/cmake_install.cmake")
+  include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/createsamples/cmake_install.cmake")
   include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation/cmake_install.cmake")
   include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/visualisation/cmake_install.cmake")
   include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/interactive-calibration/cmake_install.cmake")
   include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/version/cmake_install.cmake")
-  include("/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/model-diagnostics/cmake_install.cmake")
 
 endif()
 

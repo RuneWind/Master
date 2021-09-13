@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/openexr
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/openexr
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/3rdparty/openexr
 # 
 # This file includes the relevant testing commands required for 

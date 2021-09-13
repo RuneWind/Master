@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,18 +70,18 @@ include apps/annotation/CMakeFiles/opencv_annotation.dir/progress.make
 include apps/annotation/CMakeFiles/opencv_annotation.dir/flags.make
 
 apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o: apps/annotation/CMakeFiles/opencv_annotation.dir/flags.make
-apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/apps/annotation/opencv_annotation.cpp
+apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/apps/annotation/opencv_annotation.cpp
 apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o: apps/annotation/CMakeFiles/opencv_annotation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o -MF CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o.d -o CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/annotation/opencv_annotation.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o -MF CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o.d -o CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/annotation/opencv_annotation.cpp"
 
 apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/annotation/opencv_annotation.cpp" > CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/annotation/opencv_annotation.cpp" > CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.i
 
 apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/annotation/opencv_annotation.cpp" -o CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/annotation/opencv_annotation.cpp" -o CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.s
 
 # Object files for target opencv_annotation
 opencv_annotation_OBJECTS = \
@@ -94,11 +94,11 @@ bin/opencv_annotation: apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_a
 bin/opencv_annotation: apps/annotation/CMakeFiles/opencv_annotation.dir/build.make
 bin/opencv_annotation: 3rdparty/lib/libippiw.a
 bin/opencv_annotation: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-bin/opencv_annotation: lib/libopencv_highgui.4.5.3.dylib
-bin/opencv_annotation: lib/libopencv_videoio.4.5.3.dylib
-bin/opencv_annotation: lib/libopencv_imgcodecs.4.5.3.dylib
-bin/opencv_annotation: lib/libopencv_imgproc.4.5.3.dylib
-bin/opencv_annotation: lib/libopencv_core.4.5.3.dylib
+bin/opencv_annotation: lib/libopencv_highgui.3.4.15.dylib
+bin/opencv_annotation: lib/libopencv_videoio.3.4.15.dylib
+bin/opencv_annotation: lib/libopencv_imgcodecs.3.4.15.dylib
+bin/opencv_annotation: lib/libopencv_imgproc.3.4.15.dylib
+bin/opencv_annotation: lib/libopencv_core.3.4.15.dylib
 bin/opencv_annotation: apps/annotation/CMakeFiles/opencv_annotation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/opencv_annotation"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_annotation.dir/link.txt --verbose=$(VERBOSE)
@@ -112,6 +112,6 @@ apps/annotation/CMakeFiles/opencv_annotation.dir/clean:
 .PHONY : apps/annotation/CMakeFiles/opencv_annotation.dir/clean
 
 apps/annotation/CMakeFiles/opencv_annotation.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/annotation" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation/CMakeFiles/opencv_annotation.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/annotation" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/annotation/CMakeFiles/opencv_annotation.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : apps/annotation/CMakeFiles/opencv_annotation.dir/depend
 

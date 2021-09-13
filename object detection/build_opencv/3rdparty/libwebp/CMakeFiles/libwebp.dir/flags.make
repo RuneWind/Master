@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -DWEBP_USE_THREAD
 
-C_INCLUDES = -I"/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libwebp" -isystem "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
+C_INCLUDES = -I"/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libwebp" -isystem "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
 
 C_FLAGS =    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -std=c99 -Wno-unused-variable -Wno-unused-function -Wno-shadow -Wno-missing-prototypes -Wno-missing-declarations -Wno-implicit-fallthrough -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC
 

@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -69,192 +69,192 @@ include modules/photo/CMakeFiles/opencv_photo.dir/progress.make
 # Include the compile flags for this target's objects.
 include modules/photo/CMakeFiles/opencv_photo.dir/flags.make
 
-modules/photo/opencl_kernels_photo.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/opencl/nlmeans.cl
-modules/photo/opencl_kernels_photo.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+modules/photo/opencl_kernels_photo.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/opencl/nlmeans.cl
+modules/photo/opencl_kernels_photo.cpp: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (photo)"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=photo -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/photo/opencl_kernels_photo.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/cmake/cl2cpp.cmake
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /usr/local/Cellar/cmake/3.21.2/bin/cmake -DMODULE_NAME=photo -DCL_DIR=/Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/opencl -DOUTPUT=/Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/modules/photo/opencl_kernels_photo.cpp -P /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/cmake/cl2cpp.cmake
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/align.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/align.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o -MF CMakeFiles/opencv_photo.dir/src/align.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/align.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/align.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o -MF CMakeFiles/opencv_photo.dir/src/align.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/align.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/align.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/align.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/align.cpp" > CMakeFiles/opencv_photo.dir/src/align.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/align.cpp" > CMakeFiles/opencv_photo.dir/src/align.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/align.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/align.cpp" -o CMakeFiles/opencv_photo.dir/src/align.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/align.cpp" -o CMakeFiles/opencv_photo.dir/src/align.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/calibrate.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/calibrate.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o -MF CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/calibrate.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o -MF CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/calibrate.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/calibrate.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/calibrate.cpp" > CMakeFiles/opencv_photo.dir/src/calibrate.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/calibrate.cpp" > CMakeFiles/opencv_photo.dir/src/calibrate.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/calibrate.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/calibrate.cpp" -o CMakeFiles/opencv_photo.dir/src/calibrate.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/calibrate.cpp" -o CMakeFiles/opencv_photo.dir/src/calibrate.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/contrast_preserve.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/contrast_preserve.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o -MF CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/contrast_preserve.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o -MF CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/contrast_preserve.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/contrast_preserve.cpp" > CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/contrast_preserve.cpp" > CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/contrast_preserve.cpp" -o CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/contrast_preserve.cpp" -o CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/denoise_tvl1.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/denoise_tvl1.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoise_tvl1.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoise_tvl1.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoise_tvl1.cpp" > CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoise_tvl1.cpp" > CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoise_tvl1.cpp" -o CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoise_tvl1.cpp" -o CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/denoising.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/denoising.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoising.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoising.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoising.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoising.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/denoising.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cpp" > CMakeFiles/opencv_photo.dir/src/denoising.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cpp" > CMakeFiles/opencv_photo.dir/src/denoising.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/denoising.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cpp" -o CMakeFiles/opencv_photo.dir/src/denoising.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cpp" -o CMakeFiles/opencv_photo.dir/src/denoising.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/denoising.cuda.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/denoising.cuda.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cuda.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o -MF CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cuda.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cuda.cpp" > CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cuda.cpp" > CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cuda.cpp" -o CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cuda.cpp" -o CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/hdr_common.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/hdr_common.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o -MF CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/hdr_common.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o -MF CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/hdr_common.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/hdr_common.cpp" > CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/hdr_common.cpp" > CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/hdr_common.cpp" -o CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/hdr_common.cpp" -o CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/inpaint.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/inpaint.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o -MF CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/inpaint.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o -MF CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/inpaint.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/inpaint.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/inpaint.cpp" > CMakeFiles/opencv_photo.dir/src/inpaint.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/inpaint.cpp" > CMakeFiles/opencv_photo.dir/src/inpaint.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/inpaint.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/inpaint.cpp" -o CMakeFiles/opencv_photo.dir/src/inpaint.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/inpaint.cpp" -o CMakeFiles/opencv_photo.dir/src/inpaint.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/merge.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/merge.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o -MF CMakeFiles/opencv_photo.dir/src/merge.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/merge.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/merge.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o -MF CMakeFiles/opencv_photo.dir/src/merge.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/merge.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/merge.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/merge.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/merge.cpp" > CMakeFiles/opencv_photo.dir/src/merge.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/merge.cpp" > CMakeFiles/opencv_photo.dir/src/merge.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/merge.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/merge.cpp" -o CMakeFiles/opencv_photo.dir/src/merge.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/merge.cpp" -o CMakeFiles/opencv_photo.dir/src/merge.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/npr.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/npr.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o -MF CMakeFiles/opencv_photo.dir/src/npr.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/npr.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/npr.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o -MF CMakeFiles/opencv_photo.dir/src/npr.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/npr.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/npr.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/npr.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/npr.cpp" > CMakeFiles/opencv_photo.dir/src/npr.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/npr.cpp" > CMakeFiles/opencv_photo.dir/src/npr.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/npr.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/npr.cpp" -o CMakeFiles/opencv_photo.dir/src/npr.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/npr.cpp" -o CMakeFiles/opencv_photo.dir/src/npr.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/seamless_cloning.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/seamless_cloning.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o -MF CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o -MF CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning.cpp" > CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning.cpp" > CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning.cpp" -o CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning.cpp" -o CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/seamless_cloning_impl.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/seamless_cloning_impl.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o -MF CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning_impl.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o -MF CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning_impl.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning_impl.cpp" > CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning_impl.cpp" > CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning_impl.cpp" -o CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning_impl.cpp" -o CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
-modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/photo/src/tonemap.cpp
+modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/photo/src/tonemap.cpp
 modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o -MF CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/tonemap.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o -MF CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o.d -o CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/tonemap.cpp"
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_photo.dir/src/tonemap.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/tonemap.cpp" > CMakeFiles/opencv_photo.dir/src/tonemap.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/tonemap.cpp" > CMakeFiles/opencv_photo.dir/src/tonemap.cpp.i
 
 modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_photo.dir/src/tonemap.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/tonemap.cpp" -o CMakeFiles/opencv_photo.dir/src/tonemap.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/tonemap.cpp" -o CMakeFiles/opencv_photo.dir/src/tonemap.cpp.s
 
 modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o: modules/photo/CMakeFiles/opencv_photo.dir/flags.make
 modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o: modules/photo/opencl_kernels_photo.cpp
@@ -290,34 +290,34 @@ opencv_photo_OBJECTS = \
 # External object files for target opencv_photo
 opencv_photo_EXTERNAL_OBJECTS =
 
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/build.make
-lib/libopencv_photo.4.5.3.dylib: lib/libopencv_imgproc.4.5.3.dylib
-lib/libopencv_photo.4.5.3.dylib: 3rdparty/lib/libippiw.a
-lib/libopencv_photo.4.5.3.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-lib/libopencv_photo.4.5.3.dylib: lib/libopencv_core.4.5.3.dylib
-lib/libopencv_photo.4.5.3.dylib: modules/photo/CMakeFiles/opencv_photo.dir/link.txt
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/build.make
+lib/libopencv_photo.3.4.15.dylib: lib/libopencv_imgproc.3.4.15.dylib
+lib/libopencv_photo.3.4.15.dylib: 3rdparty/lib/libippiw.a
+lib/libopencv_photo.3.4.15.dylib: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
+lib/libopencv_photo.3.4.15.dylib: lib/libopencv_core.3.4.15.dylib
+lib/libopencv_photo.3.4.15.dylib: modules/photo/CMakeFiles/opencv_photo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../../lib/libopencv_photo.dylib"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_photo.dir/link.txt --verbose=$(VERBOSE)
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_photo.4.5.3.dylib ../../lib/libopencv_photo.4.5.dylib ../../lib/libopencv_photo.dylib
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libopencv_photo.3.4.15.dylib ../../lib/libopencv_photo.3.4.dylib ../../lib/libopencv_photo.dylib
 
-lib/libopencv_photo.4.5.dylib: lib/libopencv_photo.4.5.3.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_photo.4.5.dylib
+lib/libopencv_photo.3.4.dylib: lib/libopencv_photo.3.4.15.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_photo.3.4.dylib
 
-lib/libopencv_photo.dylib: lib/libopencv_photo.4.5.3.dylib
+lib/libopencv_photo.dylib: lib/libopencv_photo.3.4.15.dylib
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libopencv_photo.dylib
 
 # Rule to build all files generated by this target.
@@ -329,6 +329,6 @@ modules/photo/CMakeFiles/opencv_photo.dir/clean:
 .PHONY : modules/photo/CMakeFiles/opencv_photo.dir/clean
 
 modules/photo/CMakeFiles/opencv_photo.dir/depend: modules/photo/opencl_kernels_photo.cpp
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo/CMakeFiles/opencv_photo.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo/CMakeFiles/opencv_photo.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/photo/CMakeFiles/opencv_photo.dir/depend
 

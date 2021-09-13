@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/data
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,34 +38,34 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/haarcascades" TYPE FILE FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_eye.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalcatface.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalcatface_extended.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalface_alt.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_fullbody.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_lefteye_2splits.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_lowerbody.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_profileface.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_righteye_2splits.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_russian_plate_number.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_smile.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/haarcascades/haarcascade_upperbody.xml"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/haarcascades" TYPE FILE FILES
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_eye.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalcatface.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalcatface_extended.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_frontalface_default.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_fullbody.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_lefteye_2splits.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_lowerbody.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_profileface.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_righteye_2splits.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_russian_plate_number.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_smile.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/haarcascades/haarcascade_upperbody.xml"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/lbpcascades" TYPE FILE FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/lbpcascades/lbpcascade_frontalcatface.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/lbpcascades/lbpcascade_frontalface.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/lbpcascades/lbpcascade_frontalface_improved.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/lbpcascades/lbpcascade_profileface.xml"
-    "/Users/runewind/Documents/GitHub/Master/object detection/opencv/data/lbpcascades/lbpcascade_silverware.xml"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/lbpcascades" TYPE FILE FILES
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/lbpcascades/lbpcascade_frontalcatface.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/lbpcascades/lbpcascade_frontalface.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/lbpcascades/lbpcascade_frontalface_improved.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/lbpcascades/lbpcascade_profileface.xml"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/data/lbpcascades/lbpcascade_silverware.xml"
     )
 endif()
 

@@ -3,15 +3,15 @@
  opencv_highgui
  AccuracyTest
 # Source files and their labels
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/test/test_gui.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/test/test_gui.cpp
  Main
  opencv_highgui
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/test/test_main.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/test/test_main.cpp
  Main
  opencv_highgui
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/test/test_precomp.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/test/test_precomp.hpp
  Main
  opencv_highgui
  AccuracyTest

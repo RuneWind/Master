@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/ittnotify
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/ittnotify
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-LICENSE.BSD" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/ittnotify/src/ittnotify/LICENSE.BSD")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "ittnotify-LICENSE.BSD" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/LICENSE.BSD")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv4" TYPE FILE RENAME "ittnotify-LICENSE.GPL" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/ittnotify/src/ittnotify/LICENSE.GPL")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/opencv3" TYPE FILE RENAME "ittnotify-LICENSE.GPL" FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/ittnotify/src/ittnotify/LICENSE.GPL")
 endif()
 

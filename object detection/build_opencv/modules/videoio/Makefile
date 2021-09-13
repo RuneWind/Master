@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -305,54 +305,6 @@ perf/perf_output.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s
 .PHONY : perf/perf_output.cpp.s
 
-src/backend_plugin.o: src/backend_plugin.cpp.o
-.PHONY : src/backend_plugin.o
-
-# target to build an object file
-src/backend_plugin.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.o
-.PHONY : src/backend_plugin.cpp.o
-
-src/backend_plugin.i: src/backend_plugin.cpp.i
-.PHONY : src/backend_plugin.i
-
-# target to preprocess a source file
-src/backend_plugin.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.i
-.PHONY : src/backend_plugin.cpp.i
-
-src/backend_plugin.s: src/backend_plugin.cpp.s
-.PHONY : src/backend_plugin.s
-
-# target to generate assembly for a file
-src/backend_plugin.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.s
-.PHONY : src/backend_plugin.cpp.s
-
-src/backend_static.o: src/backend_static.cpp.o
-.PHONY : src/backend_static.o
-
-# target to build an object file
-src/backend_static.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.o
-.PHONY : src/backend_static.cpp.o
-
-src/backend_static.i: src/backend_static.cpp.i
-.PHONY : src/backend_static.i
-
-# target to preprocess a source file
-src/backend_static.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.i
-.PHONY : src/backend_static.cpp.i
-
-src/backend_static.s: src/backend_static.cpp.s
-.PHONY : src/backend_static.s
-
-# target to generate assembly for a file
-src/backend_static.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.s
-.PHONY : src/backend_static.cpp.s
-
 src/cap.o: src/cap.cpp.o
 .PHONY : src/cap.o
 
@@ -593,30 +545,6 @@ test/test_container_avi.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.s
 .PHONY : test/test_container_avi.cpp.s
 
-test/test_dynamic.o: test/test_dynamic.cpp.o
-.PHONY : test/test_dynamic.o
-
-# target to build an object file
-test/test_dynamic.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o
-.PHONY : test/test_dynamic.cpp.o
-
-test/test_dynamic.i: test/test_dynamic.cpp.i
-.PHONY : test/test_dynamic.i
-
-# target to preprocess a source file
-test/test_dynamic.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.i
-.PHONY : test/test_dynamic.cpp.i
-
-test/test_dynamic.s: test/test_dynamic.cpp.s
-.PHONY : test/test_dynamic.s
-
-# target to generate assembly for a file
-test/test_dynamic.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.s
-.PHONY : test/test_dynamic.cpp.s
-
 test/test_ffmpeg.o: test/test_ffmpeg.cpp.o
 .PHONY : test/test_ffmpeg.o
 
@@ -640,6 +568,30 @@ test/test_ffmpeg.s: test/test_ffmpeg.cpp.s
 test/test_ffmpeg.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s
 .PHONY : test/test_ffmpeg.cpp.s
+
+test/test_fourcc.o: test/test_fourcc.cpp.o
+.PHONY : test/test_fourcc.o
+
+# target to build an object file
+test/test_fourcc.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o
+.PHONY : test/test_fourcc.cpp.o
+
+test/test_fourcc.i: test/test_fourcc.cpp.i
+.PHONY : test/test_fourcc.i
+
+# target to preprocess a source file
+test/test_fourcc.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i
+.PHONY : test/test_fourcc.cpp.i
+
+test/test_fourcc.s: test/test_fourcc.cpp.s
+.PHONY : test/test_fourcc.s
+
+# target to generate assembly for a file
+test/test_fourcc.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s
+.PHONY : test/test_fourcc.cpp.s
 
 test/test_gstreamer.o: test/test_gstreamer.cpp.o
 .PHONY : test/test_gstreamer.o
@@ -713,30 +665,6 @@ test/test_mfx.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s
 .PHONY : test/test_mfx.cpp.s
 
-test/test_plugins.o: test/test_plugins.cpp.o
-.PHONY : test/test_plugins.o
-
-# target to build an object file
-test/test_plugins.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o
-.PHONY : test/test_plugins.cpp.o
-
-test/test_plugins.i: test/test_plugins.cpp.i
-.PHONY : test/test_plugins.i
-
-# target to preprocess a source file
-test/test_plugins.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.i
-.PHONY : test/test_plugins.cpp.i
-
-test/test_plugins.s: test/test_plugins.cpp.s
-.PHONY : test/test_plugins.s
-
-# target to generate assembly for a file
-test/test_plugins.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.s
-.PHONY : test/test_plugins.cpp.s
-
 test/test_video_io.o: test/test_video_io.cpp.o
 .PHONY : test/test_video_io.o
 
@@ -788,12 +716,6 @@ help:
 	@echo "... perf/perf_output.o"
 	@echo "... perf/perf_output.i"
 	@echo "... perf/perf_output.s"
-	@echo "... src/backend_plugin.o"
-	@echo "... src/backend_plugin.i"
-	@echo "... src/backend_plugin.s"
-	@echo "... src/backend_static.o"
-	@echo "... src/backend_static.i"
-	@echo "... src/backend_static.s"
 	@echo "... src/cap.o"
 	@echo "... src/cap.i"
 	@echo "... src/cap.s"
@@ -824,12 +746,12 @@ help:
 	@echo "... test/test_container_avi.o"
 	@echo "... test/test_container_avi.i"
 	@echo "... test/test_container_avi.s"
-	@echo "... test/test_dynamic.o"
-	@echo "... test/test_dynamic.i"
-	@echo "... test/test_dynamic.s"
 	@echo "... test/test_ffmpeg.o"
 	@echo "... test/test_ffmpeg.i"
 	@echo "... test/test_ffmpeg.s"
+	@echo "... test/test_fourcc.o"
+	@echo "... test/test_fourcc.i"
+	@echo "... test/test_fourcc.s"
 	@echo "... test/test_gstreamer.o"
 	@echo "... test/test_gstreamer.i"
 	@echo "... test/test_gstreamer.s"
@@ -839,9 +761,6 @@ help:
 	@echo "... test/test_mfx.o"
 	@echo "... test/test_mfx.i"
 	@echo "... test/test_mfx.s"
-	@echo "... test/test_plugins.o"
-	@echo "... test/test_plugins.i"
-	@echo "... test/test_plugins.s"
 	@echo "... test/test_video_io.o"
 	@echo "... test/test_video_io.i"
 	@echo "... test/test_video_io.s"

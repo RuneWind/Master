@@ -3,35 +3,31 @@
  opencv_highgui
  Module
 # Source files and their labels
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/include/opencv2/highgui.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/include/opencv2/highgui.hpp
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/include/opencv2/highgui/highgui.hpp
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/include/opencv2/highgui/highgui_c.h
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/src/backend.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/src/window.cpp
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/src/window.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/src/roiSelector.cpp
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/src/roiSelector.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/src/window_cocoa.mm
  Main
  opencv_highgui
  Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/src/window_cocoa.mm
- Main
- opencv_highgui
- Module
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/src/precomp.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/src/precomp.hpp
  Main
  opencv_highgui
  Module

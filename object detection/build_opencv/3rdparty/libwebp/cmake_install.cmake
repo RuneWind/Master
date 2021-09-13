@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/libwebp
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/libwebp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -736,30 +736,6 @@ perf/perf_addWeighted.s: perf/perf_addWeighted.cpp.s
 perf/perf_addWeighted.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.s
 .PHONY : perf/perf_addWeighted.cpp.s
-
-perf/perf_allocation.o: perf/perf_allocation.cpp.o
-.PHONY : perf/perf_allocation.o
-
-# target to build an object file
-perf/perf_allocation.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.o
-.PHONY : perf/perf_allocation.cpp.o
-
-perf/perf_allocation.i: perf/perf_allocation.cpp.i
-.PHONY : perf/perf_allocation.i
-
-# target to preprocess a source file
-perf/perf_allocation.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.i
-.PHONY : perf/perf_allocation.cpp.i
-
-perf/perf_allocation.s: perf/perf_allocation.cpp.s
-.PHONY : perf/perf_allocation.s
-
-# target to generate assembly for a file
-perf/perf_allocation.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.s
-.PHONY : perf/perf_allocation.cpp.s
 
 perf/perf_arithm.o: perf/perf_arithm.cpp.o
 .PHONY : perf/perf_arithm.o
@@ -1745,30 +1721,6 @@ src/cuda_gpu_mat.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s
 .PHONY : src/cuda_gpu_mat.cpp.s
 
-src/cuda_gpu_mat_nd.o: src/cuda_gpu_mat_nd.cpp.o
-.PHONY : src/cuda_gpu_mat_nd.o
-
-# target to build an object file
-src/cuda_gpu_mat_nd.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat_nd.cpp.o
-.PHONY : src/cuda_gpu_mat_nd.cpp.o
-
-src/cuda_gpu_mat_nd.i: src/cuda_gpu_mat_nd.cpp.i
-.PHONY : src/cuda_gpu_mat_nd.i
-
-# target to preprocess a source file
-src/cuda_gpu_mat_nd.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat_nd.cpp.i
-.PHONY : src/cuda_gpu_mat_nd.cpp.i
-
-src/cuda_gpu_mat_nd.s: src/cuda_gpu_mat_nd.cpp.s
-.PHONY : src/cuda_gpu_mat_nd.s
-
-# target to generate assembly for a file
-src/cuda_gpu_mat_nd.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat_nd.cpp.s
-.PHONY : src/cuda_gpu_mat_nd.cpp.s
-
 src/cuda_host_mem.o: src/cuda_host_mem.cpp.o
 .PHONY : src/cuda_host_mem.o
 
@@ -2561,53 +2513,53 @@ src/ocl.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.s
 .PHONY : src/ocl.cpp.s
 
-src/opencl/runtime/opencl_clblas.o: src/opencl/runtime/opencl_clblas.cpp.o
-.PHONY : src/opencl/runtime/opencl_clblas.o
+src/opencl/runtime/opencl_clamdblas.o: src/opencl/runtime/opencl_clamdblas.cpp.o
+.PHONY : src/opencl/runtime/opencl_clamdblas.o
 
 # target to build an object file
-src/opencl/runtime/opencl_clblas.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clblas.cpp.o
-.PHONY : src/opencl/runtime/opencl_clblas.cpp.o
+src/opencl/runtime/opencl_clamdblas.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o
+.PHONY : src/opencl/runtime/opencl_clamdblas.cpp.o
 
-src/opencl/runtime/opencl_clblas.i: src/opencl/runtime/opencl_clblas.cpp.i
-.PHONY : src/opencl/runtime/opencl_clblas.i
+src/opencl/runtime/opencl_clamdblas.i: src/opencl/runtime/opencl_clamdblas.cpp.i
+.PHONY : src/opencl/runtime/opencl_clamdblas.i
 
 # target to preprocess a source file
-src/opencl/runtime/opencl_clblas.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clblas.cpp.i
-.PHONY : src/opencl/runtime/opencl_clblas.cpp.i
+src/opencl/runtime/opencl_clamdblas.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i
+.PHONY : src/opencl/runtime/opencl_clamdblas.cpp.i
 
-src/opencl/runtime/opencl_clblas.s: src/opencl/runtime/opencl_clblas.cpp.s
-.PHONY : src/opencl/runtime/opencl_clblas.s
+src/opencl/runtime/opencl_clamdblas.s: src/opencl/runtime/opencl_clamdblas.cpp.s
+.PHONY : src/opencl/runtime/opencl_clamdblas.s
 
 # target to generate assembly for a file
-src/opencl/runtime/opencl_clblas.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clblas.cpp.s
-.PHONY : src/opencl/runtime/opencl_clblas.cpp.s
+src/opencl/runtime/opencl_clamdblas.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s
+.PHONY : src/opencl/runtime/opencl_clamdblas.cpp.s
 
-src/opencl/runtime/opencl_clfft.o: src/opencl/runtime/opencl_clfft.cpp.o
-.PHONY : src/opencl/runtime/opencl_clfft.o
+src/opencl/runtime/opencl_clamdfft.o: src/opencl/runtime/opencl_clamdfft.cpp.o
+.PHONY : src/opencl/runtime/opencl_clamdfft.o
 
 # target to build an object file
-src/opencl/runtime/opencl_clfft.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clfft.cpp.o
-.PHONY : src/opencl/runtime/opencl_clfft.cpp.o
+src/opencl/runtime/opencl_clamdfft.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
+.PHONY : src/opencl/runtime/opencl_clamdfft.cpp.o
 
-src/opencl/runtime/opencl_clfft.i: src/opencl/runtime/opencl_clfft.cpp.i
-.PHONY : src/opencl/runtime/opencl_clfft.i
+src/opencl/runtime/opencl_clamdfft.i: src/opencl/runtime/opencl_clamdfft.cpp.i
+.PHONY : src/opencl/runtime/opencl_clamdfft.i
 
 # target to preprocess a source file
-src/opencl/runtime/opencl_clfft.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clfft.cpp.i
-.PHONY : src/opencl/runtime/opencl_clfft.cpp.i
+src/opencl/runtime/opencl_clamdfft.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i
+.PHONY : src/opencl/runtime/opencl_clamdfft.cpp.i
 
-src/opencl/runtime/opencl_clfft.s: src/opencl/runtime/opencl_clfft.cpp.s
-.PHONY : src/opencl/runtime/opencl_clfft.s
+src/opencl/runtime/opencl_clamdfft.s: src/opencl/runtime/opencl_clamdfft.cpp.s
+.PHONY : src/opencl/runtime/opencl_clamdfft.s
 
 # target to generate assembly for a file
-src/opencl/runtime/opencl_clfft.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clfft.cpp.s
-.PHONY : src/opencl/runtime/opencl_clfft.cpp.s
+src/opencl/runtime/opencl_clamdfft.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s
+.PHONY : src/opencl/runtime/opencl_clamdfft.cpp.s
 
 src/opencl/runtime/opencl_core.o: src/opencl/runtime/opencl_core.cpp.o
 .PHONY : src/opencl/runtime/opencl_core.o
@@ -2729,78 +2681,6 @@ src/parallel.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.s
 .PHONY : src/parallel.cpp.s
 
-src/parallel/parallel.o: src/parallel/parallel.cpp.o
-.PHONY : src/parallel/parallel.o
-
-# target to build an object file
-src/parallel/parallel.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel.cpp.o
-.PHONY : src/parallel/parallel.cpp.o
-
-src/parallel/parallel.i: src/parallel/parallel.cpp.i
-.PHONY : src/parallel/parallel.i
-
-# target to preprocess a source file
-src/parallel/parallel.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel.cpp.i
-.PHONY : src/parallel/parallel.cpp.i
-
-src/parallel/parallel.s: src/parallel/parallel.cpp.s
-.PHONY : src/parallel/parallel.s
-
-# target to generate assembly for a file
-src/parallel/parallel.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel.cpp.s
-.PHONY : src/parallel/parallel.cpp.s
-
-src/parallel/parallel_openmp.o: src/parallel/parallel_openmp.cpp.o
-.PHONY : src/parallel/parallel_openmp.o
-
-# target to build an object file
-src/parallel/parallel_openmp.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_openmp.cpp.o
-.PHONY : src/parallel/parallel_openmp.cpp.o
-
-src/parallel/parallel_openmp.i: src/parallel/parallel_openmp.cpp.i
-.PHONY : src/parallel/parallel_openmp.i
-
-# target to preprocess a source file
-src/parallel/parallel_openmp.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_openmp.cpp.i
-.PHONY : src/parallel/parallel_openmp.cpp.i
-
-src/parallel/parallel_openmp.s: src/parallel/parallel_openmp.cpp.s
-.PHONY : src/parallel/parallel_openmp.s
-
-# target to generate assembly for a file
-src/parallel/parallel_openmp.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_openmp.cpp.s
-.PHONY : src/parallel/parallel_openmp.cpp.s
-
-src/parallel/parallel_tbb.o: src/parallel/parallel_tbb.cpp.o
-.PHONY : src/parallel/parallel_tbb.o
-
-# target to build an object file
-src/parallel/parallel_tbb.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_tbb.cpp.o
-.PHONY : src/parallel/parallel_tbb.cpp.o
-
-src/parallel/parallel_tbb.i: src/parallel/parallel_tbb.cpp.i
-.PHONY : src/parallel/parallel_tbb.i
-
-# target to preprocess a source file
-src/parallel/parallel_tbb.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_tbb.cpp.i
-.PHONY : src/parallel/parallel_tbb.cpp.i
-
-src/parallel/parallel_tbb.s: src/parallel/parallel_tbb.cpp.s
-.PHONY : src/parallel/parallel_tbb.s
-
-# target to generate assembly for a file
-src/parallel/parallel_tbb.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_tbb.cpp.s
-.PHONY : src/parallel/parallel_tbb.cpp.s
-
 src/parallel_impl.o: src/parallel_impl.cpp.o
 .PHONY : src/parallel_impl.o
 
@@ -2873,29 +2753,77 @@ src/persistence.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.s
 .PHONY : src/persistence.cpp.s
 
-src/persistence_base64_encoding.o: src/persistence_base64_encoding.cpp.o
-.PHONY : src/persistence_base64_encoding.o
+src/persistence_base64.o: src/persistence_base64.cpp.o
+.PHONY : src/persistence_base64.o
 
 # target to build an object file
-src/persistence_base64_encoding.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64_encoding.cpp.o
-.PHONY : src/persistence_base64_encoding.cpp.o
+src/persistence_base64.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64.cpp.o
+.PHONY : src/persistence_base64.cpp.o
 
-src/persistence_base64_encoding.i: src/persistence_base64_encoding.cpp.i
-.PHONY : src/persistence_base64_encoding.i
+src/persistence_base64.i: src/persistence_base64.cpp.i
+.PHONY : src/persistence_base64.i
 
 # target to preprocess a source file
-src/persistence_base64_encoding.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64_encoding.cpp.i
-.PHONY : src/persistence_base64_encoding.cpp.i
+src/persistence_base64.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64.cpp.i
+.PHONY : src/persistence_base64.cpp.i
 
-src/persistence_base64_encoding.s: src/persistence_base64_encoding.cpp.s
-.PHONY : src/persistence_base64_encoding.s
+src/persistence_base64.s: src/persistence_base64.cpp.s
+.PHONY : src/persistence_base64.s
 
 # target to generate assembly for a file
-src/persistence_base64_encoding.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64_encoding.cpp.s
-.PHONY : src/persistence_base64_encoding.cpp.s
+src/persistence_base64.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64.cpp.s
+.PHONY : src/persistence_base64.cpp.s
+
+src/persistence_c.o: src/persistence_c.cpp.o
+.PHONY : src/persistence_c.o
+
+# target to build an object file
+src/persistence_c.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_c.cpp.o
+.PHONY : src/persistence_c.cpp.o
+
+src/persistence_c.i: src/persistence_c.cpp.i
+.PHONY : src/persistence_c.i
+
+# target to preprocess a source file
+src/persistence_c.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_c.cpp.i
+.PHONY : src/persistence_c.cpp.i
+
+src/persistence_c.s: src/persistence_c.cpp.s
+.PHONY : src/persistence_c.s
+
+# target to generate assembly for a file
+src/persistence_c.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_c.cpp.s
+.PHONY : src/persistence_c.cpp.s
+
+src/persistence_cpp.o: src/persistence_cpp.cpp.o
+.PHONY : src/persistence_cpp.o
+
+# target to build an object file
+src/persistence_cpp.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_cpp.cpp.o
+.PHONY : src/persistence_cpp.cpp.o
+
+src/persistence_cpp.i: src/persistence_cpp.cpp.i
+.PHONY : src/persistence_cpp.i
+
+# target to preprocess a source file
+src/persistence_cpp.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_cpp.cpp.i
+.PHONY : src/persistence_cpp.cpp.i
+
+src/persistence_cpp.s: src/persistence_cpp.cpp.s
+.PHONY : src/persistence_cpp.s
+
+# target to generate assembly for a file
+src/persistence_cpp.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence_cpp.cpp.s
+.PHONY : src/persistence_cpp.cpp.s
 
 src/persistence_json.o: src/persistence_json.cpp.o
 .PHONY : src/persistence_json.o
@@ -3329,54 +3257,6 @@ src/utils/filesystem.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/filesystem.cpp.s
 .PHONY : src/utils/filesystem.cpp.s
 
-src/utils/logtagconfigparser.o: src/utils/logtagconfigparser.cpp.o
-.PHONY : src/utils/logtagconfigparser.o
-
-# target to build an object file
-src/utils/logtagconfigparser.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.o
-.PHONY : src/utils/logtagconfigparser.cpp.o
-
-src/utils/logtagconfigparser.i: src/utils/logtagconfigparser.cpp.i
-.PHONY : src/utils/logtagconfigparser.i
-
-# target to preprocess a source file
-src/utils/logtagconfigparser.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.i
-.PHONY : src/utils/logtagconfigparser.cpp.i
-
-src/utils/logtagconfigparser.s: src/utils/logtagconfigparser.cpp.s
-.PHONY : src/utils/logtagconfigparser.s
-
-# target to generate assembly for a file
-src/utils/logtagconfigparser.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.s
-.PHONY : src/utils/logtagconfigparser.cpp.s
-
-src/utils/logtagmanager.o: src/utils/logtagmanager.cpp.o
-.PHONY : src/utils/logtagmanager.o
-
-# target to build an object file
-src/utils/logtagmanager.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.o
-.PHONY : src/utils/logtagmanager.cpp.o
-
-src/utils/logtagmanager.i: src/utils/logtagmanager.cpp.i
-.PHONY : src/utils/logtagmanager.i
-
-# target to preprocess a source file
-src/utils/logtagmanager.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.i
-.PHONY : src/utils/logtagmanager.cpp.i
-
-src/utils/logtagmanager.s: src/utils/logtagmanager.cpp.s
-.PHONY : src/utils/logtagmanager.s
-
-# target to generate assembly for a file
-src/utils/logtagmanager.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.s
-.PHONY : src/utils/logtagmanager.cpp.s
-
 src/utils/samples.o: src/utils/samples.cpp.o
 .PHONY : src/utils/samples.o
 
@@ -3808,30 +3688,6 @@ test/test_countnonzero.s: test/test_countnonzero.cpp.s
 test/test_countnonzero.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.s
 .PHONY : test/test_countnonzero.cpp.s
-
-test/test_cuda.o: test/test_cuda.cpp.o
-.PHONY : test/test_cuda.o
-
-# target to build an object file
-test/test_cuda.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_cuda.cpp.o
-.PHONY : test/test_cuda.cpp.o
-
-test/test_cuda.i: test/test_cuda.cpp.i
-.PHONY : test/test_cuda.i
-
-# target to preprocess a source file
-test/test_cuda.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_cuda.cpp.i
-.PHONY : test/test_cuda.cpp.i
-
-test/test_cuda.s: test/test_cuda.cpp.s
-.PHONY : test/test_cuda.s
-
-# target to generate assembly for a file
-test/test_cuda.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_cuda.cpp.s
-.PHONY : test/test_cuda.cpp.s
 
 test/test_downhill_simplex.o: test/test_downhill_simplex.cpp.o
 .PHONY : test/test_downhill_simplex.o
@@ -4313,54 +4169,6 @@ test/test_io.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.s
 .PHONY : test/test_io.cpp.s
 
-test/test_logtagconfigparser.o: test/test_logtagconfigparser.cpp.o
-.PHONY : test/test_logtagconfigparser.o
-
-# target to build an object file
-test/test_logtagconfigparser.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagconfigparser.cpp.o
-.PHONY : test/test_logtagconfigparser.cpp.o
-
-test/test_logtagconfigparser.i: test/test_logtagconfigparser.cpp.i
-.PHONY : test/test_logtagconfigparser.i
-
-# target to preprocess a source file
-test/test_logtagconfigparser.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagconfigparser.cpp.i
-.PHONY : test/test_logtagconfigparser.cpp.i
-
-test/test_logtagconfigparser.s: test/test_logtagconfigparser.cpp.s
-.PHONY : test/test_logtagconfigparser.s
-
-# target to generate assembly for a file
-test/test_logtagconfigparser.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagconfigparser.cpp.s
-.PHONY : test/test_logtagconfigparser.cpp.s
-
-test/test_logtagmanager.o: test/test_logtagmanager.cpp.o
-.PHONY : test/test_logtagmanager.o
-
-# target to build an object file
-test/test_logtagmanager.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagmanager.cpp.o
-.PHONY : test/test_logtagmanager.cpp.o
-
-test/test_logtagmanager.i: test/test_logtagmanager.cpp.i
-.PHONY : test/test_logtagmanager.i
-
-# target to preprocess a source file
-test/test_logtagmanager.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagmanager.cpp.i
-.PHONY : test/test_logtagmanager.cpp.i
-
-test/test_logtagmanager.s: test/test_logtagmanager.cpp.s
-.PHONY : test/test_logtagmanager.s
-
-# target to generate assembly for a file
-test/test_logtagmanager.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagmanager.cpp.s
-.PHONY : test/test_logtagmanager.cpp.s
-
 test/test_lpsolver.o: test/test_lpsolver.cpp.o
 .PHONY : test/test_lpsolver.o
 
@@ -4481,30 +4289,6 @@ test/test_misc.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.s
 .PHONY : test/test_misc.cpp.s
 
-test/test_opencl.o: test/test_opencl.cpp.o
-.PHONY : test/test_opencl.o
-
-# target to build an object file
-test/test_opencl.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_opencl.cpp.o
-.PHONY : test/test_opencl.cpp.o
-
-test/test_opencl.i: test/test_opencl.cpp.i
-.PHONY : test/test_opencl.i
-
-# target to preprocess a source file
-test/test_opencl.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_opencl.cpp.i
-.PHONY : test/test_opencl.cpp.i
-
-test/test_opencl.s: test/test_opencl.cpp.s
-.PHONY : test/test_opencl.s
-
-# target to generate assembly for a file
-test/test_opencl.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_opencl.cpp.s
-.PHONY : test/test_opencl.cpp.s
-
 test/test_operations.o: test/test_operations.cpp.o
 .PHONY : test/test_operations.o
 
@@ -4552,30 +4336,6 @@ test/test_ptr.s: test/test_ptr.cpp.s
 test/test_ptr.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.s
 .PHONY : test/test_ptr.cpp.s
-
-test/test_quaternion.o: test/test_quaternion.cpp.o
-.PHONY : test/test_quaternion.o
-
-# target to build an object file
-test/test_quaternion.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_quaternion.cpp.o
-.PHONY : test/test_quaternion.cpp.o
-
-test/test_quaternion.i: test/test_quaternion.cpp.i
-.PHONY : test/test_quaternion.i
-
-# target to preprocess a source file
-test/test_quaternion.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_quaternion.cpp.i
-.PHONY : test/test_quaternion.cpp.i
-
-test/test_quaternion.s: test/test_quaternion.cpp.s
-.PHONY : test/test_quaternion.s
-
-# target to generate assembly for a file
-test/test_quaternion.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_quaternion.cpp.s
-.PHONY : test/test_quaternion.cpp.s
 
 test/test_rand.o: test/test_rand.cpp.o
 .PHONY : test/test_rand.o
@@ -4754,9 +4514,6 @@ help:
 	@echo "... perf/perf_addWeighted.o"
 	@echo "... perf/perf_addWeighted.i"
 	@echo "... perf/perf_addWeighted.s"
-	@echo "... perf/perf_allocation.o"
-	@echo "... perf/perf_allocation.i"
-	@echo "... perf/perf_allocation.s"
 	@echo "... perf/perf_arithm.o"
 	@echo "... perf/perf_arithm.i"
 	@echo "... perf/perf_arithm.s"
@@ -4880,9 +4637,6 @@ help:
 	@echo "... src/cuda_gpu_mat.o"
 	@echo "... src/cuda_gpu_mat.i"
 	@echo "... src/cuda_gpu_mat.s"
-	@echo "... src/cuda_gpu_mat_nd.o"
-	@echo "... src/cuda_gpu_mat_nd.i"
-	@echo "... src/cuda_gpu_mat_nd.s"
 	@echo "... src/cuda_host_mem.o"
 	@echo "... src/cuda_host_mem.i"
 	@echo "... src/cuda_host_mem.s"
@@ -4982,12 +4736,12 @@ help:
 	@echo "... src/ocl.o"
 	@echo "... src/ocl.i"
 	@echo "... src/ocl.s"
-	@echo "... src/opencl/runtime/opencl_clblas.o"
-	@echo "... src/opencl/runtime/opencl_clblas.i"
-	@echo "... src/opencl/runtime/opencl_clblas.s"
-	@echo "... src/opencl/runtime/opencl_clfft.o"
-	@echo "... src/opencl/runtime/opencl_clfft.i"
-	@echo "... src/opencl/runtime/opencl_clfft.s"
+	@echo "... src/opencl/runtime/opencl_clamdblas.o"
+	@echo "... src/opencl/runtime/opencl_clamdblas.i"
+	@echo "... src/opencl/runtime/opencl_clamdblas.s"
+	@echo "... src/opencl/runtime/opencl_clamdfft.o"
+	@echo "... src/opencl/runtime/opencl_clamdfft.i"
+	@echo "... src/opencl/runtime/opencl_clamdfft.s"
 	@echo "... src/opencl/runtime/opencl_core.o"
 	@echo "... src/opencl/runtime/opencl_core.i"
 	@echo "... src/opencl/runtime/opencl_core.s"
@@ -5003,15 +4757,6 @@ help:
 	@echo "... src/parallel.o"
 	@echo "... src/parallel.i"
 	@echo "... src/parallel.s"
-	@echo "... src/parallel/parallel.o"
-	@echo "... src/parallel/parallel.i"
-	@echo "... src/parallel/parallel.s"
-	@echo "... src/parallel/parallel_openmp.o"
-	@echo "... src/parallel/parallel_openmp.i"
-	@echo "... src/parallel/parallel_openmp.s"
-	@echo "... src/parallel/parallel_tbb.o"
-	@echo "... src/parallel/parallel_tbb.i"
-	@echo "... src/parallel/parallel_tbb.s"
 	@echo "... src/parallel_impl.o"
 	@echo "... src/parallel_impl.i"
 	@echo "... src/parallel_impl.s"
@@ -5021,9 +4766,15 @@ help:
 	@echo "... src/persistence.o"
 	@echo "... src/persistence.i"
 	@echo "... src/persistence.s"
-	@echo "... src/persistence_base64_encoding.o"
-	@echo "... src/persistence_base64_encoding.i"
-	@echo "... src/persistence_base64_encoding.s"
+	@echo "... src/persistence_base64.o"
+	@echo "... src/persistence_base64.i"
+	@echo "... src/persistence_base64.s"
+	@echo "... src/persistence_c.o"
+	@echo "... src/persistence_c.i"
+	@echo "... src/persistence_c.s"
+	@echo "... src/persistence_cpp.o"
+	@echo "... src/persistence_cpp.i"
+	@echo "... src/persistence_cpp.s"
 	@echo "... src/persistence_json.o"
 	@echo "... src/persistence_json.i"
 	@echo "... src/persistence_json.s"
@@ -5078,12 +4829,6 @@ help:
 	@echo "... src/utils/filesystem.o"
 	@echo "... src/utils/filesystem.i"
 	@echo "... src/utils/filesystem.s"
-	@echo "... src/utils/logtagconfigparser.o"
-	@echo "... src/utils/logtagconfigparser.i"
-	@echo "... src/utils/logtagconfigparser.s"
-	@echo "... src/utils/logtagmanager.o"
-	@echo "... src/utils/logtagmanager.i"
-	@echo "... src/utils/logtagmanager.s"
 	@echo "... src/utils/samples.o"
 	@echo "... src/utils/samples.i"
 	@echo "... src/utils/samples.s"
@@ -5138,9 +4883,6 @@ help:
 	@echo "... test/test_countnonzero.o"
 	@echo "... test/test_countnonzero.i"
 	@echo "... test/test_countnonzero.s"
-	@echo "... test/test_cuda.o"
-	@echo "... test/test_cuda.i"
-	@echo "... test/test_cuda.s"
 	@echo "... test/test_downhill_simplex.o"
 	@echo "... test/test_downhill_simplex.i"
 	@echo "... test/test_downhill_simplex.s"
@@ -5201,12 +4943,6 @@ help:
 	@echo "... test/test_io.o"
 	@echo "... test/test_io.i"
 	@echo "... test/test_io.s"
-	@echo "... test/test_logtagconfigparser.o"
-	@echo "... test/test_logtagconfigparser.i"
-	@echo "... test/test_logtagconfigparser.s"
-	@echo "... test/test_logtagmanager.o"
-	@echo "... test/test_logtagmanager.i"
-	@echo "... test/test_logtagmanager.s"
 	@echo "... test/test_lpsolver.o"
 	@echo "... test/test_lpsolver.i"
 	@echo "... test/test_lpsolver.s"
@@ -5222,18 +4958,12 @@ help:
 	@echo "... test/test_misc.o"
 	@echo "... test/test_misc.i"
 	@echo "... test/test_misc.s"
-	@echo "... test/test_opencl.o"
-	@echo "... test/test_opencl.i"
-	@echo "... test/test_opencl.s"
 	@echo "... test/test_operations.o"
 	@echo "... test/test_operations.i"
 	@echo "... test/test_operations.s"
 	@echo "... test/test_ptr.o"
 	@echo "... test/test_ptr.i"
 	@echo "... test/test_ptr.s"
-	@echo "... test/test_quaternion.o"
-	@echo "... test/test_quaternion.i"
-	@echo "... test/test_quaternion.s"
 	@echo "... test/test_rand.o"
 	@echo "... test/test_rand.i"
 	@echo "... test/test_rand.s"

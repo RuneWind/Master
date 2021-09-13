@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,141 +70,126 @@ include modules/videoio/CMakeFiles/opencv_test_videoio.dir/progress.make
 include modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_camera.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_camera.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_camera.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_camera.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_camera.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_camera.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_camera.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_camera.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_container_avi.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_container_avi.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_container_avi.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_container_avi.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_container_avi.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_container_avi.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_container_avi.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.s
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_dynamic.cpp
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_dynamic.cpp"
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_dynamic.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.i
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_dynamic.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_container_avi.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_ffmpeg.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_ffmpeg.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_ffmpeg.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_ffmpeg.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_ffmpeg.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_ffmpeg.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_ffmpeg.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_ffmpeg.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s
+
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_fourcc.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_fourcc.cpp"
+
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_fourcc.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i
+
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_fourcc.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_gstreamer.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_gstreamer.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_gstreamer.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_gstreamer.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_gstreamer.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_gstreamer.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_gstreamer.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_gstreamer.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_main.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_main.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_main.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_main.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_main.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_main.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_main.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_main.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_mfx.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_mfx.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_mfx.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_mfx.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_mfx.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_mfx.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_mfx.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_plugins.cpp
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_plugins.cpp"
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_plugins.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.i
-
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_plugins.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_mfx.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/flags.make
-modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/videoio/test/test_video_io.cpp
+modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/videoio/test/test_video_io.cpp
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o: modules/videoio/CMakeFiles/opencv_test_videoio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_video_io.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o -MF CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o.d -o CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_video_io.cpp"
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_video_io.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_video_io.cpp" > CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/test/test_video_io.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/test/test_video_io.cpp" -o CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s
 
 # Object files for target opencv_test_videoio
 opencv_test_videoio_OBJECTS = \
 "CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o" \
-"CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o" \
+"CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o" \
-"CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o" \
 "CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o"
 
 # External object files for target opencv_test_videoio
@@ -212,24 +197,23 @@ opencv_test_videoio_EXTERNAL_OBJECTS =
 
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o
-bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o
+bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o
-bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make
 bin/opencv_test_videoio: lib/libopencv_ts.a
-bin/opencv_test_videoio: lib/libopencv_highgui.4.5.3.dylib
+bin/opencv_test_videoio: lib/libopencv_highgui.3.4.15.dylib
 bin/opencv_test_videoio: 3rdparty/lib/libippiw.a
 bin/opencv_test_videoio: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-bin/opencv_test_videoio: lib/libopencv_videoio.4.5.3.dylib
-bin/opencv_test_videoio: lib/libopencv_imgcodecs.4.5.3.dylib
-bin/opencv_test_videoio: lib/libopencv_imgproc.4.5.3.dylib
-bin/opencv_test_videoio: lib/libopencv_core.4.5.3.dylib
+bin/opencv_test_videoio: lib/libopencv_videoio.3.4.15.dylib
+bin/opencv_test_videoio: lib/libopencv_imgcodecs.3.4.15.dylib
+bin/opencv_test_videoio: lib/libopencv_imgproc.3.4.15.dylib
+bin/opencv_test_videoio: lib/libopencv_core.3.4.15.dylib
 bin/opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../bin/opencv_test_videoio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../bin/opencv_test_videoio"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_videoio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +225,6 @@ modules/videoio/CMakeFiles/opencv_test_videoio.dir/clean:
 .PHONY : modules/videoio/CMakeFiles/opencv_test_videoio.dir/clean
 
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio/CMakeFiles/opencv_test_videoio.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/videoio/CMakeFiles/opencv_test_videoio.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/videoio/CMakeFiles/opencv_test_videoio.dir/depend
 

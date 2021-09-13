@@ -1,10 +1,10 @@
     // these constants are wrapped inside functions to prevent inlining
-    private static String getVersion() { return "4.5.3-dev"; }
-    private static String getNativeLibraryName() { return "opencv_java453"; }
-    private static int getVersionMajorJ() { return 4; }
-    private static int getVersionMinorJ() { return 5; }
-    private static int getVersionRevisionJ() { return 3; }
-    private static String getVersionStatusJ() { return "-dev"; }
+    private static String getVersion() { return "3.4.15"; }
+    private static String getNativeLibraryName() { return "opencv_java3415"; }
+    private static int getVersionMajorJ() { return 3; }
+    private static int getVersionMinorJ() { return 4; }
+    private static int getVersionRevisionJ() { return 15; }
+    private static String getVersionStatusJ() { return ""; }
 
     public static final String VERSION = getVersion();
     public static final String NATIVE_LIBRARY_NAME = getNativeLibraryName();

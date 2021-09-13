@@ -1,3 +1,3 @@
 
-#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/src/precomp.hpp"
-#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/src/arithm.simd.hpp"
+#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/src/precomp.hpp"
+#include "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/src/arithm.simd.hpp"

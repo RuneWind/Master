@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../lib/libopencv_stitching.4.5.3.dylib"
-  "../../lib/libopencv_stitching.4.5.dylib"
+  "../../lib/libopencv_stitching.3.4.15.dylib"
+  "../../lib/libopencv_stitching.3.4.dylib"
   "../../lib/libopencv_stitching.dylib"
   "../../lib/libopencv_stitching.pdb"
   "CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o"

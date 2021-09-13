@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ml
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ml
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/.firstpass/ml
 # 
 # This file includes the relevant testing commands required for 

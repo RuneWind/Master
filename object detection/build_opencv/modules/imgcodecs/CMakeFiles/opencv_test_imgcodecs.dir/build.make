@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,116 +70,116 @@ include modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/progress.make
 include modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_common.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_common.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_common.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_common.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_common.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_common.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_common.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_common.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_grfmt.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_grfmt.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_grfmt.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_grfmt.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_grfmt.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_grfmt.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_grfmt.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_grfmt.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_jpeg.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_jpeg.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_jpeg.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_jpeg.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_jpeg.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_jpeg.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_jpeg.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_jpeg.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_main.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_main.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_main.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_main.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_main.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_main.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_main.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_main.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_png.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_png.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_png.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_png.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_png.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_png.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_png.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_png.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_read_write.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_read_write.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_read_write.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_read_write.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_read_write.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_read_write.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_read_write.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_read_write.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_tiff.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_tiff.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_tiff.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_tiff.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_tiff.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_tiff.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_tiff.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_tiff.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/flags.make
-modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/imgcodecs/test/test_webp.cpp
+modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/imgcodecs/test/test_webp.cpp
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_webp.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o -MF CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o.d -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_webp.cpp"
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_webp.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_webp.cpp" > CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/test/test_webp.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/test/test_webp.cpp" -o CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s
 
 # Object files for target opencv_test_imgcodecs
 opencv_test_imgcodecs_OBJECTS = \
@@ -205,13 +205,13 @@ bin/opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.di
 bin/opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o
 bin/opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make
 bin/opencv_test_imgcodecs: lib/libopencv_ts.a
-bin/opencv_test_imgcodecs: lib/libopencv_highgui.4.5.3.dylib
+bin/opencv_test_imgcodecs: lib/libopencv_highgui.3.4.15.dylib
 bin/opencv_test_imgcodecs: 3rdparty/lib/libippiw.a
 bin/opencv_test_imgcodecs: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-bin/opencv_test_imgcodecs: lib/libopencv_videoio.4.5.3.dylib
-bin/opencv_test_imgcodecs: lib/libopencv_imgcodecs.4.5.3.dylib
-bin/opencv_test_imgcodecs: lib/libopencv_imgproc.4.5.3.dylib
-bin/opencv_test_imgcodecs: lib/libopencv_core.4.5.3.dylib
+bin/opencv_test_imgcodecs: lib/libopencv_videoio.3.4.15.dylib
+bin/opencv_test_imgcodecs: lib/libopencv_imgcodecs.3.4.15.dylib
+bin/opencv_test_imgcodecs: lib/libopencv_imgproc.3.4.15.dylib
+bin/opencv_test_imgcodecs: lib/libopencv_core.3.4.15.dylib
 bin/opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../bin/opencv_test_imgcodecs"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_imgcodecs.dir/link.txt --verbose=$(VERBOSE)
@@ -225,6 +225,6 @@ modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/clean:
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/clean
 
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/depend
 

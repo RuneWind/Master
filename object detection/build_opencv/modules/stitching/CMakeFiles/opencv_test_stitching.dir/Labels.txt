@@ -3,43 +3,27 @@
  opencv_stitching
  AccuracyTest
 # Source files and their labels
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/ocl/test_warpers.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/ocl/test_warpers.cpp
  Main
  opencv_stitching
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cpp
  Main
  opencv_stitching
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cuda.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cuda.cpp
  Main
  opencv_stitching
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_exposure_compensate.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_main.cpp
  Main
  opencv_stitching
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_main.cpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_matchers.cpp
  Main
  opencv_stitching
  AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_matchers.cpp
- Main
- opencv_stitching
- AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_reprojection.cpp
- Main
- opencv_stitching
- AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_stitcher.cpp
- Main
- opencv_stitching
- AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_wave_correction.cpp
- Main
- opencv_stitching
- AccuracyTest
-/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_precomp.hpp
+/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_precomp.hpp
  Main
  opencv_stitching
  AccuracyTest

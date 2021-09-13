@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -425,6 +425,54 @@ src/detection_based_tracker.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.s
 .PHONY : src/detection_based_tracker.cpp.s
 
+src/haar.avx.o: src/haar.avx.cpp.o
+.PHONY : src/haar.avx.o
+
+# target to build an object file
+src/haar.avx.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o
+.PHONY : src/haar.avx.cpp.o
+
+src/haar.avx.i: src/haar.avx.cpp.i
+.PHONY : src/haar.avx.i
+
+# target to preprocess a source file
+src/haar.avx.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.i
+.PHONY : src/haar.avx.cpp.i
+
+src/haar.avx.s: src/haar.avx.cpp.s
+.PHONY : src/haar.avx.s
+
+# target to generate assembly for a file
+src/haar.avx.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.s
+.PHONY : src/haar.avx.cpp.s
+
+src/haar.o: src/haar.cpp.o
+.PHONY : src/haar.o
+
+# target to build an object file
+src/haar.cpp.o:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o
+.PHONY : src/haar.cpp.o
+
+src/haar.i: src/haar.cpp.i
+.PHONY : src/haar.i
+
+# target to preprocess a source file
+src/haar.cpp.i:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.i
+.PHONY : src/haar.cpp.i
+
+src/haar.s: src/haar.cpp.s
+.PHONY : src/haar.s
+
+# target to generate assembly for a file
+src/haar.cpp.s:
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.s
+.PHONY : src/haar.cpp.s
+
 src/hog.o: src/hog.cpp.o
 .PHONY : src/hog.o
 
@@ -635,6 +683,12 @@ help:
 	@echo "... src/detection_based_tracker.o"
 	@echo "... src/detection_based_tracker.i"
 	@echo "... src/detection_based_tracker.s"
+	@echo "... src/haar.avx.o"
+	@echo "... src/haar.avx.i"
+	@echo "... src/haar.avx.s"
+	@echo "... src/haar.o"
+	@echo "... src/haar.i"
+	@echo "... src/haar.s"
 	@echo "... src/hog.o"
 	@echo "... src/hog.i"
 	@echo "... src/hog.s"

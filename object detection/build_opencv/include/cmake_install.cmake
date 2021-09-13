@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/include
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/include/opencv2/opencv.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv" TYPE FILE FILES
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cv.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cv.hpp"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cvaux.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cvaux.hpp"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cvwimage.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cxcore.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cxcore.hpp"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cxeigen.hpp"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/cxmisc.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/highgui.h"
+    "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv/ml.h"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv2/opencv.hpp")
 endif()
 

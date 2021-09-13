@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/decode.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/quirc.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/3rdparty/quirc/src/version_db.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/decode.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/quirc.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/3rdparty/quirc/src/version_db.c" "3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o" "gcc" "3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o.d"
   )
 
 # Targets to which this target links.

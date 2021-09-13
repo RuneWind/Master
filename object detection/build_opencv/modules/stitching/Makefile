@@ -57,7 +57,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -761,30 +761,6 @@ test/test_blenders.cuda.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s
 .PHONY : test/test_blenders.cuda.cpp.s
 
-test/test_exposure_compensate.o: test/test_exposure_compensate.cpp.o
-.PHONY : test/test_exposure_compensate.o
-
-# target to build an object file
-test/test_exposure_compensate.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o
-.PHONY : test/test_exposure_compensate.cpp.o
-
-test/test_exposure_compensate.i: test/test_exposure_compensate.cpp.i
-.PHONY : test/test_exposure_compensate.i
-
-# target to preprocess a source file
-test/test_exposure_compensate.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.i
-.PHONY : test/test_exposure_compensate.cpp.i
-
-test/test_exposure_compensate.s: test/test_exposure_compensate.cpp.s
-.PHONY : test/test_exposure_compensate.s
-
-# target to generate assembly for a file
-test/test_exposure_compensate.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.s
-.PHONY : test/test_exposure_compensate.cpp.s
-
 test/test_main.o: test/test_main.cpp.o
 .PHONY : test/test_main.o
 
@@ -832,78 +808,6 @@ test/test_matchers.s: test/test_matchers.cpp.s
 test/test_matchers.cpp.s:
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s
 .PHONY : test/test_matchers.cpp.s
-
-test/test_reprojection.o: test/test_reprojection.cpp.o
-.PHONY : test/test_reprojection.o
-
-# target to build an object file
-test/test_reprojection.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o
-.PHONY : test/test_reprojection.cpp.o
-
-test/test_reprojection.i: test/test_reprojection.cpp.i
-.PHONY : test/test_reprojection.i
-
-# target to preprocess a source file
-test/test_reprojection.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.i
-.PHONY : test/test_reprojection.cpp.i
-
-test/test_reprojection.s: test/test_reprojection.cpp.s
-.PHONY : test/test_reprojection.s
-
-# target to generate assembly for a file
-test/test_reprojection.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.s
-.PHONY : test/test_reprojection.cpp.s
-
-test/test_stitcher.o: test/test_stitcher.cpp.o
-.PHONY : test/test_stitcher.o
-
-# target to build an object file
-test/test_stitcher.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o
-.PHONY : test/test_stitcher.cpp.o
-
-test/test_stitcher.i: test/test_stitcher.cpp.i
-.PHONY : test/test_stitcher.i
-
-# target to preprocess a source file
-test/test_stitcher.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.i
-.PHONY : test/test_stitcher.cpp.i
-
-test/test_stitcher.s: test/test_stitcher.cpp.s
-.PHONY : test/test_stitcher.s
-
-# target to generate assembly for a file
-test/test_stitcher.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.s
-.PHONY : test/test_stitcher.cpp.s
-
-test/test_wave_correction.o: test/test_wave_correction.cpp.o
-.PHONY : test/test_wave_correction.o
-
-# target to build an object file
-test/test_wave_correction.cpp.o:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o
-.PHONY : test/test_wave_correction.cpp.o
-
-test/test_wave_correction.i: test/test_wave_correction.cpp.i
-.PHONY : test/test_wave_correction.i
-
-# target to preprocess a source file
-test/test_wave_correction.cpp.i:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.i
-.PHONY : test/test_wave_correction.cpp.i
-
-test/test_wave_correction.s: test/test_wave_correction.cpp.s
-.PHONY : test/test_wave_correction.s
-
-# target to generate assembly for a file
-test/test_wave_correction.cpp.s:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(MAKE) $(MAKESILENT) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.s
-.PHONY : test/test_wave_correction.cpp.s
 
 # Help Target
 help:
@@ -989,24 +893,12 @@ help:
 	@echo "... test/test_blenders.cuda.o"
 	@echo "... test/test_blenders.cuda.i"
 	@echo "... test/test_blenders.cuda.s"
-	@echo "... test/test_exposure_compensate.o"
-	@echo "... test/test_exposure_compensate.i"
-	@echo "... test/test_exposure_compensate.s"
 	@echo "... test/test_main.o"
 	@echo "... test/test_main.i"
 	@echo "... test/test_main.s"
 	@echo "... test/test_matchers.o"
 	@echo "... test/test_matchers.i"
 	@echo "... test/test_matchers.s"
-	@echo "... test/test_reprojection.o"
-	@echo "... test/test_reprojection.i"
-	@echo "... test/test_reprojection.s"
-	@echo "... test/test_stitcher.o"
-	@echo "... test/test_stitcher.i"
-	@echo "... test/test_stitcher.s"
-	@echo "... test/test_wave_correction.o"
-	@echo "... test/test_wave_correction.i"
-	@echo "... test/test_wave_correction.s"
 .PHONY : help
 
 

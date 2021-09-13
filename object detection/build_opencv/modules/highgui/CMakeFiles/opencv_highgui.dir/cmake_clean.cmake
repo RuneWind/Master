@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "../../lib/libopencv_highgui.4.5.3.dylib"
-  "../../lib/libopencv_highgui.4.5.dylib"
+  "../../lib/libopencv_highgui.3.4.15.dylib"
+  "../../lib/libopencv_highgui.3.4.dylib"
   "../../lib/libopencv_highgui.dylib"
   "../../lib/libopencv_highgui.pdb"
-  "CMakeFiles/opencv_highgui.dir/src/backend.cpp.o"
-  "CMakeFiles/opencv_highgui.dir/src/backend.cpp.o.d"
   "CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o"
   "CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o.d"
   "CMakeFiles/opencv_highgui.dir/src/window.cpp.o"

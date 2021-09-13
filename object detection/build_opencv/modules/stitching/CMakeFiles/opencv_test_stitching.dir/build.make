@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv"
+CMAKE_SOURCE_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv"
@@ -70,142 +70,82 @@ include modules/stitching/CMakeFiles/opencv_test_stitching.dir/progress.make
 include modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/ocl/test_warpers.cpp
+modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/stitching/test/ocl/test_warpers.cpp
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/ocl/test_warpers.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/ocl/test_warpers.cpp"
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/ocl/test_warpers.cpp" > CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/ocl/test_warpers.cpp" > CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/ocl/test_warpers.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/ocl/test_warpers.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_blenders.cpp
+modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/stitching/test/test_blenders.cpp
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cpp"
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_blenders.cuda.cpp
+modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/stitching/test/test_blenders.cuda.cpp
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cuda.cpp"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cuda.cpp"
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cuda.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cuda.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_blenders.cuda.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_exposure_compensate.cpp
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_exposure_compensate.cpp"
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_exposure_compensate.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.i
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_exposure_compensate.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_blenders.cuda.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_main.cpp
+modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/stitching/test/test_main.cpp
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_main.cpp"
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_main.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_main.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_main.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_main.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_matchers.cpp
+modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/stitching/test/test_matchers.cpp
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_matchers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o"
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_matchers.cpp"
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_matchers.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_matchers.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_matchers.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_reprojection.cpp
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_reprojection.cpp"
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_reprojection.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.i
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_reprojection.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.s
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_stitcher.cpp
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_stitcher.cpp"
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_stitcher.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.i
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_stitcher.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.s
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/flags.make
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o: /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/stitching/test/test_wave_correction.cpp
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o: modules/stitching/CMakeFiles/opencv_test_stitching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o -MF CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o.d -o CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o -c "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_wave_correction.cpp"
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.i"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_wave_correction.cpp" > CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.i
-
-modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.s"
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/test/test_wave_correction.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.s
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/test/test_matchers.cpp" -o CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s
 
 # Object files for target opencv_test_stitching
 opencv_test_stitching_OBJECTS = \
 "CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o" \
 "CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o" \
 "CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o" \
-"CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o" \
 "CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o" \
-"CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o" \
-"CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o" \
-"CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o" \
-"CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o"
+"CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o"
 
 # External object files for target opencv_test_stitching
 opencv_test_stitching_EXTERNAL_OBJECTS =
@@ -213,27 +153,23 @@ opencv_test_stitching_EXTERNAL_OBJECTS =
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
-bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
-bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o
-bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o
-bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make
 bin/opencv_test_stitching: lib/libopencv_ts.a
-bin/opencv_test_stitching: lib/libopencv_stitching.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_highgui.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_calib3d.4.5.3.dylib
+bin/opencv_test_stitching: lib/libopencv_stitching.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_highgui.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_calib3d.3.4.15.dylib
 bin/opencv_test_stitching: 3rdparty/lib/libippiw.a
 bin/opencv_test_stitching: 3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a
-bin/opencv_test_stitching: lib/libopencv_videoio.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_imgcodecs.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_features2d.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_flann.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_imgproc.4.5.3.dylib
-bin/opencv_test_stitching: lib/libopencv_core.4.5.3.dylib
+bin/opencv_test_stitching: lib/libopencv_videoio.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_imgcodecs.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_features2d.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_flann.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_imgproc.3.4.15.dylib
+bin/opencv_test_stitching: lib/libopencv_core.3.4.15.dylib
 bin/opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../bin/opencv_test_stitching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../bin/opencv_test_stitching"
 	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_stitching.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,6 +181,6 @@ modules/stitching/CMakeFiles/opencv_test_stitching.dir/clean:
 .PHONY : modules/stitching/CMakeFiles/opencv_test_stitching.dir/clean
 
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/depend:
-	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching/CMakeFiles/opencv_test_stitching.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/stitching/CMakeFiles/opencv_test_stitching.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : modules/stitching/CMakeFiles/opencv_test_stitching.dir/depend
 

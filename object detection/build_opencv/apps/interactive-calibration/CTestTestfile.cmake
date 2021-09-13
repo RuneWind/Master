@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/interactive-calibration
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/interactive-calibration
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/apps/interactive-calibration
 # 
 # This file includes the relevant testing commands required for 

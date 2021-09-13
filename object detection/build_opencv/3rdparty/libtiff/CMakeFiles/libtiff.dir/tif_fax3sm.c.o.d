@@ -1,5 +1,5 @@
 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3sm.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tif_fax3sm.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tif_fax3sm.c \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_int8_t.h \
@@ -27,6 +27,6 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tiff.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tiff.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/libtiff/tiffconf.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tif_fax3.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tif_fax3.h

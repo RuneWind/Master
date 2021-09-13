@@ -9,25 +9,25 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/modules/photo/opencl_kernels_photo.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/align.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/calibrate.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/contrast_preserve.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoise_tvl1.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/denoising.cuda.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/hdr_common.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/inpaint.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/merge.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/npr.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/seamless_cloning_impl.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/src/tonemap.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/align.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/calibrate.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/contrast_preserve.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoise_tvl1.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/denoising.cuda.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/hdr_common.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/inpaint.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/merge.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/npr.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/seamless_cloning_impl.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/src/tonemap.cpp" "modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o" "gcc" "modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o.d"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.4.5.dylib" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.4.5.3.dylib"
-  "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.dylib" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.4.5.3.dylib"
+  "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.3.4.dylib" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.3.4.15.dylib"
+  "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.dylib" "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_photo.3.4.15.dylib"
   )
 
 

@@ -21,8 +21,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o.d"
   "CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o"
   "CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o.d"
-  "CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.o"
-  "CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.o.d"
   "CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o"
   "CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o.d"
   "CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o"

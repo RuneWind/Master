@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/doc
+# Source directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/doc
 # Build directory: /Users/runewind/Documents/GitHub/Master/object detection/build_opencv/doc
 # 
 # This file includes the relevant testing commands required for 

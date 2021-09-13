@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.4.5.3.dylib"
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.4.5.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.3.4.15.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_calib3d.3.4.dylib"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_calib3d.4.5.3.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_calib3d.4.5.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_calib3d.3.4.15.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_calib3d.3.4.dylib"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -84,14 +84,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/include/opencv2/calib3d.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/include/opencv2/calib3d.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/calib3d" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/calib3d" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/include/opencv2/calib3d/calib3d.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/calib3d" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/calib3d" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/include/opencv2/calib3d/calib3d_c.h")
 endif()
 

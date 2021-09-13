@@ -25,11 +25,11 @@
 #      - OpenCV_INCLUDE_DIRS             : The OpenCV include directories.
 #      - OpenCV_COMPUTE_CAPABILITIES     : The version of compute capability.
 #      - OpenCV_ANDROID_NATIVE_API_LEVEL : Minimum required level of Android API.
-#      - OpenCV_VERSION                  : The version of this OpenCV build: "4.5.3"
-#      - OpenCV_VERSION_MAJOR            : Major version part of OpenCV_VERSION: "4"
-#      - OpenCV_VERSION_MINOR            : Minor version part of OpenCV_VERSION: "5"
-#      - OpenCV_VERSION_PATCH            : Patch version part of OpenCV_VERSION: "3"
-#      - OpenCV_VERSION_STATUS           : Development status of this build: "-dev"
+#      - OpenCV_VERSION                  : The version of this OpenCV build: "3.4.15"
+#      - OpenCV_VERSION_MAJOR            : Major version part of OpenCV_VERSION: "3"
+#      - OpenCV_VERSION_MINOR            : Minor version part of OpenCV_VERSION: "4"
+#      - OpenCV_VERSION_PATCH            : Patch version part of OpenCV_VERSION: "15"
+#      - OpenCV_VERSION_STATUS           : Development status of this build: ""
 #
 #    Advanced variables:
 #      - OpenCV_SHARED                   : Use OpenCV as shared library
@@ -45,12 +45,12 @@
 # ======================================================
 #  Version variables:
 # ======================================================
-SET(OpenCV_VERSION 4.5.3)
-SET(OpenCV_VERSION_MAJOR  4)
-SET(OpenCV_VERSION_MINOR  5)
-SET(OpenCV_VERSION_PATCH  3)
+SET(OpenCV_VERSION 3.4.15)
+SET(OpenCV_VERSION_MAJOR  3)
+SET(OpenCV_VERSION_MINOR  4)
+SET(OpenCV_VERSION_PATCH  15)
 SET(OpenCV_VERSION_TWEAK  0)
-SET(OpenCV_VERSION_STATUS "-dev")
+SET(OpenCV_VERSION_STATUS "")
 
 include(FindPackageHandleStandardArgs)
 
@@ -105,8 +105,8 @@ set(OpenCV_SHARED ON)
 # Enables mangled install paths, that help with side by side installs
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
-set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio)
-set(__OpenCV_INCLUDE_DIRS "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/core/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/flann/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgproc/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ml/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/photo/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/dnn/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/features2d/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/imgcodecs/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/calib3d/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/highgui/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/objdetect/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/ts/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/gapi/include")
+set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab)
+set(__OpenCV_INCLUDE_DIRS "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/include/opencv" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/core/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/flann/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgproc/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ml/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/photo/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/dnn/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/features2d/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/imgcodecs/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/shape/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/calib3d/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/highgui/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/objdetect/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/superres/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/ts/include" "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videostab/include")
 
 set(OpenCV_INCLUDE_DIRS "")
 foreach(d ${__OpenCV_INCLUDE_DIRS})
@@ -272,32 +272,6 @@ endif()
 # Compatibility stuff
 # ==============================================================
 set(OpenCV_LIBRARIES ${OpenCV_LIBS})
-
-# Require C++11 features for OpenCV modules
-if(CMAKE_VERSION VERSION_LESS "3.1")
-  if(NOT OpenCV_FIND_QUIETLY AND NOT OPENCV_HIDE_WARNING_COMPILE_FEATURES)
-    message(STATUS "OpenCV: CMake version is low (${CMAKE_VERSION}, required 3.1+). Can't enable C++11 features: https://github.com/opencv/opencv/issues/13000")
-  endif()
-else()
-  set(__target opencv_core)
-  if(TARGET opencv_world)
-    set(__target opencv_world)
-  endif()
-  set(__compile_features cxx_std_11)  # CMake 3.8+
-  if(DEFINED OPENCV_COMPILE_FEATURES)
-    set(__compile_features ${OPENCV_COMPILE_FEATURES})  # custom override
-  elseif(CMAKE_VERSION VERSION_LESS "3.8")
-    set(__compile_features cxx_auto_type cxx_rvalue_references cxx_lambdas)
-  endif()
-  if(__compile_features)
-    # Simulate exported result of target_compile_features(opencv_core PUBLIC ...)
-    set_target_properties(${__target} PROPERTIES
-        INTERFACE_COMPILE_FEATURES "${__compile_features}"
-    )
-  endif()
-  unset(__target)
-  unset(__compile_features)
-endif()
 
 #
 # Some macros for samples

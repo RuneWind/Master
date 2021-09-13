@@ -1,6 +1,6 @@
 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdapistd.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jinclude.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdapistd.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jinclude.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/libjpeg-turbo/jconfig.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h \
@@ -117,14 +117,14 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_string.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdmainct.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jpeglib.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jmorecfg.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jpegint.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jerror.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jpegcomp.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdmaster.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdmerge.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jdsample.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libjpeg-turbo/src/jmemsys.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdmainct.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jpeglib.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jmorecfg.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jpegint.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jerror.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jpegcomp.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdcoefct.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdmaster.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdmerge.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jdsample.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libjpeg-turbo/src/jmemsys.h

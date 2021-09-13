@@ -1,22 +1,21 @@
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/src/array.cpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/src/precomp.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/src/array.cpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/src/precomp.hpp \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/opencv2/opencv_modules.hpp \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/cvconfig.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utility.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvdef.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/version.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utility.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cvdef.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/version.hpp \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/interface.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/interface.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdint.h \
@@ -45,9 +44,9 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/cv_cpu_config.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cv_cpu_helper.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cv_cpu_helper.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/emmintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/xmmintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/mmintrin.h \
@@ -93,17 +92,33 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/tmmintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/smmintrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/popcntintrin.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/base.hpp \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/strings.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
@@ -129,28 +144,15 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base_03 \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/base.hpp \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd.hpp \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03 \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cvstd.hpp \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
@@ -164,15 +166,15 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/math.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/neon_utils.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/vsx_utils.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/check.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/traits.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/matx.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/saturate.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/fast_math.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/types.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ptr.inl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/neon_utils.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/vsx_utils.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/check.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/traits.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/matx.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/saturate.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/fast_math.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/types.hpp \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/float.h \
@@ -180,12 +182,12 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/mat.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/bufferpool.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/mat.inl.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/persistence.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/operations.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/mat.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/bufferpool.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/mat.inl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/persistence.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/operations.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cvstd.inl.hpp \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
@@ -251,8 +253,6 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_nlink_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_useconds_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_suseconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_fd_def.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_fd_set.h \
@@ -266,19 +266,18 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/optim.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/ovx.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/core_c.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/types_c.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cuda.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cuda_types.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/cuda.inl.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/opengl.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/ocl.hpp \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeindex \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/va_intel.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/private.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/utils/trace.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/optim.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ovx.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/core_c.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/types_c.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cuda.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cuda_types.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/cuda.inl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/opengl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/ocl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/va_intel.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/private.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/utils/trace.hpp \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/icv/include/ippversion.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/icv/include/ippicv.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/icv/include/ippicv_l.h \
@@ -304,14 +303,14 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_transform.hpp \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_transform.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_ll.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/private.cuda.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/hal.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/intrin.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/intrin_forward.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/intrin_sse_em.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/intrin_sse.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/hal/simd_utils.impl.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/include/opencv2/core/sse_utils.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/src/hal_replacement.hpp \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/modules/core/src/hal_internal.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/private.cuda.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/hal.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/intrin.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/intrin_forward.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/intrin_sse_em.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/intrin_sse.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/hal/simd_utils.impl.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/include/opencv2/core/sse_utils.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/src/hal_replacement.hpp \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/modules/core/src/hal_internal.hpp \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/custom_hal.hpp

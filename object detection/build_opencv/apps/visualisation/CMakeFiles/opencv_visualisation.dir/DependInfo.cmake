@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/apps/visualisation/opencv_visualisation.cpp" "apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o" "gcc" "apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/apps/visualisation/opencv_visualisation.cpp" "apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o" "gcc" "apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o.d"
   )
 
 # Targets to which this target links.

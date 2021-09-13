@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_input.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_input.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_main.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_output.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_output.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,16 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_camera.impl.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_videoio",
-				"PerfTest"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_precomp.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

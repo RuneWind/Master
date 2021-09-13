@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_input.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_main.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/videoio/perf/perf_output.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_input.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_main.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/videoio/perf/perf_output.cpp" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o" "gcc" "modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o.d"
   )
 
 # Targets to which this target links.

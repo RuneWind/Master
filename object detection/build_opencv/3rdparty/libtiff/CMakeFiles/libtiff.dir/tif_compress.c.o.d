@@ -1,6 +1,6 @@
 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_compress.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tif_compress.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tiffiop.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tif_compress.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tiffiop.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/libtiff/tif_config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/fcntl.h \
@@ -93,14 +93,14 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/search.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tiffio.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tiff.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tiffio.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tiff.h \
   /Users/runewind/Documents/GitHub/Master/object\ detection/build_opencv/3rdparty/libtiff/tiffconf.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tiffvers.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tiffvers.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdarg.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libtiff/tif_dir.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libtiff/tif_dir.h

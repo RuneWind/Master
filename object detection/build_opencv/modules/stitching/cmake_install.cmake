@@ -1,4 +1,4 @@
-# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching
+# Install script for directory: /Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY OPTIONAL FILES
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.4.5.3.dylib"
-    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.4.5.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.3.4.15.dylib"
+    "/Users/runewind/Documents/GitHub/Master/object detection/build_opencv/lib/libopencv_stitching.3.4.dylib"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.4.5.3.dylib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.4.5.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.3.4.15.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_stitching.3.4.dylib"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -84,58 +84,58 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/util.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv4/opencv2/stitching" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching" TYPE FILE OPTIONAL FILES "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/include/opencv2/stitching/warpers.hpp")
 endif()
 

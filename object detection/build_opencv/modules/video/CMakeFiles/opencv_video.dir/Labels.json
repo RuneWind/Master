@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include/opencv2/video.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video/background_segm.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include/opencv2/video/background_segm.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video/detail/tracking.detail.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include/opencv2/video/tracking.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video/legacy/constants_c.h",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include/opencv2/video/tracking_c.h",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video/tracking.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/include/opencv2/video/video.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/include/opencv2/video/video.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_KNN.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_KNN.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/bgfg_gaussmix2.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/bgfg_gaussmix2.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/camshift.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/camshift.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/compat_video.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/dis_flow.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/ecc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/ecc.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/kalman.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/kalman.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/lkpyramid.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/lkpyramid.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/optflowgf.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optflowgf.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/tvl1flow.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/optical_flow_io.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/opencl/bgfg_knn.cl",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/opencl/bgfg_mog2.cl",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature_set.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/opencl/optical_flow_farneback.cl",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.cpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/opencl/optical_flow_tvl1.cl",
 			"labels" : 
 			[
 				"Main",
@@ -164,151 +164,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_model.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_sampler_algorithm.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_feature.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_dasiamrpn.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_goturn.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/tracker_mil.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/variational_refinement.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/opencl/bgfg_knn.cl",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/opencl/bgfg_mog2.cl",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/opencl/dis_flow.cl",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/opencl/optical_flow_farneback.cl",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/opencl/pyrlk.cl",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/opencl/pyrlk.cl",
 			"labels" : 
 			[
 				"Main",
@@ -335,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/lkpyramid.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/lkpyramid.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -344,52 +200,7 @@
 			]
 		},
 		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/precomp.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_feature_haar.impl.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_model.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracker_mil_state.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_feature.hpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_video",
-				"Module"
-			]
-		},
-		{
-			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/video/src/tracking/detail/tracking_online_mil.hpp",
+			"file" : "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/video/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",

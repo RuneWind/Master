@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/opencl/perf_stitch.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/opencl/perf_warpers.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/perf_estimators.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/perf_main.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/perf_matchers.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o.d"
-  "/Users/runewind/Documents/GitHub/Master/object detection/opencv/modules/stitching/perf/perf_stich.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/opencl/perf_stitch.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/opencl/perf_warpers.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/perf_estimators.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/perf_main.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/perf_matchers.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o.d"
+  "/Users/runewind/Documents/GitHub/Master/object detection/opencv-3.4.15/modules/stitching/perf/perf_stich.cpp" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o" "gcc" "modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o.d"
   )
 
 # Targets to which this target links.

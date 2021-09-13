@@ -1,6 +1,6 @@
 3rdparty/libpng/CMakeFiles/libpng.dir/pngrutil.c.o: \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pngrutil.c \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pngpriv.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pngrutil.c \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pngpriv.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/AvailabilityInternal.h \
@@ -49,9 +49,9 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_common.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pnglibconf.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/png.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pngconf.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pnglibconf.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/png.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pngconf.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/limits.h \
@@ -73,9 +73,9 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/math.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pngstruct.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/zlib/zlib.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/zlib/zconf.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pngstruct.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/zlib/zlib.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/zlib/zconf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/endian.h \
@@ -106,5 +106,5 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include/stdarg.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pnginfo.h \
-  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv/3rdparty/libpng/pngdebug.h
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pnginfo.h \
+  /Users/runewind/Documents/GitHub/Master/object\ detection/opencv-3.4.15/3rdparty/libpng/pngdebug.h
